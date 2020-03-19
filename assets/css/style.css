@@ -123,12 +123,28 @@ background-size: cover;
   text-shadow: 1px 1px 10px rgba(50, 48, 49, 05)
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
 
 /*------------ TITLES -----------------------*/
 
 h1{
   font-size: 2.2em;
   float: right;
+}
+
+.title_section{
+  font-size: 2em;
+  margin-bottom: 50px;
 }
 
 
@@ -138,6 +154,13 @@ h1{
   border : 1.6px #C9CBA3 solid;
   background-color: #C9CBA3;
   border-radius: 4px;
+}
+
+.border_yellow_light{
+  border : 1.6px #F4D35E solid;
+  background-color: #F4D35E;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #F4D35E;
 }
 
 .inputSelector:focus{
@@ -161,6 +184,10 @@ text-decoration-color: #FCB42F; */
 
 .underline_black{
   border-bottom: 1px #323031 solid;
+}
+
+.underline_yellow_light{
+  border-bottom: 2px #F4D35E solid;
 }
 
 /*------------ ICONES -----------------------*/
@@ -254,6 +281,32 @@ nav a:hover, a:hover{
   text-underline-offset: 1em; */
 }
 
+/*--------------------------- PROFILES -----------------------*/
+
+.button_profil{
+    line-height: 0 !important;
+    height: 30px;
+    padding: 4px 7px;
+    margin-top: 25px
+  }
+
+  .button_profil:hover{
+    color: #323031;
+    border: 1px #323031 solid;
+    text-decoration:none;
+}
+
+.card-profil{
+  line-height: 45px;
+}
+
+.column{
+  transition : all 0.3s ease 0s;
+}
+
+.button_DevenirCodevoreuse{
+  margin: 15px 0 0 485px;
+}
 
 
 
@@ -270,7 +323,10 @@ nav a:hover, a:hover{
 
 /*------------ ECRAN <1120px -----------------------*/
 
+
 @media all and (max-width:1120px){
+
+  /*------------ HEADER -----------------------*/
   nav{
     display: none;
   }
@@ -282,7 +338,7 @@ nav a:hover, a:hover{
   }
   .header_title{
     margin-top: 120px;
-    font-size: 2em;
+    font-size: 1.9em;
     font-weight: bold;
   }
   .header_selector{
@@ -298,4 +354,8 @@ nav a:hover, a:hover{
   .buttonSearch{
     height: 35px;
   }
+
+
+  /*------------ SECTION PROFILES -----------------------*/
+
 }
