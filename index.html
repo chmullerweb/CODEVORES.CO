@@ -32,7 +32,8 @@ font-family: 'Barlow Semi Condensed', sans-serif; -->
 
   <header>
 <!------------ MENU ----------------------->
-<div class="container-fluid header_menu">
+
+<div class="container-fluid header_menu flex">
   <div class="header_logo">
     <img src="assets/logo/codevores.png" alt="" class="logo">
     <h1 class="allerta white">odevores</h1>
@@ -55,11 +56,21 @@ font-family: 'Barlow Semi Condensed', sans-serif; -->
   <img src="assets/img/header.jpg" alt="" class="main_photo">
 </div>
 
-<div class="container center">
+<div class="container">
   <h2 class="titillium white header_title"><span class="underlined">Recruter votre Geekette !</span></h2>
-
 </div>
 
+  <form class="header_selector flex container">
+    <div class="">
+      <input class="input is-rounded inputSelector border_yellow_light" placeholder="Vous cherchez : UX Designer, php, Angular...">
+    </div>
+    <div class="">
+      <input class="input is-rounded inputSelector border_yellow_light" type="text" placeholder="Pays, Région, Ville">
+    </div>
+    <div class="">
+      <button type="button" name="button" class="white border_argile buttonSearch underline_none" value=""><a class="underline_none">Rechercher</a></button>
+    </div>
+  </form>
 
 
 

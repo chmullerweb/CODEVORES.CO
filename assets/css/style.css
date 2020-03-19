@@ -61,6 +61,10 @@ table {
   display: none;
 }
 
+.flex{
+  display: flex;
+}
+
 /*------------ FONT -----------------------*/
 
 .center{
@@ -106,20 +110,19 @@ h1{
   float: right;
 }
 
-.header_title {
-    font-size: 3em;
-    margin-top: 160px;
-    position: absolute;
-    z-index: 3;
-    width: 100%;
-    text-align: center;
-}
+
 
 /*------------ BORDURE -----------------------*/
 .border_argile{
   border : 1.6px #C9CBA3 solid;
   background-color: #C9CBA3;
   border-radius: 4px;
+}
+
+.inputSelector:focus{
+  outline: none !important;
+  border-color: #FCB42F;
+  box-shadow: 0 0 10px #F4D35E;
 }
 
 .underlined{
@@ -132,7 +135,6 @@ text-decoration-color: #FCB42F; */
 
 .underline_none:hover{
   text-decoration : none;
-  padding-bottom: 2px;
   border-bottom: 0px;
 }
 
@@ -148,7 +150,7 @@ text-decoration-color: #FCB42F; */
 }
 
 
-/*------------ PHOTO HEADER -----------------------*/
+/*------------ TEXTE & PHOTO COUVERTURE -----------------------*/
 .header_photo{
  position: absolute;
  width: 100%;
@@ -156,6 +158,44 @@ text-decoration-color: #FCB42F; */
  margin-top: -100px;
  z-index: 1;
 }
+
+.header_title {
+    font-size: 3em;
+    margin-top: 160px;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+}
+
+.header_selector{
+  position: absolute;
+  justify-content: space-around;
+  z-index: 3;
+  width: 100%;
+  margin-top: 270px;
+  margin-left: 60px;
+}
+
+.inputSelector{
+  width: 400px;
+  border-radius: 20px;
+}
+
+.buttonSearch{
+      padding: 9px 84px;
+}
+
+.buttonSearch:hover{
+  color: #323031;
+  border: 1px #323031 solid;
+  border-radius: 20px;
+  text-decoration:none;
+  /* text-decoration-style: double;
+  text-decoration-color: #FCB42F;
+  text-underline-offset: 1em; */
+}
+
 
 
 /*------------ LOGO -----------------------*/
@@ -166,7 +206,6 @@ text-decoration-color: #FCB42F; */
 
 /*------------ BARRE DE NAVIGATION -----------------------*/
 .header_menu{
-  display: flex;
   position: absolute;
   z-index: 2;
 }
@@ -186,13 +225,13 @@ nav a{
 
 nav a:hover, a:hover{
   color: #323031;
-  padding-bottom: 6px;
   border-bottom: 4px #FCB42F double;
   text-decoration:none;
   /* text-decoration-style: double;
   text-decoration-color: #FCB42F;
   text-underline-offset: 1em; */
 }
+
 
 
 
