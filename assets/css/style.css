@@ -72,9 +72,6 @@ background-size: cover;
 
 
 
-
-
-
 /*------------ DISPLAY -----------------------*/
 .hidden{
   display: none;
@@ -121,6 +118,11 @@ background-size: cover;
 .argile{
   color : #C9CBA3;
 }
+
+.text-shadow{
+  text-shadow: 1px 1px 10px rgba(50, 48, 49, 05)
+}
+
 
 /*------------ TITLES -----------------------*/
 
@@ -183,7 +185,7 @@ text-decoration-color: #FCB42F; */
     text-align: center;
     display : table;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .header_selector{
@@ -191,16 +193,18 @@ text-decoration-color: #FCB42F; */
   justify-content: space-around;
   z-index: 3;
   width: 100%;
-  margin-top: 270px;
+  margin-top: 290px;
 }
 
 .inputSelector{
   width: 400px;
+  height: 45px;
   border-radius: 20px;
 }
 
 .buttonSearch{
-      padding: 9px 84px;
+  height: 45px;
+  padding: 9px 84px;
 }
 
 .buttonSearch:hover{
@@ -289,5 +293,9 @@ nav a:hover, a:hover{
 }
   .inputSelector{
     margin-bottom: 10px;
+    height: 35px;
+  }
+  .buttonSearch{
+    height: 35px;
   }
 }
