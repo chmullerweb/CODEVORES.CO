@@ -56,10 +56,10 @@ table {
 
 
 
-/*------------ BODY -----------------------*/
-/*body{
-  width: 100%;
-}*/
+/*------------ DISPLAY -----------------------*/
+.hidden{
+  display: none;
+}
 
 /*------------ FONT -----------------------*/
 
@@ -127,6 +127,18 @@ h1{
   border-radius: 4px;
 }
 
+
+/*------------ ICONES -----------------------*/
+
+.i_header{
+  font-size: 1.5em;
+  margin: 15px 10px 0 35px;
+  text-align: right;
+  width: 60%;
+  display: none;
+}
+
+
 /*------------ PHOTO HEADER -----------------------*/
 .header_photo{
  position: absolute;
@@ -177,12 +189,21 @@ nav a:hover, a:hover{
 }
 
 
-/*------------ RESPONSIVE -----------------------*/
+/*--------------------------- RESPONSIVE -----------------------*/
 
 /*------------ ECRAN <1224px -----------------------*/
 
 @media all and (min-width: 1120px) and (max-width: 1240px){
   nav{
     margin : 15px 10px 0 200px;
+  }
+}
+
+@media all and (max-width:1120px){
+  nav{
+    display: none;
+  }
+  .i_header{
+    display: inline;
   }
 }
