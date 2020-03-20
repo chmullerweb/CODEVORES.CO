@@ -143,6 +143,10 @@ background-size: cover;
 	font-size: 0.8em;
 }
 
+.big{
+	font-size: 1.5em;
+}
+
 /*------------ TITLES --------------------------------------------------------*/
 
 h1{
@@ -156,7 +160,7 @@ h1{
 }
 
 
-/*------------ BORDURE ------------------------------------------------------*/
+/*------------ BORDURE ET BACKGROUND ------------------------------------------------------*/
 .border_argile{
   border : 1.6px #C9CBA3 solid;
   background-color: #C9CBA3;
@@ -195,6 +199,11 @@ text-decoration-color: #FCB42F; */
 
 .underline_yellow_light{
   border-bottom: 2px #F4D35E solid;
+}
+
+.bg-transparent{
+	background-color: rgba(0,0,0,0);
+	border: 0;
 }
 
 /*------------ ICONES --------------------------------------------------------*/
@@ -371,13 +380,6 @@ nav a:hover, a:hover{
 	margin: auto;
 }
 
-/*--------------- FREELANCE -----------------------*/
-
-.advice_freelance{
-	border-top: 2px #C9CBA3 dotted;
-	background-color: white;
-}
-
 
 /*--------------- PRESSE -----------------------*/
 
@@ -404,6 +406,39 @@ nav a:hover, a:hover{
 .quote{
 	font-size: 0.9em;
 }
+
+/*--------------- FREELANCE -----------------------*/
+
+.advice_freelance{
+	border-top: 2px #C9CBA3 dotted;
+	background-color: white;
+}
+
+/*--------------- CONTACT -----------------------*/
+
+.contact{
+	margin-top: 20px;
+	background-color: #323031;
+	height: 400px;
+}
+
+.bloc_contact{
+	padding-top: 50px;
+}
+
+.button_devis{
+	margin-top: 30px !important;
+	height: 40px;
+}
+
+.claim{
+	margin-top: 20px;
+}
+
+.none_hover:hover{
+	border-bottom: 0;
+}
+
 
 
 
