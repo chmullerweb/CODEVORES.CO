@@ -304,8 +304,13 @@ nav a:hover, a:hover{
   transition : all 0.3s ease 0s;
 }
 
-.button_DevenirCodevoreuse{
+.button_community{
   margin: 15px 0 0 485px;
+}
+
+.btn-page{
+	text-decoration: none;
+	border-bottom: 0 !important;
 }
 
 
@@ -319,6 +324,13 @@ nav a:hover, a:hover{
   nav{
     margin : 15px 10px 0 200px;
   }
+	.btn_eatCode{
+		width: 100%;
+		margin: auto;
+		height: 30px;
+		font-size: 0.9em;
+		padding: 0;
+	}
 }
 
 /*------------ ECRAN <1120px -----------------------*/
@@ -357,5 +369,11 @@ nav a:hover, a:hover{
 
 
   /*------------ SECTION PROFILES -----------------------*/
-
+	.btn_eatCode{
+		width: 100%;
+		margin: auto;
+		height: 30px;
+		font-size: 0.9em;
+		padding: 0;
+	}
 }
