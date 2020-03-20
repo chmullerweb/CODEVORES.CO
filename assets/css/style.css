@@ -305,7 +305,9 @@ nav a:hover, a:hover{
 }
 
 .button_community{
-  margin: 15px 0 0 485px;
+	position: absolute;
+	right: 40px;
+	margin-top: 15px;
 }
 
 .btn-page{
@@ -375,5 +377,14 @@ nav a:hover, a:hover{
 		height: 30px;
 		font-size: 0.9em;
 		padding: 0;
+	}
+	.button_community{
+		position: absolute;
+		left: 25px;
+		margin-top: 53px;
+	}
+	.title_section{
+		width: 100%;
+		font-size: 1.9em;
 	}
 }
