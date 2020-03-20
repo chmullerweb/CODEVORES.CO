@@ -365,20 +365,30 @@ nav a:hover, a:hover{
 	margin: auto;
 }
 
-/*--------------- INFORMATIONS -----------------------*/
+/*--------------- FREELANCE -----------------------*/
 
-.informations{
+.advice_freelance{
+	background-color: #323031;
+}
+
+
+
+
+
+/*--------------- PRESSE -----------------------*/
+
+.presse{
 	height: 200px;
 	background-color: #F7F9F9;
 	padding: 22px 0;
 }
 
-.bloc_informations{
+.bloc_presse{
 	display: flex;
 	justify-content: space-around;
 }
 
-.card_informations{
+.card_presse{
 	height: 153px;
 }
 
@@ -410,7 +420,7 @@ nav a:hover, a:hover{
 		padding: 0;
 	}
 
-	.informations{
+	.presse{
 		height: 100%;
 	}
 }
@@ -490,9 +500,14 @@ nav a:hover, a:hover{
 		display: inline-flex;
 	}
 
-	/*------------ SECTION INFORMATIONS-------------*/
+	/*------------ SECTION FREELANCE-------------*/
 
-	.informations{
+
+
+
+	/*------------ SECTION PRESSE-------------*/
+
+	.presse{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -518,7 +533,7 @@ nav a:hover, a:hover{
 	height: 80%;
 }
 
-.underline_black{
+.underline_black, .underline_yellow_light{
 	  padding-bottom: 30px;
 	}
 
@@ -539,13 +554,13 @@ nav a:hover, a:hover{
 	display: inline-flex;
 }
 
-/*------------ SECTION INFORMATIONS ----------*/
+/*------------ SECTION PRESSE ----------*/
 
-.card_informations{
+.card_presse{
 	height: 480px;
 }
 
-.informations{
+.presse{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
