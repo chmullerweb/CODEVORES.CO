@@ -135,6 +135,14 @@ background-size: cover;
   font-style: italic;
 }
 
+.space{
+	line-height: 30px;
+}
+
+.petit{
+	font-size: 0.8em;
+}
+
 /*------------ TITLES --------------------------------------------------------*/
 
 h1{
@@ -357,6 +365,32 @@ nav a:hover, a:hover{
 	margin: auto;
 }
 
+/*--------------- INFORMATIONS -----------------------*/
+
+.informations{
+	height: 200px;
+	background-color: #F7F9F9;
+	padding: 22px 0;
+}
+
+.bloc_informations{
+	display: flex;
+	justify-content: space-around;
+}
+
+.card_informations{
+	height: 153px;
+}
+
+.signature{
+	line-height: 53px;
+	font-size: 0.8em;
+}
+
+.quote{
+	font-size: 0.9em;
+}
+
 
 
 
@@ -374,6 +408,10 @@ nav a:hover, a:hover{
 		height: 30px;
 		font-size: 0.9em;
 		padding: 0;
+	}
+
+	.informations{
+		height: 100%;
 	}
 }
 
@@ -452,6 +490,14 @@ nav a:hover, a:hover{
 		display: inline-flex;
 	}
 
+	/*------------ SECTION INFORMATIONS-------------*/
+
+	.informations{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+	}
 }
 
 
@@ -491,6 +537,19 @@ nav a:hover, a:hover{
 
 .card-steps{
 	display: inline-flex;
+}
+
+/*------------ SECTION INFORMATIONS ----------*/
+
+.card_informations{
+	height: 480px;
+}
+
+.informations{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
 }
 
 }
