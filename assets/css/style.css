@@ -338,6 +338,20 @@ nav a:hover, a:hover{
 	margin-top: -20px;
 }
 
+/*--------------- ETAPES -----------------------*/
+.number{
+	display: block;
+	background-color: #FCB42F !important;
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	margin: 10px auto;
+	min-width: 0em;
+	padding: 0.50rem 0.5rem;
+
+}
+
+
 
 
 
