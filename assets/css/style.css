@@ -340,6 +340,7 @@ nav a:hover, a:hover{
 
 
 
+
 /*--------------------------- RESPONSIVE ------------------------------------*/
 
 /*------------ ECRAN <1224px -----------------------*/
@@ -409,14 +410,27 @@ nav a:hover, a:hover{
 		width: 100%;
 		font-size: 1.9em;
 	}
-}
 
+
+	/*------------ SECTION AVANTAGES -----------------------*/
+	.benefits{
+		height: 100%;
+		margin-bottom: 100px;
+	}
+	.button_section_out{
+		margin-left: -9px;
+	}
+	.card-benefits{
+		padding-top: 40px;
+		padding-bottom: 0;
+	}
+}
 
 
 /*------------ ECRAN MOBILE <769px -----------------------*/
 
 
-@media all and (max-width:769px){
+@media all and (max-width:409px){
 
 /*------------ SECTION AVANTAGES -----------------------*/
 .benefits{
@@ -427,8 +441,14 @@ nav a:hover, a:hover{
 	  padding-bottom: 30px;
 	}
 
-	.button_recruteur{
-		padding-top: 30px;
-		margin-left: -6px;
-	}
+.button_recruteur{
+	padding-top: 30px;
+	margin-left: -6px;
+}
+
+.button_section_out{
+	margin-top: 80px;
+	margin-left: -9px;
+}
+
 }
