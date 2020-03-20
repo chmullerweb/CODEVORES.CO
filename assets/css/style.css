@@ -349,14 +349,20 @@ nav a:hover, a:hover{
 /*--------------- ETAPES -----------------------*/
 .number{
 	display: block;
-	background-color: #FCB42F !important;
 	border-radius: 20px;
 	width: 40px;
 	height: 40px;
 	margin: 10px auto;
 	min-width: 0em;
 	padding: 0.50rem 0.5rem;
+}
 
+.number_argile{
+	background-color: #C9CBA3 !important;
+}
+
+.number_yellow{
+	background-color: #FCB42F !important;
 }
 
 .card-steps p{
@@ -368,11 +374,9 @@ nav a:hover, a:hover{
 /*--------------- FREELANCE -----------------------*/
 
 .advice_freelance{
-	background-color: #323031;
+	border-top: 2px #C9CBA3 dotted;
+	background-color: white;
 }
-
-
-
 
 
 /*--------------- PRESSE -----------------------*/
@@ -499,9 +503,6 @@ nav a:hover, a:hover{
 	.card-steps{
 		display: inline-flex;
 	}
-
-	/*------------ SECTION FREELANCE-------------*/
-
 
 
 
