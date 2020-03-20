@@ -56,7 +56,7 @@ table {
 
 
 
-/*------------ BODY -----------------------*/
+/*------------ BODY ----------------------------------------------------------*/
 
 body, header, html{
   width: 100%;
@@ -72,7 +72,7 @@ background-size: cover;
 
 
 
-/*------------ DISPLAY -----------------------*/
+/*------------ DISPLAY -------------------------------------------------------*/
 .hidden{
   display: none;
 }
@@ -81,7 +81,7 @@ background-size: cover;
   display: flex;
 }
 
-/*------------ FONT -----------------------*/
+/*------------ FONT ----------------------------------------------------------*/
 
 .center{
   text-align: center;
@@ -135,7 +135,7 @@ background-size: cover;
   font-style: italic;
 }
 
-/*------------ TITLES -----------------------*/
+/*------------ TITLES --------------------------------------------------------*/
 
 h1{
   font-size: 2.2em;
@@ -148,8 +148,7 @@ h1{
 }
 
 
-
-/*------------ BORDURE -----------------------*/
+/*------------ BORDURE ------------------------------------------------------*/
 .border_argile{
   border : 1.6px #C9CBA3 solid;
   background-color: #C9CBA3;
@@ -183,14 +182,14 @@ text-decoration-color: #FCB42F; */
 }
 
 .underline_black{
-  border-bottom: 1px #323031 solid;
+  border-bottom: 2px #323031 solid;
 }
 
 .underline_yellow_light{
   border-bottom: 2px #F4D35E solid;
 }
 
-/*------------ ICONES -----------------------*/
+/*------------ ICONES --------------------------------------------------------*/
 
 .i_header{
   position: absolute;
@@ -202,8 +201,15 @@ text-decoration-color: #FCB42F; */
   display: none;
 }
 
+.i_benefits{
+	width: 30%;
+	display: block;
+	margin: auto;
+	padding-bottom: 22px;
+}
 
-/*------------ TEXTE COUVERTURE -----------------------*/
+
+/*------------ TEXTE COUVERTURE ----------------------------------------------*/
 
 .header_title {
     font-size: 3em;
@@ -246,13 +252,13 @@ text-decoration-color: #FCB42F; */
 
 
 
-/*------------ LOGO -----------------------*/
+/*------------ LOGO ----------------------------------------------------------*/
 .logo{
   width: 30px;
   margin-top: 5px;
 }
 
-/*------------ BARRE DE NAVIGATION -----------------------*/
+/*------------ BARRE DE NAVIGATION -------------------------------------------*/
 .header_menu{
   position: absolute;
   z-index: 2;
@@ -281,7 +287,21 @@ nav a:hover, a:hover{
   text-underline-offset: 1em; */
 }
 
-/*--------------------------- PROFILES -----------------------*/
+/*--------------------------- MAIN -------------------------------------------*/
+
+.button_section{
+	position: absolute;
+	right: 40px;
+	margin-top: 15px;
+}
+
+.btn-page{
+	text-decoration: none;
+	border-bottom: 0 !important;
+}
+
+
+/*------------------- PROFILES -----------------------*/
 
 .button_profil{
     line-height: 0 !important;
@@ -300,25 +320,27 @@ nav a:hover, a:hover{
   line-height: 45px;
 }
 
-.column{
-  transition : all 0.3s ease 0s;
+
+
+/*--------------- AVANTAGES -----------------------*/
+
+.benefits{
+	padding-top: 30px;
+	background-color: #C9CBA3;
+	height: 320px;
 }
 
-.button_community{
-	position: absolute;
-	right: 40px;
-	margin-top: 15px;
+.benefits_list{
+	margin-top: -10px;
 }
 
-.btn-page{
-	text-decoration: none;
-	border-bottom: 0 !important;
+.card-benefits{
+	margin-top: -20px;
 }
 
 
 
-
-/*--------------------------- RESPONSIVE -----------------------*/
+/*--------------------------- RESPONSIVE ------------------------------------*/
 
 /*------------ ECRAN <1224px -----------------------*/
 
@@ -370,7 +392,7 @@ nav a:hover, a:hover{
   }
 
 
-  /*------------ SECTION PROFILES -----------------------*/
+	/*------------ SECTION PROFILES -----------------------*/
 	.btn_eatCode{
 		width: 100%;
 		margin: auto;
@@ -378,7 +400,7 @@ nav a:hover, a:hover{
 		font-size: 0.9em;
 		padding: 0;
 	}
-	.button_community{
+	.button_section{
 		position: absolute;
 		left: 25px;
 		margin-top: 53px;
@@ -386,5 +408,27 @@ nav a:hover, a:hover{
 	.title_section{
 		width: 100%;
 		font-size: 1.9em;
+	}
+}
+
+
+
+/*------------ ECRAN MOBILE <769px -----------------------*/
+
+
+@media all and (max-width:769px){
+
+/*------------ SECTION AVANTAGES -----------------------*/
+.benefits{
+	height: 100%;
+}
+
+.underline_black{
+	  padding-bottom: 30px;
+	}
+
+	.button_recruteur{
+		padding-top: 30px;
+		margin-left: -6px;
 	}
 }
