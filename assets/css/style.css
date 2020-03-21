@@ -147,6 +147,10 @@ background-size: cover;
 	font-size: 1.5em;
 }
 
+.yellow_hover:hover{
+	  color: #F4D35E;
+}
+
 /*------------ TITLES --------------------------------------------------------*/
 
 h1{
@@ -443,6 +447,18 @@ nav a:hover, a:hover{
 	flex-wrap: nowrap!important;
 }
 
+/*--------------- SOCIAL -----------------------*/
+.social{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.i_social{
+	margin : 5px 0;
+	font-size: 1.5em;
+}
+
 
 
 
@@ -650,4 +666,14 @@ nav a:hover, a:hover{
 	padding-right: 0px !important;
 	margin-right: 30px !important;
 	width: 100% !important;
+}
+
+
+/*------------ SECTION CONTACT ----------*/
+
+.i_social{
+	margin : 2px 0;
+	font-size: 0.9em!important;
+}
+
 }
