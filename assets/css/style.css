@@ -419,7 +419,7 @@ nav a:hover, a:hover{
 .contact{
 	margin-top: 20px;
 	background-color: #323031;
-	height: 400px;
+	height: 100%;
 }
 
 .bloc_contact{
@@ -427,18 +427,21 @@ nav a:hover, a:hover{
 }
 
 .button_devis{
-	margin-top: 30px !important;
-	height: 40px;
-}
-
-.claim{
-	margin-top: 20px;
+	margin-top: 10px !important;
+	height: 20px;
 }
 
 .none_hover:hover{
 	border-bottom: 0;
 }
 
+.i_contact{
+	border-radius: 3px;
+}
+
+.ligne_contact{
+	flex-wrap: nowrap!important;
+}
 
 
 
@@ -459,8 +462,12 @@ nav a:hover, a:hover{
 		padding: 0;
 	}
 
-	.presse{
+	.presse, .contact{
 		height: 100%;
+	}
+
+	.ligne_contact{
+		flex-wrap: nowrap !important;
 	}
 }
 
@@ -543,12 +550,33 @@ nav a:hover, a:hover{
 
 	/*------------ SECTION PRESSE-------------*/
 
-	.presse{
+	.presse {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		height: 100%;
 	}
+
+	/*------------ SECTION CONTACT-------------*/
+
+	.ligne_contact{
+		flex-wrap: nowrap !important;
+		width: 100%
+	}
+	.card-body-contact{
+		font-size: 0.8em;
+	}
+	.card_contact{
+		width: 50%;
+	}
+	.button_devis{
+		height: 30px;
+	}
+	.i_hidden{
+		display: none;
+		width: 0%
+	}
+
 }
 
 
@@ -603,4 +631,23 @@ nav a:hover, a:hover{
 	height: 100%;
 }
 
+/*------------ SECTION CONTACT ----------*/
+.ligne_contact{
+	flex-wrap: nowrap !important;
+}
+.card-body-contact{
+	padding-top: 5px!important;
+	font-size: 0.6em;
+}
+.button_devis{
+	margin-top: -5px !important;
+	box-shadow: none!important;
+	width: 80%;
+	height: 20px;
+}
+.card-body-address{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin-right: 30px !important;
+	width: 100% !important;
 }
