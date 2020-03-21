@@ -103,11 +103,15 @@ background-size: cover;
   color: #F7F9F9;
 }
 
+.grey{
+	color: #4a4a4a;
+}
+
 .black{
   color : #323031
 }
 
-.safran{
+.yellow{
   color : #FCB42F;
 }
 
@@ -204,6 +208,10 @@ h1{
 .bg-transparent{
 	background-color: rgba(0,0,0,0);
 	border: 0;
+}
+
+.bg-black{
+	background-color: #323031
 }
 
 /*------------ ICONES --------------------------------------------------------*/
@@ -455,6 +463,14 @@ nav a:hover, a:hover{
 	font-size: 1.5em;
 }
 
+/*--------------- FOOTER -----------------------*/
+
+.footer_section{
+	border-top: 4px #FCB42F double;
+	height: 30px;
+	padding: 6px;
+
+}
 
 
 
