@@ -505,7 +505,7 @@ nav a:hover, a:hover{
 
 /*------------ ECRAN <1224px ------------------------------------*/
 
-@media all and (min-width: 1120px) and (max-width: 1240px){
+@media screen and (min-width: 1120px) and (max-width: 1240px){
   nav{
     margin : 15px 10px 0 200px;
   }
@@ -525,14 +525,14 @@ nav a:hover, a:hover{
 /*------------ ECRAN <1120px ------------------------------------*/
 
 
-@media all and (max-width:1120px){
+@media screen and (max-width:1120px){
 
 	.section_colored{
 		height: 80%;
 	}
 
 	.bg_image{
-		height: 100vh;
+		height: 30vh;
 	}
 
 	.section_center_responsive {
@@ -638,7 +638,7 @@ nav a:hover, a:hover{
 /*------------ ECRAN MOBILE <769px ----------------------------*/
 
 
-@media all and (max-width:769px){
+@media screen and (max-width:769px){
 
 	.section_center_responsive{
 		display: flex;
@@ -657,7 +657,7 @@ nav a:hover, a:hover{
 /*------------ HEADER --------*/
 
 	.bg_image{
-		height: 100vh;
+		height: 60%;
 	}
 
 /*------------ SECTION AVANTAGES --------*/
@@ -739,3 +739,11 @@ nav a:hover, a:hover{
 		height: 100%;
 	}
 }
+
+/*------------ ECRAN <420px ------------------------------------*/
+
+
+@media screen and (max-width:420px){
+	h2{
+		font-size: 0.8em;
+	}
