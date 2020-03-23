@@ -214,12 +214,12 @@ h6{
   border-bottom: 2px #F4D35E solid;
 }
 
-.bg-transparent{
+.bg_transparent{
 	background-color: rgba(0,0,0,0);
 	border: 0;
 }
 
-.bg-black{
+.bg_black{
 	background-color: #323031
 }
 
@@ -339,11 +339,16 @@ nav a:hover, a:hover{
 	padding-top: 30px;
 	height: 100%;
 	margin-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .section_spaced{
 	padding-top: 30px;
+}
+
+.section_no_margin_top{
+	margin-top: -30px;
 }
 
 .btn-page{
@@ -355,6 +360,13 @@ nav a:hover, a:hover{
 	justify-content: space-around;
 }
 
+.nowrap{
+	flex-wrap: nowrap!important;
+}
+
+.card_half_place{
+	width: 50%;
+}
 
 /*------------------- PROFILES -----------------------*/
 
@@ -436,16 +448,6 @@ nav a:hover, a:hover{
 
 /*--------------- CONTACT -----------------------*/
 
-.contact{
-	margin-top: 20px;
-	background-color: #323031;
-	height: 100%;
-}
-
-.bloc_contact{
-	padding-top: 50px;
-}
-
 .button_devis{
 	margin-top: 10px !important;
 	height: 20px;
@@ -459,9 +461,7 @@ nav a:hover, a:hover{
 	border-radius: 3px;
 }
 
-.ligne_contact{
-	flex-wrap: nowrap!important;
-}
+
 
 /*--------------- SOCIAL -----------------------*/
 .social{
@@ -507,12 +507,12 @@ nav a:hover, a:hover{
 		padding: 0;
 	}
 
-	.contact{
-		height: 100%;
-	}
-
 	.ligne_contact{
 		flex-wrap: nowrap !important;
+	}
+
+	.card_content_contact{
+		font-size: 0.8em;
 	}
 }
 
@@ -606,14 +606,17 @@ nav a:hover, a:hover{
 		flex-wrap: nowrap !important;
 		width: 100%
 	}
-	.card-body-contact{
+
+	.card_content_contact{
 		font-size: 0.8em;
 	}
-	.card_contact{
+
+	.card_half_place{
 		width: 50%;
 	}
 	.button_devis{
 		height: 30px;
+		font-size: 0.8em;
 	}
 	.i_hidden{
 		display: none;
@@ -675,24 +678,27 @@ nav a:hover, a:hover{
 }
 
 /*------------ SECTION CONTACT ----------*/
-.ligne_contact{
-	flex-wrap: nowrap !important;
-}
-.card-body-contact{
+
+.card_content_contact{
 	padding-top: 5px!important;
 	font-size: 0.6em;
 }
+
 .button_devis{
 	margin-top: -5px !important;
 	box-shadow: none!important;
 	width: 80%;
 	height: 20px;
 }
-.card-body-address{
+.card_content_address{
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 	margin-right: 30px !important;
 	width: 100% !important;
+}
+
+.card_half_place{
+	width: 50%!important;
 }
 
 
