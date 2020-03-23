@@ -63,11 +63,12 @@ body, header, html{
   height: 100%;
 }
 
-.bg-image{
+.bg_image{
   width: 100%;
   height: 100vh;
 background: url("../img/header.jpg") no-repeat center center;
 background-size: cover;
+margin-bottom: 30px;
 }
 
 
@@ -218,8 +219,12 @@ h1{
 	background-color: #323031
 }
 
-.bgWhite{
+.bg_white{
 	background-color: white;
+}
+
+.bg_argile{
+	background-color: #C9CBA3;
 }
 
 /*------------ ICONES --------------------------------------------------------*/
@@ -322,6 +327,13 @@ nav a:hover, a:hover{
 	margin-top: 15px;
 }
 
+.section_colored{
+	padding-top: 30px;
+	height: 320px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+
 .btn-page{
 	text-decoration: none;
 	border-bottom: 0 !important;
@@ -351,17 +363,11 @@ nav a:hover, a:hover{
 
 /*--------------- AVANTAGES -----------------------*/
 
-.benefits{
-	padding-top: 30px;
-	background-color: #C9CBA3;
-	height: 320px;
-}
-
 .benefits_list{
 	margin-top: -10px;
 }
 
-.card-benefits{
+.card_benefits{
 	margin-top: -20px;
 }
 
@@ -518,7 +524,7 @@ nav a:hover, a:hover{
   .i_header{
     display: inline;
   }
-  .bg-image{
+  .bg_image{
     height: 150vh;
   }
   .header_title{
@@ -540,7 +546,7 @@ nav a:hover, a:hover{
     height: 35px;
   }
 
-	.bg-image{
+	.bg_image{
 		height: 100vh;
 	}
 
@@ -558,6 +564,7 @@ nav a:hover, a:hover{
 		left: 25px;
 		margin-top: 53px;
 	}
+
 	.title_section{
 		width: 100%;
 		font-size: 1.9em;
@@ -565,13 +572,13 @@ nav a:hover, a:hover{
 
 
 	/*------------ SECTION AVANTAGES --------*/
-	.benefits{
+	.section_colored{
 		height: 80%;
 	}
 	.button_section_out{
 		margin-left: -9px;
 	}
-	.card-benefits{
+	.card_benefits{
 		padding-top: 40px;
 		padding-bottom: 0;
 	}
@@ -623,16 +630,16 @@ nav a:hover, a:hover{
 
 /*------------ HEADER --------*/
 
-	.bg-image{
+	.bg_image{
 		height: 100vh;
 	}
 
 /*------------ SECTION AVANTAGES --------*/
-.benefits{
+.section_colored{
 	height: 80%;
 }
 
-.underline_black, .underline_yellow_light{
+.title_section_out{
 	  padding-bottom: 30px;
 	}
 
