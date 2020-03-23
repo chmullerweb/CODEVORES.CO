@@ -228,7 +228,6 @@ h1{
   position: absolute;
   right: 15px;
   top : 6px;
-  z-index: 4;
   font-size: 1.5em;
   text-align: right;
   display: none;
@@ -257,7 +256,6 @@ h1{
 .header_selector{
   position: absolute;
   justify-content: space-around;
-  z-index: 3;
   width: 100%;
   margin-top: 290px;
 }
@@ -278,9 +276,6 @@ h1{
   border: 1px #323031 solid;
   border-radius: 20px;
   text-decoration:none;
-  /* text-decoration-style: double;
-  text-decoration-color: #FCB42F;
-  text-underline-offset: 1em; */
 }
 
 
@@ -294,7 +289,6 @@ h1{
 /*------------ BARRE DE NAVIGATION -------------------------------------------*/
 .header_menu{
   position: absolute;
-  z-index: 2;
   padding-left: 15px;
 }
 
