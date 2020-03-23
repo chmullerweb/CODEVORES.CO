@@ -168,7 +168,7 @@ h1{
 }
 
 
-/*------------ BORDURE ET BACKGROUND ------------------------------------------------------*/
+/*------------ BORDURE ET BACKGROUND -------------------------------------------*/
 .border_argile{
   border : 1.6px #C9CBA3 solid;
   background-color: #C9CBA3;
@@ -343,7 +343,7 @@ nav a:hover, a:hover{
     text-decoration:none;
 }
 
-.card-profil{
+.card_profil{
   line-height: 45px;
 }
 
