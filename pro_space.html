@@ -22,9 +22,7 @@
 
     <!------------ FONT ----------------------->
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Barlow+Semi+Condensed:300,400|Titillium+Web:400,600&display=swap" rel="stylesheet">
-    <!-- font-family: 'Titillium Web', sans-serif;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-family: 'Barlow Semi Condensed', sans-serif; -->
+
 
   </head>
 
@@ -36,15 +34,14 @@
 
       <div class="container-fluid header_menu flex">
           <div class="header_logo">
-            <img src="assets/logo/codevores.png" alt="" class="logo">
-            <h1 class="allerta white">odevores</h1>
+            <a href="index.html" class="no_border_hover">
+              <img src="assets/logo/codevores.png" alt="" class="logo">
+              <h1 class="allerta white">odevores</h1>
+            </a>
           </div>
-          <div class="titillium text_shadow menu_metiers">
-            <a href="#"><span class="white">Métiers</span></a>
-          </div>
+          <div class="nav_space"></div>
           <nav class="">
-              <a href="#" class="titillium border_argile white no_border_hover">Je recrute</a>
-              <a href="#" class="titillium border_argile white no_border_hover">Je suis freelance</a>
+              <a href="pro_space.html" class="titillium border_argile white no_border_hover">Je suis freelance</a>
               <a href="#" class="titillium white text_shadow">M'inscrire</a>
               <a href="#" class="titillium white text_shadow">Me connecter</a>
               <a href="#" class="titillium white text_shadow">FAQ</a>
@@ -57,20 +54,25 @@
   <!------------ COUVERTURE ----------------------->
 
 
-      <div class="container-fluid titillium white header_title texte_center">
-        <h2 class=""><span class="underline_yellow_title text_shadow">Recruter votre Codevoreuses !</span></h2>
+      <div class="container-fluid titillium white header_title">
+        <h2 class=""><span class="underline_yellow_title text_shadow">Tentez l'expérience de freelance</span></h2>
       </div>
-      <form class="header_selector texte_center flex container-fluid">
-        <div class="">
-            <input class="input is-rounded inputSelector" placeholder="Vous cherchez : UX Designer, php, Angular...">
+      <div class="header_content">
+        <div class="flex list_header">
+          <i class="fas fa-check black i_space"></i>
+          <p class="titillium bold white text_shadow big">Des missions que vous choisissez</p>
         </div>
-        <div class="">
-            <input class="input is-rounded inputSelector" type="text" placeholder="Pays, Région, Ville">
+        <div class="flex list_header">
+          <i class="fas fa-check black i_space"></i>
+          <p class="titillium bold white text_shadow big">Le soutien d'une communauté d'experts</p>
         </div>
-        <div class="">
-            <button type="button" name="button" class="white border_argile buttonSearch underline_none" value="submit"><a class="underline_none">Rechercher</a></button>
+        <div class="flex list_header">
+          <i class="fas fa-check black i_space"></i>
+          <p class="titillium bold white text_shadow big">Un service simple et sécurisant</p>
         </div>
-      </form>
+        <a href="#" class="btn-page"><button type="button" name="button" class="button_header underline_none border_argile big white" style="margin-top:20px;margin-left: 55px;">Je crée mon profil</button></a>
+      </div>
+
 
     </header>
 
