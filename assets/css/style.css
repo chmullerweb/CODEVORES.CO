@@ -140,14 +140,6 @@ margin-bottom: 30px;
   font-style: italic;
 }
 
-.space{
-	line-height: 30px;
-}
-
-.petit{
-	font-size: 0.8em;
-}
-
 .big{
 	font-size: 1.5em;
 }
@@ -156,16 +148,24 @@ margin-bottom: 30px;
 	  color: #F4D35E;
 }
 
-/*------------ TITLES --------------------------------------------------------*/
+/*------------ TITLES / TEXTE --------------------------------------------------------*/
 
 h1{
   font-size: 2.2em;
   float: right;
 }
 
+h6{
+	font-size: 0.8em;
+}
+
 .title_section{
   font-size: 2em;
   margin-bottom: 50px;
+}
+
+.texte_spaced{
+	line-height: 30px;
 }
 
 
@@ -225,6 +225,10 @@ h1{
 
 .bg_argile{
 	background-color: #C9CBA3;
+}
+
+.bg_grey_light{
+	background-color: #F7F9F9;
 }
 
 /*------------ ICONES --------------------------------------------------------*/
@@ -329,14 +333,22 @@ nav a:hover, a:hover{
 
 .section_colored{
 	padding-top: 30px;
-	height: 320px;
+	height: 100%;
 	margin-top: 30px;
 	padding-bottom: 30px;
+}
+
+.section_spaced{
+	padding-top: 30px;
 }
 
 .btn-page{
 	text-decoration: none;
 	border-bottom: 0 !important;
+}
+
+.bloc_space_around{
+	justify-content: space-around;
 }
 
 
@@ -401,17 +413,17 @@ nav a:hover, a:hover{
 
 .presse{
 	height: 200px;
-	background-color: #F7F9F9;
+
 	padding: 22px 0;
 }
 
-.bloc_presse, .bloc_contact{
+.bloc_contact{
 	display: flex;
 	justify-content: space-around;
 }
 
 .card_presse{
-	height: 153px;
+	height: 154px;
 }
 
 .signature{
