@@ -371,7 +371,7 @@ nav a:hover, a:hover{
 	margin-top: -20px;
 }
 
-/*--------------- ETAPES -----------------------*/
+/*--------------- ETAPES / NOMBRES -----------------------*/
 .number{
 	display: block;
 	border-radius: 20px;
@@ -390,7 +390,7 @@ nav a:hover, a:hover{
 	background-color: #FCB42F !important;
 }
 
-.card-steps p{
+.card_number p{
 	text-align: center;
 	width: 80%;
 	margin: auto;
@@ -584,7 +584,7 @@ nav a:hover, a:hover{
 	}
 
 	/*------------ SECTION ETAPES-------------*/
-	.card-steps{
+	.card_number{
 		display: inline-flex;
 	}
 
@@ -656,7 +656,7 @@ nav a:hover, a:hover{
 /*------------ SECTION ETAPES ----------*/
 
 
-.card-steps{
+.card_number{
 	display: inline-flex;
 }
 
