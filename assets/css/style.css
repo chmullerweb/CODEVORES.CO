@@ -63,7 +63,7 @@ body, header, html{
   height: 100%;
 }
 
-.bg_image{
+.bg_image, .bg_image_page{
   width: 100%;
   height: 100%;
 	background: url("../img/header.jpg") no-repeat center center;
@@ -309,12 +309,12 @@ h6{
   border-radius: 20px;
 }
 
-.button_header{
+.button_header, .button_header_pages{
   height: 45px;
   padding: 9px 84px;
 }
 
-.button_header:hover{
+.button_header:hover, .button_header_pages:hover{
   color: #323031;
   border: 1px #323031 solid;
   border-radius: 20px;
@@ -326,6 +326,11 @@ h6{
     width: 50%;
     margin-top: 256px;
 		margin-left: 40px;
+}
+
+.button_header_pages{
+    margin-top:20px;
+    margin-left: 55px;
 }
 
 .list_header{
@@ -509,7 +514,16 @@ nav a:hover, a:hover{
 
 /*--------------------------- RESPONSIVE ------------------------------------*/
 
+/*------------ ECRAN iPad Pro <1366px ------------------------------------*/
+
+@media screen and (max-width:1366px){
+
+    .bg_image_page{
+        height: 60vh;
+    }
+
 /*------------ ECRAN <1224px ------------------------------------*/
+
 
 @media screen and (min-width: 1120px) and (max-width: 1240px){
   nav{
@@ -540,6 +554,10 @@ nav a:hover, a:hover{
 	.bg_image{
 		height: 30vh;
 	}
+    
+    .bg_image_page{
+        height: 60vh!important;
+    }
 
 	.section_center_responsive {
 		display: flex;
@@ -577,6 +595,21 @@ nav a:hover, a:hover{
   .buttonSearch{
     height: 35px;
   }
+
+  .header_content{
+    margin-top: 185px;
+    margin-left: 40px;
+    font-size: 1em;
+    }
+
+  .button_header_pages{
+    height: 35px;
+    padding: 3px 50px;
+    }
+    
+  .big{
+        font-size: 1.3em;
+    }
 
 
 	/*------------ SECTION PROFILES ----------*/
