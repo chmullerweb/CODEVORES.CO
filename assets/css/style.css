@@ -82,11 +82,16 @@ margin-bottom: 30px;
   display: flex;
 }
 
-/*------------ FONT ----------------------------------------------------------*/
-
-.center{
-  text-align: center;
+.flex_column{
+	flex-direction: column;
 }
+
+.flex_end{
+	display:flex;
+	align-items: flex-end;
+}
+
+/*------------ FONT ----------------------------------------------------------*/
 
 .titillium{
   font-family: 'Titillium Web', sans-serif;
@@ -126,6 +131,10 @@ margin-bottom: 30px;
 
 .text_shadow{
   text-shadow: 1px 1px 10px rgba(50, 48, 49, 05)
+}
+
+.texte_center{
+  text-align: center;
 }
 
 .uppercase{
@@ -170,6 +179,12 @@ h6{
 
 
 /*------------ BORDURE ET BACKGROUND -------------------------------------------*/
+
+.no_border_hover:hover{
+	border-bottom: 0!important;
+	text-decoration : none;
+}
+
 .border_argile{
   border : 1.6px #C9CBA3 solid;
   background-color: #C9CBA3;
@@ -183,10 +198,6 @@ h6{
   box-shadow: 0 0 10px #F4D35E;
 }
 
-.border_none{
-	border-bottom: 0 !important;
-}
-
 .border_dotted_argile{
 	border-top: 2px #C9CBA3 dotted;
 }
@@ -197,13 +208,8 @@ h6{
   box-shadow: 0 0 10px #F4D35E;
 }
 
-.underlined{
+.underline_yellow_title{
   border-bottom: 6px #FCB42F double;
-}
-
-.underline_none:hover{
-  text-decoration : none;
-  border-bottom: 0px;
 }
 
 .underline_black{
@@ -235,7 +241,7 @@ h6{
 	background-color: #F7F9F9;
 }
 
-/*------------ ICONES --------------------------------------------------------*/
+/*------------ ICONES / IMAGES------------------------------------------------*/
 
 .i_header{
   position: absolute;
@@ -253,6 +259,15 @@ h6{
 	padding-bottom: 22px;
 }
 
+.i_contact{
+	border-radius: 3px;
+}
+
+.i_social{
+	margin : 5px 0;
+	font-size: 1.5em;
+}
+
 
 /*------------ TEXTE COUVERTURE ----------------------------------------------*/
 
@@ -260,7 +275,6 @@ h6{
     font-size: 3em;
     position: absolute;
     margin-top: 160px;
-    text-align: center;
     display : table;
     width: 100%;
     height: 100%;
@@ -370,17 +384,17 @@ nav a:hover, a:hover{
 
 /*------------------- PROFILES -----------------------*/
 
-.button_profil{
-    line-height: 0 !important;
-    height: 30px;
-    padding: 4px 7px;
-    margin-top: 25px
-  }
+.button_argile{
+  line-height: 0 !important;
+  height: 30px;
+  padding: 4px 7px;
+  margin-top: 25px
+}
 
-  .button_profil:hover{
-    color: #323031;
-    border: 1px #323031 solid;
-    text-decoration:none;
+.button_argile:hover{
+  color: #323031;
+  border: 1px #323031 solid;
+  text-decoration:none;
 }
 
 .card_profil{
@@ -390,10 +404,6 @@ nav a:hover, a:hover{
 
 
 /*--------------- AVANTAGES -----------------------*/
-
-.benefits_list{
-	margin-top: -10px;
-}
 
 .card_benefits{
 	margin-top: -20px;
@@ -427,11 +437,6 @@ nav a:hover, a:hover{
 
 /*--------------- PRESSE -----------------------*/
 
-.bloc_contact{
-	display: flex;
-	justify-content: space-around;
-}
-
 .card_presse{
 	height: 154px;
 }
@@ -451,28 +456,6 @@ nav a:hover, a:hover{
 .button_devis{
 	margin-top: 10px !important;
 	height: 20px;
-}
-
-.none_hover:hover{
-	border-bottom: 0;
-}
-
-.i_contact{
-	border-radius: 3px;
-}
-
-
-
-/*--------------- SOCIAL -----------------------*/
-.social{
-	display:flex;
-	flex-direction: column;
-	align-items: flex-end;
-}
-
-.i_social{
-	margin : 5px 0;
-	font-size: 1.5em;
 }
 
 /*--------------- FOOTER -----------------------*/
@@ -507,10 +490,6 @@ nav a:hover, a:hover{
 		padding: 0;
 	}
 
-	.ligne_contact{
-		flex-wrap: nowrap !important;
-	}
-
 	.card_content_contact{
 		font-size: 0.8em;
 	}
@@ -521,38 +500,50 @@ nav a:hover, a:hover{
 
 @media all and (max-width:1120px){
 
+	.section_colored{
+		height: 80%;
+	}
+
+	.bg_image{
+		height: 100vh;
+	}
+
+	.section_center_responsive {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+	}
+
   /*------------ HEADER ------------------*/
   nav{
     display: none;
   }
+	
   .i_header{
     display: inline;
   }
-  .bg_image{
-    height: 150vh;
-  }
+
   .header_title{
     margin-top: 120px;
     font-size: 1.9em;
     font-weight: bold;
   }
+
   .header_selector{
   margin-top: 210px;
   display: table-cell;
-  text-align: center;
   align-items: center;
-}
+	}
+
   .inputSelector{
     margin-bottom: 10px;
     height: 35px;
   }
+
   .buttonSearch{
     height: 35px;
   }
-
-	.bg_image{
-		height: 100vh;
-	}
 
 
 	/*------------ SECTION PROFILES ----------*/
@@ -577,9 +568,6 @@ nav a:hover, a:hover{
 
 
 	/*------------ SECTION AVANTAGES --------*/
-	.section_colored{
-		height: 80%;
-	}
 
 	.card_benefits{
 		padding-top: 40px;
@@ -591,21 +579,9 @@ nav a:hover, a:hover{
 		display: inline-flex;
 	}
 
-	/*------------ SECTION PRESSE-------------*/
 
-	.section_center_responsive {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		height: 100%;
-	}
 
 	/*------------ SECTION CONTACT-------------*/
-
-	.ligne_contact{
-		flex-wrap: nowrap !important;
-		width: 100%
-	}
 
 	.card_content_contact{
 		font-size: 0.8em;
@@ -614,15 +590,21 @@ nav a:hover, a:hover{
 	.card_half_place{
 		width: 50%;
 	}
+
 	.button_devis{
 		height: 30px;
 		font-size: 0.8em;
 	}
+
 	.i_hidden{
 		display: none;
 		width: 0%
 	}
 
+	/*------------ FOOTER-------------*/
+	.footer_subtitle{
+		font-size: 0.8em;
+	}
 }
 
 
@@ -631,6 +613,19 @@ nav a:hover, a:hover{
 
 @media all and (max-width:769px){
 
+	.section_center_responsive{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+	}
+
+	.align_content_center_responsive{
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
+		line-height: 20px;
+	}
 
 /*------------ HEADER --------*/
 
@@ -639,92 +634,81 @@ nav a:hover, a:hover{
 	}
 
 /*------------ SECTION AVANTAGES --------*/
-.section_colored{
-	height: 80%;
-}
+	.section_colored{
+		height: 80%;
+	}
 
-.title_section_out{
+	.title_section_out{
 	  padding-bottom: 30px;
 	}
 
-.button_recruteur{
-	padding-top: 30px;
-	margin-left: -6px;
-}
+	.button_recruteur{
+		padding-top: 30px;
+		margin-left: -6px;
+	}
 
-.button_section_out{
-	margin-top: 80px;
-	margin-left: -9px;
-}
+	.button_section_out{
+		margin-top: 80px;
+		margin-left: -9px;
+	}
 
 /*------------ SECTION ETAPES ----------*/
 
-
-.card_number{
+	.card_number{
 	display: inline-flex;
-}
+	}
 
 /*------------ SECTION PRESSE ----------*/
 
-.card_presse{
-	height: 480px;
-}
-
-.section_center_responsive{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	height: 100%;
-}
+	.card_presse{
+		height: 480px;
+	}
 
 /*------------ SECTION CONTACT ----------*/
 
-.card_content_contact{
-	padding-top: 5px!important;
-	font-size: 0.6em;
-}
+	.card_content_contact{
+		padding-top: 5px!important;
+		font-size: 0.6em;
+	}
 
-.button_devis{
-	margin-top: -5px !important;
-	box-shadow: none!important;
-	width: 80%;
-	height: 20px;
-}
-.card_content_address{
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-	margin-right: 30px !important;
-	width: 100% !important;
-}
+	.button_devis{
+		margin-top: -5px !important;
+		box-shadow: none!important;
+		width: 80%;
+		height: 20px;
+	}
 
-.card_half_place{
-	width: 50%!important;
-}
+	.card_content_address{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+		margin-right: 30px !important;
+		width: 100% !important;
+	}
 
+	.card_half_place{
+		width: 50%!important;
+	}
 
-/*------------ SECTION CONTACT ----------*/
+	.i_social{
+		margin : 2px 0;
+		font-size: 0.9em!important;
+	}
 
-.i_social{
-	margin : 2px 0;
-	font-size: 0.9em!important;
-}
+	.margin_center{
+		margin: auto;
+	}
 
 /*------------ FOOTER ----------*/
-.align_content_center_responsive{
-	flex-direction: column;
-	align-items: center;
-	flex-wrap: wrap;
-	line-height: 20px;
-}
-.footer_subtitle{
-	font-size: 0.7em;
-}
 
-.responsive_white{
+	.footer_subtitle{
+		font-size: 0.7em;
+	}
+
+	.responsive_white{
 		color: #F7F9F9;
-}
+	}
 
-.footer_section{
+	.footer_section{
 		height: 100%;
-}
+	}
 }
