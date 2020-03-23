@@ -187,6 +187,10 @@ h6{
 	border-bottom: 0 !important;
 }
 
+.border_dotted_argile{
+	border-top: 2px #C9CBA3 dotted;
+}
+
 .inputSelector:focus{
   outline: none !important;
   border-color: #FCB42F;
@@ -411,12 +415,6 @@ nav a:hover, a:hover{
 
 /*--------------- PRESSE -----------------------*/
 
-.presse{
-	height: 200px;
-
-	padding: 22px 0;
-}
-
 .bloc_contact{
 	display: flex;
 	justify-content: space-around;
@@ -435,12 +433,6 @@ nav a:hover, a:hover{
 	font-size: 0.9em;
 }
 
-/*--------------- FREELANCE -----------------------*/
-
-.advice_freelance{
-	border-top: 2px #C9CBA3 dotted;
-	background-color: white;
-}
 
 /*--------------- CONTACT -----------------------*/
 
@@ -515,7 +507,7 @@ nav a:hover, a:hover{
 		padding: 0;
 	}
 
-	.presse, .contact{
+	.contact{
 		height: 100%;
 	}
 
@@ -575,6 +567,7 @@ nav a:hover, a:hover{
 		position: absolute;
 		left: 25px;
 		margin-top: 53px;
+		margin-left: -9px;
 	}
 
 	.title_section{
@@ -587,9 +580,7 @@ nav a:hover, a:hover{
 	.section_colored{
 		height: 80%;
 	}
-	.button_section_out{
-		margin-left: -9px;
-	}
+
 	.card_benefits{
 		padding-top: 40px;
 		padding-bottom: 0;
@@ -600,11 +591,9 @@ nav a:hover, a:hover{
 		display: inline-flex;
 	}
 
-
-
 	/*------------ SECTION PRESSE-------------*/
 
-	.presse {
+	.section_center_responsive {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -678,7 +667,7 @@ nav a:hover, a:hover{
 	height: 480px;
 }
 
-.presse{
+.section_center_responsive{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
