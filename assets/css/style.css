@@ -164,6 +164,10 @@ body, header, html{
 	font-size: 1.5em;
 }
 
+.middle_font{
+	font-size: 1.2em;
+}
+
 .yellow_hover:hover{
 	  color: #F4D35E;
 }
@@ -211,7 +215,6 @@ h6{
 }
 
 .bloc_border{
-	background-color: #C9CBA3;
   border-radius: 4px;
 }
 
@@ -442,6 +445,12 @@ nav a:hover, a:hover{
 	height: 100%;
 	margin-top: 30px;
 	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.section_uncolored{
+	padding-top: 30px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
