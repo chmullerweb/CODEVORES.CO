@@ -103,6 +103,15 @@ body, header, html{
 	padding-bottom: 40px;
 }
 
+.fixed{
+    position: fixed;
+    z-index: 940;
+    top: 50px;
+}
+.opacity{
+    opacity: 0.2;
+}
+
 /*------------ FONT ----------------------------------------------------------*/
 
 .titillium{
