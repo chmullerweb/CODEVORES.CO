@@ -82,6 +82,11 @@ body, header, html{
   display: flex;
 }
 
+.flex_center{
+	display: flex;
+	justify-content: center;
+}
+
 .flex_column{
 	flex-direction: column;
 }
@@ -205,10 +210,21 @@ h6{
 	text-decoration : none;
 }
 
+.bloc_border{
+	background-color: #C9CBA3;
+  border-radius: 4px;
+}
+
 .border_argile{
   border : 1.6px #C9CBA3 solid;
   background-color: #C9CBA3;
   border-radius: 4px;
+}
+
+.border_black{
+	border : 1.6px #323031 solid;
+	background-color: #323031;
+	border-radius: 4px;
 }
 
 .border_yellow_light{
@@ -255,6 +271,10 @@ h6{
 	background-color: #323031
 }
 
+.bg_yellow{
+	background-color: #FCB42F;
+}
+
 .bg_white{
 	background-color: white;
 }
@@ -265,6 +285,14 @@ h6{
 
 .bg_grey_light{
 	background-color: #F7F9F9;
+}
+
+.bloc_row{
+	padding-top: 				50px;
+	justify-content: 		center;
+	margin-top: 				0;
+	margin-bottom: 			0;
+	height: 						135px;
 }
 
 /*------------ ICONES / IMAGES------------------------------------------------*/
@@ -471,13 +499,13 @@ nav a:hover, a:hover{
 
 /*--------------- ETAPES / NOMBRES -----------------------*/
 .number{
-	display: block;
-	border-radius: 20px;
-	width: 40px;
-	height: 40px;
-	margin: 10px auto;
-	min-width: 0em;
-	padding: 0.50rem 0.5rem;
+	display: 							block;
+	border-radius: 				20px;
+	width: 								40px;
+	height: 							40px;
+	margin: 							10px auto;
+	min-width: 						0em;
+	padding: 							0.50rem 0.5rem;
 }
 
 .number_argile{
@@ -509,6 +537,23 @@ nav a:hover, a:hover{
 .quote{
 	font-size: 0.9em;
 }
+
+/*--------------- CTA NOUS REJOINDRE -----------------------*/
+
+.claim_join{
+	width: 60%;
+	position: absolute;
+	z-index: 2;
+	padding-top: 20px;
+}
+
+.button_join{
+	height: 				35px;
+  padding: 				9px 65px;
+	margin: 				20px auto;
+}
+
+
 
 /*--------------- CONTACT -----------------------*/
 
