@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="39px" viewBox="0 0 50 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icn_admin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="LP-Become-a-freelancer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LP_become_freelancer_desktop" transform="translate(-830.000000, -2716.000000)">
+            <g id="video" transform="translate(130.000000, 1753.000000)">
+                <g id="text2" transform="translate(700.000000, 958.000000)">
+                    <g id="Fill-9" transform="translate(0.000000, 5.000000)">
+                        <path d="M15,7.13970078 L15,31 C15,32.6568542 16.3431458,34 18,34 L39,34 C40.6568542,34 42,32.6568542 42,31 L42,30.8577486 L50,38.8526115 L15.9203237,39 L15.845944,39 C11.6393588,39 7.68070586,37.3564787 4.69174387,34.3642131 C1.68625306,31.355262 0.0195968297,27.3451812 0.000313203915,23.0681324 C-0.0177369859,19.067259 0.695553014,8.47797421 15,7.13970078 Z" id="Combined-Shape" fill="#FFCDDA" fill-rule="evenodd" opacity="0.5"></path>
+                        <path d="M18,2 C17.4477153,2 17,2.44771525 17,3 L17,31 C17,31.5522847 17.4477153,32 18,32 L39,32 C39.5522847,32 40,31.5522847 40,31 L40,3 C40,2.44771525 39.5522847,2 39,2 L18,2 Z M18,0 L39,0 C40.6568542,-3.33066907e-16 42,1.34314575 42,3 L42,31 C42,32.6568542 40.6568542,34 39,34 L18,34 C16.3431458,34 15,32.6568542 15,31 L15,3 C15,1.34314575 16.3431458,3.33066907e-16 18,0 Z M20,9.5 C19.4477153,9.5 19,9.05228475 19,8.5 C19,7.94771525 19.4477153,7.5 20,7.5 L37,7.5 C37.5522847,7.5 38,7.94771525 38,8.5 C38,9.05228475 37.5522847,9.5 37,9.5 L20,9.5 Z M20,15.5 C19.4477153,15.5 19,15.0522847 19,14.5 C19,13.9477153 19.4477153,13.5 20,13.5 L37,13.5 C37.5522847,13.5 38,13.9477153 38,14.5 C38,15.0522847 37.5522847,15.5 37,15.5 L20,15.5 Z M20,21.5 C19.4477153,21.5 19,21.0522847 19,20.5 C19,19.9477153 19.4477153,19.5 20,19.5 L26,19.5 C26.5522847,19.5 27,19.9477153 27,20.5 C27,21.0522847 26.5522847,21.5 26,21.5 L20,21.5 Z" id="Combined-Shape" fill="#3B4269" fill-rule="nonzero"></path>
+                        <circle id="Oval" fill="#5563B5" fill-rule="evenodd" cx="37.5" cy="28.5" r="7.5"></circle>
+                        <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="37" y="23.5" width="2" height="6" rx="1"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" transform="translate(39.500000, 28.500000) rotate(-90.000000) translate(-39.500000, -28.500000) " x="38.5" y="26" width="2" height="5" rx="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

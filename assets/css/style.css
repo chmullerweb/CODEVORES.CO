@@ -91,6 +91,12 @@ body, header, html{
 	align-items: flex-end;
 }
 
+.align_mid_row_element{
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
 /*------------ FONT ----------------------------------------------------------*/
 
 .titillium{
@@ -181,6 +187,16 @@ h6{
 	font-size: 1.7em;
 }
 
+.claim_texte_spaced{
+	line-height: 45px;
+}
+
+.claim_font_size{
+	font-size: 2em;
+}
+
+
+
 
 /*------------ BORDURE ET BACKGROUND -------------------------------------------*/
 
@@ -205,6 +221,12 @@ h6{
 .border_dotted_argile{
 	border-top: 2px #C9CBA3 dotted;
 }
+
+.no_box_shadow{
+	border: 0!important;
+	box-shadow: none!important;
+}
+
 
 .inputSelector:focus{
   outline: none !important;
@@ -391,7 +413,7 @@ nav a:hover, a:hover{
 	padding-top: 30px;
 	height: 100%;
 	margin-top: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	margin-bottom: 30px;
 }
 
@@ -488,7 +510,6 @@ nav a:hover, a:hover{
 	font-size: 0.9em;
 }
 
-
 /*--------------- CONTACT -----------------------*/
 
 .button_devis{
@@ -519,7 +540,7 @@ nav a:hover, a:hover{
 @media screen and (max-width:1366px){
 
     .bg_image_page{
-        height: 60vh;
+        height: 100%;
     }
 
 /*------------ ECRAN <1224px ------------------------------------*/
@@ -554,7 +575,7 @@ nav a:hover, a:hover{
 	.bg_image{
 		height: 30vh;
 	}
-    
+
     .bg_image_page{
         height: 60vh!important;
     }
@@ -606,10 +627,14 @@ nav a:hover, a:hover{
     height: 35px;
     padding: 3px 50px;
     }
-    
+
   .big{
         font-size: 1.3em;
     }
+
+	.claim_font_size{
+		font-size: 1.7em;
+	}
 
 
 	/*------------ SECTION PROFILES ----------*/
@@ -697,6 +722,14 @@ nav a:hover, a:hover{
 
 	.bg_image{
 		height: 60%;
+	}
+
+	.claim_font_size{
+		font-size: 1.4em;
+	}
+
+	.claim_texte_spaced{
+		line-height: 30px;
 	}
 
 /*------------ SECTION AVANTAGES --------*/
