@@ -65,7 +65,7 @@ body, header, html{
 
 .bg_image, .bg_image_page{
   width: 100%;
-  height: 100%;
+  height: 600px;
 	background: url("../img/header.jpg") no-repeat center center;
 	background-size: cover;
 	margin-bottom: 30px;
