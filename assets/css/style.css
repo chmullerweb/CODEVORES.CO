@@ -105,10 +105,9 @@ body, header, html{
 
 .fixed{
     position: fixed;
-    z-index: 940;
-    top: 50px;
 }
-.opacity{
+
+.opacity_activated{
     opacity: 0.2;
 }
 
@@ -141,7 +140,9 @@ body, header, html{
 .yellow{
   color : #FCB42F;
 }
-
+.blue{
+    color: #007bff;
+}
 .light_yellow{
   color: #F4D35E;
 }
@@ -168,6 +169,10 @@ body, header, html{
 
 .italic{
   font-style: italic;
+}
+
+.mini_font{
+    font-size: 0.8em;
 }
 
 .little_font{
@@ -586,7 +591,22 @@ nav a:hover, a:hover{
 	margin: 				20px auto;
 }
 
+/*--------------- MODAL -----------------------*/
 
+.modal_fixed{
+    position: fixed;
+    z-index: 900;
+	justify-content: 		    center;
+	margin-top: 				30px;
+	margin-bottom: 			    20px;
+}
+
+.modal_box{
+    width: 60%;
+	padding-top: 10px;
+	height: 					100%;
+
+}
 
 /*--------------- CONTACT -----------------------*/
 
@@ -805,6 +825,10 @@ nav a:hover, a:hover{
 	.claim_font_size{
 		font-size: 1.4em;
 	}
+    
+    .modal_box{
+        width: 100%;
+    }
 
 	.claim_texte_spaced{
 		line-height: 30px;
