@@ -689,7 +689,7 @@ nav a:hover, a:hover{
 	}
 
 	.bg_image{
-		height: 30vh;
+		height: 100vh;
 	}
 
     .bg_image_page{
@@ -835,10 +835,6 @@ nav a:hover, a:hover{
 	}
 
 /*------------ HEADER --------*/
-
-	.bg_image{
-		height: 60%;
-	}
 
 	.claim_font_size{
 		font-size: 1.4em;
