@@ -833,6 +833,7 @@ padding-top: 30px;
 	.footer_subtitle{
 		font-size: 0.8em;
 	}
+    
 }
 
 
@@ -922,7 +923,7 @@ padding-top: 30px;
 /*------------ SECTION PRESSE ----------*/
 
 	.card_presse{
-		height: 480px;
+		height: 100%;
 	}
 
 /*------------ SECTION CONTACT ----------*/
