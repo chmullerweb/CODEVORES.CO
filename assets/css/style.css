@@ -604,17 +604,19 @@ nav a:hover, a:hover{
 
 .modal_fixed{
     position: fixed;
+    top:0;
     z-index: 900;
 	justify-content: 		    center;
 }
 
 .modal_box{
     width: 60%;
-	padding-top: 10px;
+	padding-top:                10px;
 	height: 					100%;
     margin-top: 				30px;
 	margin-bottom: 			    30px;
-
+    border: 3px #323031 double;
+    box-shadow: 0 0 10px 0 #323031;
 }
 
 .modal_textarea{
