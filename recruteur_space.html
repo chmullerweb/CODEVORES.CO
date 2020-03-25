@@ -337,6 +337,108 @@
     </footer>
 
                                                 </div>
+      
+<!---------- MODAL FORMULAIRE DE CONTACT --------------------->
+
+    <section class="container-fluid flex modal_fixed">
+        <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box hidden"> 
+            <div class="titillium texte_center black claim_texte_spaced">
+                <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross"></i></p>
+                <p class="titillium little_font modal_subtitle">Avez-vous déjà fait un tour sur notre <a href="help.html" class="no_border_hover italic_hover subscribe"><span class="blue">FAQ</span></a> ?</p>
+            </div>
+        
+            <form class="texte_center flex_column bloc_space_around container-fluid">
+                <div class="input_space flex bloc_space_around">
+                    <input class="input is-rounded inputSelector" type="text" placeholder="Nom *" style="height: 35px;width: 40%">
+                    <input class="input is-rounded inputSelector" type="text" placeholder="Prénom *" style="height: 35px;width: 40%">
+                </div>
+                <div class="input_space flex bloc_space_around">
+                    <input class="input is-rounded inputSelector" type="tel" placeholder="Téléphone *" style="height: 35px;width: 40%">
+                    <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail *" style="height: 35px;width: 40%">
+                </div>
+                <div class="input_space flex bloc_space_around">
+                    <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre question concerne :</label>
+                    <select id="select_service" name="select_service" class="input is-rounded inputSelector middle-font" style="height: 35px;width: 40%">
+                        <option>► Service Commercial</option> 
+                        <option>► Service Technique</option>   
+                        <option>► Service Réclamation</option>
+                    </select>
+               </div>
+               <div class="input_space flex bloc_space_around">
+                   <textarea class="modal_textarea"></textarea>
+               </div>
+                   <p class="input_space mini_font barlow">Codevores s'engage à vous répondre sous 5 jours ouvrés.</p>  
+                   <p class="input_space mini_font barlow italic">* Champs indispensables pour vous contacter. Ces informations ne seront pas enregistrées dans notre base de données.</p>
+              <div class="input_space">
+                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit">
+                        <a class="no_border_hover">Envoyer</a>
+                    </button>
+              </div>
+            </form>
+        </div>
+    </section>      
+      
+        
+     
+ <!-------- MODAL CONNEXION ------------------->
+
+    <section class="container-fluid flex modal_fixed">
+        <div id="sectionConnexion" class="container bloc_border bg_grey_light modal_box hidden"> 
+            <div class="titillium texte_center black claim_texte_spaced">
+                <p class="big bold modal_title" style="padding-left: 10px">Connexion à mon compte Codevores<i class="fas fa-times-circle i_cross"></i></p>
+                <p class="titillium little_font modal_subtitle">Pas encore membre Codevores ? <span class="blue"><a class="no_border_hover italic_hover subscribe">Inscrivez-vous</a></span></p>
+            </div>
+        
+            <form class="texte_center flex_column bloc_space_around container-fluid">
+                <div class="input_space">
+                    <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail" style="height: 35px">
+                </div>
+                <div class="input_space">
+                    <input type="text" class="input is-rounded inputSelector" type="password" placeholder="Mot de passe" style="height: 35px">
+                </div>
+                <div class="input_space">
+                    <p class="texte_spaced barlow little_font grey"><a class="no_border_hover italic_hover">Mot de passe oublié ?</a></p>
+                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit"><a class="no_border_hover ">Se connecter</a></button>
+                </div>
+            </form>
+        </div>
+    </section>      
+      
+        
+<!------------ MODAL INSCRIPTION --------------------->
+    <section class="container-fluid flex modal_fixed">
+        <div id="sectionInscription" class="container bloc_border bg_grey_light modal_box hidden"> 
+            <div class="titillium texte_center black claim_texte_spaced">
+                <p class="big bold modal_title" style="padding-left:10px">Créer mon compte Codevores<i class="fas fa-times-circle i_cross"></i></p>
+                <p class="titillium little_font modal_subtitle">Déjà inscrit sur Codevores ? <span class="blue"><a class="no_border_hover italic_hover connexion">Connectez-vous</a></span></p>
+            </div>
+        
+            <form class="texte_center flex_column bloc_space_around container-fluid">
+                <div class="input_space">
+                    <input class="input is-rounded inputSelector" type="text" placeholder="Nom" style="height: 35px">
+                </div>
+                <div class="input_space">
+                    <input class="input is-rounded inputSelector" type="text" placeholder="Prénom" style="height: 35px">
+                </div>
+                <div class="input_space">
+                    <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail" style="height: 35px">
+                </div>
+                <div class="input_space">
+                    <input type="text" title="* 8 caractères minimum - 2 symboles - 1 Majuscule" class="input is-rounded inputSelector" type="password" minlength="8" required placeholder="Mot de passe *" style="height: 35px">
+                </div>
+                <div class="input_space">
+                    <input type="text" title="* 8 caractères minimum - 2 symboles - 1 Majuscule" class="input is-rounded inputSelector" type="password" placeholder="Confirmez votre mot de passe *" style="height: 35px">
+                </div>
+                    <p class="input_space mini_font barlow">Codevores s'engage à respecter vos données. En continuant votre inscription, vous acceptez nos <a>Conditions Générales</a>.</p>  
+                    <p class="input_space mini_font barlow">Vos données seront enregistrées par Codevores pour la création et la gestion de votre compte. Elles sont conservées pendant la durée de votre inscription sur le site et ultérieurement si nous y sommes légalement tenus. En savoir plus sur notre <a>politique d’utilisation des données</a>.</p>
+                    <p class="input_space mini_font barlow italic"><input type="checkbox"><span style="padding-left:9px">Je ne souhaite pas recevoir les nouveautés et offres personnalisées Codevores</span>
+                <div class="input_space">
+                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit"><a class="no_border_hover">S'inscrire sur Codevores</a></button>
+                </div>
+            </form>
+        </div>
+   </section>
+    
 
 
 
