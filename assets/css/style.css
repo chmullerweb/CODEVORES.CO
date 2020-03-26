@@ -483,7 +483,7 @@ nav a:hover, a:hover{
 }
 
 .nav_space{
-	margin-left: 195px;
+	margin-left: 130px;
 }
 
 /*--------------------------- MAIN -------------------------------------------*/
@@ -748,6 +748,11 @@ nav a:hover, a:hover{
     font-weight: bold;
   }
 
+  .header_subtitle{
+    margin-top: 180px;
+    font-size: 0.9em;
+   }
+
   .header_selector{
   margin-top: 210px;
   display: table-cell;
@@ -875,6 +880,9 @@ nav a:hover, a:hover{
 		line-height: 30px;
 	}
     
+     .header_selector{
+        margin-top: 230px;
+    }
 /*------------ MODAL --------*/
 
      .modal_box{
