@@ -271,6 +271,10 @@ h6{
 	border-top: 2px #F4D35E dotted;
 }
 
+.border_dotted_black {
+   border-top: 2px #323031 dotted; 
+}
+
 .no_box_shadow{
 	border: 0!important;
 	box-shadow: none!important;
@@ -591,11 +595,13 @@ nav a:hover, a:hover{
 /*--------------- PRESSE -----------------------*/
 
 .card_presse{
-	height: 100%;
+	max-width: 540px;
+    margin-bottom: 15px;
+    height: 100%;
 }
 
 .signature{
-	margin-top: 35px;
+	margin-top: 45px;
     padding-bottom: 5px;
 	font-size: 0.8em;
 }
