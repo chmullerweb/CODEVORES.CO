@@ -505,7 +505,8 @@ nav a:hover, a:hover{
 }
 
 .section_spaced{
-	padding-top: 30px;
+	margin-top: 50px;
+    padding-top: 30px;
 }
 
 .section_no_margin_top{
@@ -521,6 +522,10 @@ nav a:hover, a:hover{
 	justify-content: space-around;
 }
 
+.bloc_space_between{
+	justify-content: space-between;
+}
+
 .nowrap{
 	flex-wrap: nowrap!important;
 }
@@ -528,6 +533,7 @@ nav a:hover, a:hover{
 .card_half_place{
 	width: 50%;
 }
+
 
 /*------------------- PROFILES -----------------------*/
 
@@ -585,11 +591,12 @@ nav a:hover, a:hover{
 /*--------------- PRESSE -----------------------*/
 
 .card_presse{
-	height: 154px;
+	height: 100%;
 }
 
 .signature{
-	line-height: 53px;
+	margin-top: 35px;
+    padding-bottom: 5px;
 	font-size: 0.8em;
 }
 
@@ -638,12 +645,8 @@ nav a:hover, a:hover{
         border-radius: 10px;        
     }
 
-/*--------------- FAQ -----------------------*/
 
-section_spaced{
-margin-top: 50px;
-padding-top: 30px;
-}
+
 
 
 
