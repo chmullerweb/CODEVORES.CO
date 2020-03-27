@@ -270,6 +270,12 @@ h6{
 	border-radius: 4px;
 }
 
+.border_blue{
+	border : 1.6px #007bff solid;
+	background-color: #007bff;
+	border-radius: 4px;
+}
+
 .border_yellow_light{
   border : 1.6px #F4D35E solid;
   background-color: #F4D35E;
@@ -741,12 +747,12 @@ nav a:hover, a:hover{
 
 
 
-
+/*-------------------------------------------------------------*/
 /*--------------------------- RESPONSIVE ------------------------------------*/
 
 
 
-/*------------ ECRAN <1224px ------------------------------------*/
+/*------------ ECRAN PLUS PETIT QUE <1224px ------------------------------------*/
 
 
 @media screen and (min-width: 1120px) and (max-width: 1240px){
@@ -766,17 +772,15 @@ nav a:hover, a:hover{
 	}
 }
 
-/*------------ ECRAN <1120px ------------------------------------*/
+
+
+/*------------ ECRAN PLUS PETIT QUE <1120px ------------------------------------*/
 
 
 @media screen and (max-width:1120px){
 
 	.section_colored{
 		height: 80%;
-	}
-
-	.bg_image{
-		height: 100vh;
 	}
 
 	.section_center_responsive {
@@ -860,6 +864,10 @@ nav a:hover, a:hover{
 		width: 100%;
 		font-size: 1.9em;
 	}
+    
+    .lh-22{
+        line-height: 22px;
+    }
 
 
 	/*------------ SECTION AVANTAGES --------*/
@@ -904,10 +912,10 @@ nav a:hover, a:hover{
 }
 
 
-/*------------ ECRAN MOBILE <769px ----------------------------*/
+/*------------ ECRAN TABLETTE <768px ----------------------------*/
 
 
-@media screen and (max-width:769px){
+@media screen and (max-width:768px){
 
 	.section_center_responsive{
 		display: flex;
@@ -970,19 +978,12 @@ nav a:hover, a:hover{
 		height: 80%;
 	}
 
-	.title_section_out{
-	  padding-bottom: 30px;
-	}
-
 	.button_recruteur{
 		padding-top: 30px;
 		margin-left: -6px;
 	}
 
-	.button_section_out{
-		margin-top: 80px;
-		margin-left: -9px;
-	}
+	
 
 /*------------ SECTION ETAPES ----------*/
 
@@ -999,7 +1000,7 @@ nav a:hover, a:hover{
 /*------------ SECTION CONTACT ----------*/
 
 	.card_content_contact{
-		padding-top: 5px!important;
+		padding: 5px 17px;
 		font-size: 0.6em;
 	}
 
@@ -1011,10 +1012,10 @@ nav a:hover, a:hover{
 	}
 
 	.card_content_address{
-		padding-left: 0px !important;
-		padding-right: 0px !important;
-		margin-right: 30px !important;
-		width: 100% !important;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-right: 30px;
+		width: 100%;
 	}
 
 	.card_half_place{
@@ -1045,10 +1046,134 @@ nav a:hover, a:hover{
 	}
 }
 
-/*------------ ECRAN <420px ------------------------------------*/
+/*------------ ECRAN MOBILE <425px ------------------------------------*/
 
 
-@media screen and (max-width:420px){
-	h2{
+@media screen and (max-width:425px){
+	
+    
+ /*------------ TITRE / TEXTE ----------*/   
+    h2{
 		font-size: 0.8em;
 	}
+    
+    .header_title{
+        margin-top: 100px;
+        line-height: 42px;
+    }
+    
+    .title_section_out{
+	  padding-bottom: 30px;
+	}
+    
+    .button_section_out{
+		margin-top: 80px;
+		margin-left: -9px;
+	}
+    
+    .card_number p{
+        text-align: left;
+    }
+    
+    .card_content_contact{
+        padding: 5px 0px;
+    }
+    
+    .little_font{
+        font-size: 0.9em;
+    }
+    
+
+ /*------------ IMAGE / ICONE ----------*/   
+
+    .number_argile, .number_yellow{
+        margin-left: -5px;
+        padding:3.5px;
+        width: 30px;
+        height: 30px;
+    }
+    
+ /*------------ IMAGE / ICONE ----------*/   
+   
+    .column_responsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+ /*------------ MARGIN / PADDING ----------*/
+    .pt-0{
+        padding-top: 0;
+    }
+    
+    .pb-0{
+        padding-bottom: 0;
+    }
+    
+    .no-bb{
+        border : 0;
+    }
+    
+    .mt-0{
+        margin-top: 0;
+    }
+    
+    mb-0{
+        margin-bottom: 0!important;
+    }
+    
+
+}
+/*------------ ECRAN MOBILE <320px ------------------------------------*/
+
+
+@media screen and (max-width:320px){
+    
+     /*------------ TITRE / TEXTE ----------*/   
+
+    h1{
+        font-size: 1.5em;
+    }
+    
+    h2{
+		font-size: 0.7em;
+	}
+    
+    .header_title{
+        margin-top: 100px;
+        line-height: 42px;
+    }
+    
+    .menu_metiers{
+        font-size: 0.8em;
+        margin: 7px 0 0 20px; 
+    }
+    
+    .card_content_address{
+        margin-left:10px;
+    }
+    
+    .card_content_contact{
+        font-size: 0.5em;
+    }
+    
+    .text_mission{
+        padding-top: 45px!important;
+        font-size: 0.9em;
+    }
+    
+    
+     /*------------ IMAGE / ICONE ----------*/   
+
+    .logo{
+        width:18px;
+    }
+    
+    .i_header{
+        font-size: 1.2em;
+    }
+    
+    
+    
+    
+}
