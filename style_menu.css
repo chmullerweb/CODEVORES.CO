@@ -1,0 +1,64 @@
+#conteneur-menu {
+    background-color: grey;
+    display: flex;
+    height: 40px;
+    position: relative;  
+}
+
+#menu_deroulant{
+    position: absolute;
+}
+
+dl{
+    width:100px;
+    height:  40px;
+    margin:0;
+    padding: 0;
+}
+
+dt{
+    display: block;
+    height: 40px;
+    color: darkgoldenrod;
+    line-height: 40px;
+    text-align: center;
+    border-right:dotted 1px black;
+    cursor: pointer;
+}
+
+dd{
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+    width: 100px;
+}
+
+dd ul{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+dd ul li a{
+    color: darkgoldenrod;
+    display: block;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    border-top:dotted 1px black;
+}
+
+dd ul li a:hover{
+    background-color: cadetblue;
+    color: azure;
+}
+
+dl dd{
+    display: none;
+}
+
+dl:hover dd{
+    display:block;
+}
