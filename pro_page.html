@@ -527,8 +527,48 @@
         </div>
    </section>
     
+<!---------- MODAL CONTACTER LE PROFESSIONNELLE --------------------->
 
-
+    <section class="container-fluid flex modal_fixed">
+    <div id="sectionContactPro" class="container bloc_border bg_grey_light modal_box hidden"> 
+            <div class="titillium texte_center black">
+                <p class="big bold modal_title" style="padding-left: 10px">Contacter Lorem<i class="fas fa-times-circle i_cross exit"></i></p>
+                <p class="modal_subtitle titillium little_font">Vous avez des questions ou souhaitez proposer un projet à Lorem ? Pour vous répondre, Lorem a besoin de connaître les contours et conditions de votre message ou de la mission.</p>
+            </div>
+        
+            <form class="texte_center flex_column bloc_space_around container-fluid">
+                <div class="input_space flex bloc_space_around">
+                    <input class="input is-rounded modal_input" type="text" placeholder="Nom *">
+                    <input class="input is-rounded modal_input" type="text" placeholder="Prénom *">
+                </div>
+                <div class="input_space flex bloc_space_around">
+                    <input class="input is-rounded modal_input" type="tel" placeholder="Téléphone *">
+                    <input class="input is-rounded modal_input" type="email" placeholder="Adresse mail *">
+                </div>
+                <div class="input_space flex bloc_space_around">
+                    <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre message concerne :</label>
+                    <select id="select_service" name="select_service" class="input is-rounded modal_input middle-font">
+                        <option>► Proposer une mission</option> 
+                        <option>► Convenir d'un rendez-vous</option>   
+                        <option>► Besoin d'informations</option>
+                    </select>
+               </div>
+               <div class="input_space flex bloc_space_around">
+                   <textarea class="modal_textarea" placeholder="Je vous contacte car j'aimerai..."></textarea>
+               </div>
+                   <p class="input_space mini_font barlow">Lorem s'engage à vous répondre sous 5 jours ouvrés.</p>   <p class="mini_font barlow">Lorem Ipsum </p>         <p class="mini_font barlow"><a href="mailto:loremipsum@outlook.fr" class="no_border_hover grey">loremipsum@outlook.fr</a></p> 
+                    <p class="mini_font barlow"><a href="tel:0718193209" class="no_border_hover grey">07.18.19.32.09</a></p>  
+  
+  
+                   <p class="input_space mini_font barlow italic">* Champs indispensables pour vous contacter. Ces informations ne seront pas enregistrées dans notre base de données.</p>
+              <div class="input_space">
+                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit">
+                        <a class="no_border_hover">Envoyer</a>
+                    </button>
+              </div>
+            </form>
+        </div>
+    </section>    
 
   <script src="script.js"></script>
 </body>

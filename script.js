@@ -49,19 +49,6 @@ eltSubscribe.forEach(function (subscribe){
 });
 });
 
-//Tous les boutons 'exit' ferment le modal et enlève l'opacity sur la page en fond
-var eltExit = document.querySelectorAll('.exit');
-
-
-eltExit.forEach(function (exit){
-    
-    exit.addEventListener('click', function(){
-        document.getElementById('sectionInscription').classList.add('hidden');        document.getElementById('sectionConnexion').classList.add('hidden');        document.getElementById('sectionFormulaireContact').classList.add('hidden'); document.getElementById('sectionContactPro').classList.add('hidden');
-
-        document.getElementById('opacity').classList.remove('opacity_activated');
-});
-});
-
 //Le lien bleu "linkModal" du modal ferme son modal actuel et ouvre soit celui de l'inscription/soit de la connexion 
 
 var eltLinkModal = document.querySelectorAll('.linkModal');
@@ -72,6 +59,22 @@ eltLinkModal.forEach(function (linkModal){
         document.getElementById('sectionInscription').classList.toggle('hidden');        document.getElementById('sectionConnexion').classList.toggle('hidden');         
 });
 });
+
+//Tous les boutons 'exit' ferment le modal et enlève l'opacity sur la page en fond
+var eltExit = document.querySelectorAll('.exit');
+
+
+eltExit.forEach(function (exit){
+    
+    exit.addEventListener('click', function(){
+       document.querySelectorAll('.modalSection').forEach(function (modal){
+           modal.classList.add('hidden')
+       }); 
+    document.getElementById('opacity').classList.remove('opacity_activated');
+});
+});
+
+
 
 
 
