@@ -1,12 +1,13 @@
 #conteneur-menu {
     background-color: grey;
-    display: flex;
     height: 40px;
     position: relative;  
 }
 
 #menu_deroulant{
     position: absolute;
+    display: flex;
+
 }
 
 dl{
