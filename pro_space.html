@@ -49,8 +49,8 @@
           <div class="nav_space"></div>
           <nav class="">
               <a href="recruteur_space.html" class="titillium border_argile white no_border_hover">Je recrute</a>
-              <a href="" class="titillium white text_shadow subscribe">M'inscrire</a>
-              <a href="" class="titillium white text_shadow connexion">Me connecter</a>
+              <a href="#" class="titillium white text_shadow subscribe">M'inscrire</a>
+              <a href="#" class="titillium white text_shadow connexion">Me connecter</a>
               <a href="help.html" class="titillium white text_shadow ">FAQ</a>
           </nav>
           <div class="i_header">
@@ -225,7 +225,7 @@
                 <p class="cta_subtitle"><span class="bold">10 000 clients</span> proposent déjà des missions sur Codevores</p>
             </div>
             <div class="flex_center mt-20">
-             <a href="#" class="btn-page"><button type="button" name="button" class=" button_join underline_none border_argile black bold subscribe">Je crée mon profil</button></a>
+             <a href="#contact" class="btn-page"><button type="button" name="button" class=" button_join underline_none border_argile black bold subscribe">Je crée mon profil</button></a>
             </div>
         </div>
       </section>
@@ -234,7 +234,7 @@
 
           <!------------ SECTION CONTACT ----------------------->
 
-    <section class="container-fluid section_colored bg_black section_spaced" style="padding-bottom: 0px;margin-top: 0">
+    <section id="contact" class="container-fluid section_colored bg_black section_spaced" style="padding-bottom: 0px;margin-top: -1px">
 
       <div class="row flex container bloc_space_around nowrap margin_center">
           <div class="mb-3 bg_transparent card_half_place">
@@ -285,11 +285,11 @@
 
     <footer>
       <div class="container-fluid bg_black footer_section section_no_margin_top">
-        <div class="row flex footer_subtitle align_content_center_responsive">
+        <div class="row flex footer_subtitle align_content_center_responsive little_font">
             <h6 class="titillium uppercase grey">© 2020 <span class="allerta">CODEVORES</span>. ALL RIGHTS RESERVED.</h6>
-            <p class="titillium petit"><a href="#" class="grey yellow_hover no_border_hover responsive_white">Conditions générales d'utilisation</a></p>
-            <p class="titillium petit"><a href="actu.html" class="grey yellow_hover no_border_hover responsive_white">Le Blog</a></p>
-            <p id="formulaireContact" class="titillium petit"><a href="#" class="formulaire_contact grey yellow_hover no_border_hover responsive_white">Formulaire de contact</a></p>
+            <p class="titillium"><a href="#" class="grey yellow_hover no_border_hover responsive_white">Conditions générales d'utilisation</a></p>
+            <p class="titillium"><a href="actu.html" class="grey yellow_hover no_border_hover responsive_white">Le Blog</a></p>
+            <p class="formContact titillium"><a href="#contact" class="formulaire_contact grey yellow_hover no_border_hover responsive_white">Formulaire de contact</a></p>
         </div>
       </div>
     </footer>
@@ -300,9 +300,9 @@
   <!---------- MODAL FORMULAIRE DE CONTACT --------------------->
 
     <section class="container-fluid flex modal_fixed">
-        <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box hidden"> 
-            <div class="titillium texte_center black claim_texte_spaced">
-                <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross"></i></p>
+        <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box modalSection hidden"> 
+            <div class="titillium texte_center black">
+                <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross exit"></i></p>
                 <p class="titillium little_font modal_subtitle">Avez-vous déjà fait un tour sur notre <a href="help.html" class="no_border_hover italic_hover subscribe"><span class="blue">FAQ</span></a> ?</p>
             </div>
         
@@ -342,10 +342,10 @@
  <!-------- MODAL CONNEXION ------------------->
 
     <section class="container-fluid flex modal_fixed">
-        <div id="sectionConnexion" class="container bloc_border bg_grey_light modal_box hidden"> 
-            <div class="titillium texte_center black claim_texte_spaced">
-                <p class="big bold modal_title" style="padding-left: 10px">Connexion à mon compte Codevores<i class="fas fa-times-circle i_cross"></i></p>
-                <p class="titillium little_font modal_subtitle">Pas encore membre Codevores ? <span class="blue"><a class="no_border_hover italic_hover subscribe">Inscrivez-vous</a></span></p>
+        <div id="sectionConnexion" class="container bloc_border bg_grey_light modal_box modalSection hidden"> 
+            <div class="titillium texte_center black">
+                <p class="big bold modal_title" style="padding-left: 10px">Connexion à mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
+                <p class="titillium little_font modal_subtitle">Pas encore membre Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Inscrivez-vous</a></span></p>
             </div>
         
             <form class="texte_center flex_column bloc_space_around container-fluid">
@@ -366,10 +366,10 @@
         
 <!------------ MODAL INSCRIPTION --------------------->
     <section class="container-fluid flex modal_fixed">
-        <div id="sectionInscription" class="container bloc_border bg_grey_light modal_box hidden"> 
-            <div class="titillium texte_center black claim_texte_spaced">
-                <p class="big bold modal_title" style="padding-left:10px">Créer mon compte Codevores<i class="fas fa-times-circle i_cross"></i></p>
-                <p class="titillium little_font modal_subtitle">Déjà inscrit sur Codevores ? <span class="blue"><a class="no_border_hover italic_hover connexion">Connectez-vous</a></span></p>
+        <div id="sectionInscription" class="container bloc_border bg_grey_light modal_box modalSection hidden"> 
+            <div class="titillium texte_center black">
+                <p class="big bold modal_title" style="padding-left:10px">Créer mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
+                <p class="titillium little_font modal_subtitle">Déjà inscrit sur Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Connectez-vous</a></span></p>
             </div>
         
             <form class="texte_center flex_column bloc_space_around container-fluid">
