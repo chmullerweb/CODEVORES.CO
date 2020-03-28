@@ -70,7 +70,7 @@
         
 <!------------ SECTION PROFIL ----------------------->
 
-    <section class="container-fluid section_uncolored section_center_responsive">
+    <section id="laProfessionnelle" class="container-fluid section_uncolored section_center_responsive">
 
           <div class="row container flex">
             <div class="card no_box_shadow">
@@ -85,8 +85,8 @@
                      <h6 class="texte_spaced barlow">🌍 Paris, France</h6>
                        <p class="card-text barlow little_font uppercase texte_spaced text_mission" style="padding-top: 60px">18 missions ⭐⭐⭐⭐⭐ (32 avis) </p>
                     <div class="flex column_responsive">
-                        <a href="#" class="btn-page"><button type="button" name="button" class=" button_profil_page underline_none border_argile black little_font subscribe"> Tarif indicatif :<span class="bold"> 650€/jour</span></button></a>
-                         <a href="#" class="btn-page"><button type="button" name="button" class=" button_profil_page underline_none border_yellow_light black little_font contactPro">Contacter Lorem</button></a>
+                        <button type="button" name="button" class=" btn-page button_profil_page underline_none border_argile black little_font"> Tarif indicatif :<span class="bold"> 650€/jour</span></button>
+                         <a href="#laProfessionnelle" class="btn-page"><button type="button" name="button" class=" button_profil_page underline_none border_yellow_light black little_font contactPro">Contacter Lorem</button></a>
             </div>
                    </div>
                 </div>
@@ -175,14 +175,14 @@
     
         <!------------ SECTION PROFILES ----------------------->
 
-      <section class="container">
+      <section id="experiencePro" class="container">
 
         <div class="flex">
           <div class="title_section titillium black">
             <h2 class=""><span class="underline_yellow_light ">Me</span>s expériences professionnelles</h2>
           </div>
         <div class="">
-            <a href="" class="btn-page"><button type="button" name="button" class="button_section mini_font border_yellow_light connexion">🔒  Consulter toutes les expériences de Lorem</button></a>
+            <a href="#experiencePro" class="btn-page"><button type="button" name="button" class="button_section mini_font border_yellow_light connexion">🔒  Consulter toutes les expériences de Lorem</button></a>
           </div>
         </div>
 
@@ -270,14 +270,14 @@
           
     <!------------ SECTION TEMOIGNAGE ENTREPRISE ----------------------->
 
-    <section class="container-fluid section_colored section_center_responsive"> 
+    <section id="recommandations" class="container-fluid section_colored section_center_responsive"> 
         
          <div class="container flex">
           <div class="title_section titillium black">
             <h2 class=""><span class="underline_yellow_light">Il</span>s recommandent Lorem</h2>
           </div>
         <div class="">
-            <a href="" class="btn-page"><button type="button" name="button" class="button_section mini_font border_yellow_light connexion">🔒  Lire toutes les recomantations</button></a>
+            <a href="#recommandations" class="btn-page"><button type="button" name="button" class="button_section mini_font border_yellow_light connexion">🔒  Lire toutes les recomantations</button></a>
           </div>
         </div>
         
@@ -308,7 +308,7 @@
                 <p class="bold">Prêt à travailler avec la meilleure ?</p>
             </div>
             <div class="flex_center">
-             <a href="" class="btn-page"><button type="button" name="button" class=" button_join underline_none border_argile black bold contactPro">Contactez Lorem</button></a>
+             <a href="#contact" class="btn-page"><button type="button" name="button" class=" button_join underline_none border_argile black bold contactPro">Contactez Lorem</button></a>
             </div>
         </div>
       </section>
@@ -317,7 +317,7 @@
 
           <!------------ SECTION CONTACT ----------------------->
 
-    <section class="container-fluid section_colored bg_black section_spaced" style="padding-bottom: 0px;margin-top: -1px">
+    <section id="contact" class="container-fluid section_colored bg_black section_spaced" style="padding-bottom: 0px;margin-top: -1px">
 
       <div class="row flex container bloc_space_around nowrap margin_center">
           <div class="mb-3 bg_transparent card_half_place">
@@ -376,7 +376,7 @@
             <h6 class="titillium uppercase grey">© 2020 <span class="allerta">CODEVORES</span>. ALL RIGHTS RESERVED.</h6>
             <p class="titillium petit"><a href="#" class="grey yellow_hover no_border_hover responsive_white">Conditions générales d'utilisation</a></p>
             <p class="titillium petit"><a href="actu.html" class="grey yellow_hover no_border_hover responsive_white">Le Blog</a></p>
-            <p id="formulaireContact" class="titillium petit"><a href="#" class="formulaire_contact grey yellow_hover no_border_hover responsive_white">Formulaire de contact</a></p>
+            <p class="formContact titillium petit"><a href="#contact" class="formulaire_contact grey yellow_hover no_border_hover responsive_white">Formulaire de contact</a></p>
         </div>
       </div>
     </footer>
@@ -386,24 +386,24 @@
 <!---------- MODAL CONTACTER LE PROFESSIONNELLE --------------------->
 
     <section class="container-fluid flex modal_fixed">
-        <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box hidden"> 
+        <div id="sectionContactPro" class="container bloc_border bg_grey_light modal_box hidden"> 
             <div class="titillium texte_center black">
-                <p class="big bold modal_title" style="padding-left: 10px">Contacter Lorem<i class="fas fa-times-circle i_cross"></i></p>
-                <p class="titillium little_font modal_subtitle">Vous avez des questions ou souhaitez proposer un projet à Lorem ? Pour vous répondre, Lorem a besoin de connaître les contours et conditions de votre message ou de la mission. Ces informations seront conservées pour contacter d'autres freelances et faciliter vos futures prises de contact.</p>
+                <p class="big bold modal_title" style="padding-left: 10px">Contacter Lorem<i class="fas fa-times-circle i_cross exit"></i></p>
+                <p class="modal_subtitle titillium little_font">Vous avez des questions ou souhaitez proposer un projet à Lorem ? Pour vous répondre, Lorem a besoin de connaître les contours et conditions de votre message ou de la mission.</p>
             </div>
         
             <form class="texte_center flex_column bloc_space_around container-fluid">
                 <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded inputSelector" type="text" placeholder="Nom *" style="height: 35px;width: 40%">
-                    <input class="input is-rounded inputSelector" type="text" placeholder="Prénom *" style="height: 35px;width: 40%">
+                    <input class="input is-rounded modal_input" type="text" placeholder="Nom *">
+                    <input class="input is-rounded modal_input" type="text" placeholder="Prénom *">
                 </div>
                 <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded inputSelector" type="tel" placeholder="Téléphone *" style="height: 35px;width: 40%">
-                    <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail *" style="height: 35px;width: 40%">
+                    <input class="input is-rounded modal_input" type="tel" placeholder="Téléphone *">
+                    <input class="input is-rounded modal_input" type="email" placeholder="Adresse mail *">
                 </div>
                 <div class="input_space flex bloc_space_around">
                     <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre message concerne :</label>
-                    <select id="select_service" name="select_service" class="input is-rounded inputSelector middle-font" style="height: 35px;width: 40%">
+                    <select id="select_service" name="select_service" class="input is-rounded modal_input middle-font">
                         <option>► Proposer une mission</option> 
                         <option>► Convenir d'un rendez-vous</option>   
                         <option>► Besoin d'informations</option>
@@ -431,7 +431,7 @@
     <section class="container-fluid flex modal_fixed">
         <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box hidden"> 
             <div class="titillium texte_center black">
-                <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross"></i></p>
+                <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross exit"></i></p>
                 <p class="titillium little_font modal_subtitle">Avez-vous déjà fait un tour sur notre <a href="help.html" class="no_border_hover italic_hover subscribe"><span class="blue">FAQ</span></a> ?</p>
             </div>
         
@@ -472,9 +472,9 @@
 
     <section class="container-fluid flex modal_fixed">
         <div id="sectionConnexion" class="container bloc_border bg_grey_light modal_box hidden"> 
-            <div class="titillium texte_center black claim_texte_spaced">
-                <p class="big bold modal_title" style="padding-left: 10px">Connexion à mon compte Codevores<i class="fas fa-times-circle i_cross"></i></p>
-                <p class="titillium little_font modal_subtitle">Pas encore membre Codevores ? <span class="blue"><a class="no_border_hover italic_hover subscribe">Inscrivez-vous</a></span></p>
+            <div class="titillium texte_center black">
+                <p class="big bold modal_title" style="padding-left: 10px">Connexion à mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
+                <p class="titillium little_font modal_subtitle">Pas encore membre Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Inscrivez-vous</a></span></p>
             </div>
         
             <form class="texte_center flex_column bloc_space_around container-fluid">
@@ -496,9 +496,9 @@
 <!------------ MODAL INSCRIPTION --------------------->
     <section class="container-fluid flex modal_fixed">
         <div id="sectionInscription" class="container bloc_border bg_grey_light modal_box hidden"> 
-            <div class="titillium texte_center black claim_texte_spaced">
-                <p class="big bold modal_title" style="padding-left:10px">Créer mon compte Codevores<i class="fas fa-times-circle i_cross"></i></p>
-                <p class="titillium little_font modal_subtitle">Déjà inscrit sur Codevores ? <span class="blue"><a class="no_border_hover italic_hover connexion">Connectez-vous</a></span></p>
+            <div class="titillium texte_center black">
+                <p class="big bold modal_title" style="padding-left:10px">Créer mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
+                <p class="titillium little_font modal_subtitle">Déjà inscrit sur Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Connectez-vous</a></span></p>
             </div>
         
             <form class="texte_center flex_column bloc_space_around container-fluid">

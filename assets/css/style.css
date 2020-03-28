@@ -416,6 +416,10 @@ h6{
     font-size: 15px;
 }
 
+.i_cross:hover{
+    cursor: crosshair;
+}
+
 
 /*------------ TEXTE COUVERTURE ----------------------------------------------*/
 
@@ -480,7 +484,7 @@ h6{
 }
 
 .input_space{
-    padding-top: 10px;
+    padding-top: 8px;
     padding-bottom: 10px;
 }
 
@@ -698,7 +702,7 @@ nav a:hover, a:hover{
 .button_profil_page{
     height: 				35px;
   padding: 				9px 13px;
-	margin: 				20px auto;
+	margin-top: 			20px;
     margin-right:           25px;
 }
 /*--------------- MODAL -----------------------*/
@@ -730,6 +734,12 @@ nav a:hover, a:hover{
 .modal_subtitle{
     padding-top: 15px;
     padding-bottom: 20px;
+}
+
+.modal_input{
+        border-radius: 20px;
+        height: 30px;
+        width: 40%;
 }
 
 .subscribe, .connexion, .formulaireContact, .contactPro{
@@ -1028,6 +1038,7 @@ nav a:hover, a:hover{
         width: 50%;
         border-radius: 6px;        
     }
+    
 
 /*------------ SECTION AVANTAGES --------*/
 	.section_colored{
