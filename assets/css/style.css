@@ -519,14 +519,95 @@ nav a:hover, a:hover{
   color: #323031;
   border-bottom: 4px #FCB42F double;
   text-decoration:none;
-  /* text-decoration-style: double;
-  text-decoration-color: #FCB42F;
-  text-underline-offset: 1em; */
+ 
 }
 
 .nav_space{
 	margin-left: 130px;
 }
+
+
+/*------------ MENU BURGER -------------------------------------------*/
+
+#conteneur-menu{
+    position: fixed;
+    width: 100%;
+    background-image: url(../img/header_mini.jpg);
+    height: 35px;
+    z-index: 50;
+    box-shadow: -3px 2px 13px 0px rgba(55, 55, 55, 0.75);
+}
+
+#menu_deroulant{
+    position: fixed;
+    width: 60%;
+    display: flex;
+    right:55px;
+    z-index: 50;
+    height: 30px;
+}
+
+#logoMenu{
+    position:fixed;
+    top:2px;
+    margin-top: 0!important;
+    left: 15px;
+}
+
+dl{
+    width:60%;
+    height:  40px;
+    padding: 0;
+}
+
+dt{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-right:double 2px #868282;
+    cursor: pointer;   
+}
+
+dt:hover{
+    font-weight: bold;
+}
+
+dd{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/header_mini.jpg);
+    width: 100%;
+}
+
+dd ul{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+dd ul li a{
+    color: darkgoldenrod;
+    display: block;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+}
+
+dd ul li a:hover{
+    background-color: cadetblue;
+    color: azure;
+}
+
+dl:hover dd{
+    display:block!important;
+}
+
+dl dd{
+    display: none;
+}
+
 
 /*--------------------------- MAIN -------------------------------------------*/
 
@@ -1036,10 +1117,6 @@ nav a:hover, a:hover{
         padding: 0px 5px;
     }
     
-    .modal_textarea{
-        width: 50%;
-        border-radius: 6px;        
-    }
     
 
 /*------------ SECTION AVANTAGES --------*/
@@ -1141,7 +1218,16 @@ nav a:hover, a:hover{
         height:120px;
     }
     
+    #menu_deroulant{
+        width: 76%;
+       font-size: 0.7em;
+    }
  
+/*------------ IMAGE / ICONES ----------*/
+    
+    #logoMenu{
+        top:8px;
+    }
     
 /*------------ BORDURE ----------*/
 
@@ -1232,8 +1318,28 @@ nav a:hover, a:hover{
         margin-bottom: 30px;
         padding: 9px 72px;
     }
+    
+    
 
- /*------------ IMAGE / ICONE ----------*/   
+ /*------------ MODAL ----------*/
+    
+    label{
+        padding: 0 20px!important;
+        font-size: 0.7em!important;
+    }
+    
+    .modal_input{
+        height: 26px;
+        font-size: 0.7em;
+        width: 50%;
+    }
+    
+    .modal_textarea{
+        width: 100%
+    }
+    
+    /*------------ IMAGE / ICONE ----------*/   
+
 
     .number_argile, .number_yellow{
         margin-left: -5px;
@@ -1290,6 +1396,10 @@ nav a:hover, a:hover{
 /*------------ ECRAN MOBILE <375px ------------------------------------*/
     @media screen and (max-width:375px){
         
+        .header_title{
+            font-size: 1.5em;
+        }
+        
         .pb-30{
         padding-bottom: 30px;
         }
@@ -1299,6 +1409,13 @@ nav a:hover, a:hover{
 
 
 @media screen and (max-width:320px){
+    
+    /*------------ SECTION -----*/   
+
+    #menu_deroulant{
+        font-size: 0.55em;
+        right:45px;
+    }
     
      /*------------ TITRE / TEXTE ----------*/   
 

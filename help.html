@@ -54,8 +54,13 @@
 
   <!------------ COUVERTURE ----------------------->
 
-    <section class="bg_image" style="">
-      <div class="container-fluid titillium white header_title texte_center">
+    <section class="bg_image">
+      
+       
+          
+       <!----- CONTENU DE LA COUVERTURE ---------------------------> 
+        
+        <div class="container-fluid titillium white header_title texte_center">
           <h2 class=""><span class="underline_yellow_title text_shadow">Une question ?</span></h2>
       </div>
       <div class="header_selector texte_center flex_column align_mid_row_element container-fluid">
@@ -214,16 +219,16 @@
         
             <form class="texte_center flex_column bloc_space_around container-fluid">
                 <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded inputSelector" type="text" placeholder="Nom *" style="height: 35px;width: 40%">
-                    <input class="input is-rounded inputSelector" type="text" placeholder="Prénom *" style="height: 35px;width: 40%">
+                    <input class="input is-rounded modal_input" type="text" placeholder="Nom *">
+                    <input class="input is-rounded modal_input" type="text" placeholder="Prénom *">
                 </div>
                 <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded inputSelector" type="tel" placeholder="Téléphone *" style="height: 35px;width: 40%">
-                    <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail *" style="height: 35px;width: 40%">
+                    <input class="input is-rounded modal_input" type="tel" placeholder="Téléphone *">
+                    <input class="input is-rounded modal_input" type="email" placeholder="Adresse mail *">
                 </div>
                 <div class="input_space flex bloc_space_around">
                     <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre question concerne :</label>
-                    <select id="select_service" name="select_service" class="input is-rounded inputSelector middle-font" style="height: 35px;width: 40%">
+                    <select id="select_service" name="select_service" class="input is-rounded middle-font modal_input">
                         <option>► Service Commercial</option> 
                         <option>► Service Technique</option>   
                         <option>► Service Réclamation</option>

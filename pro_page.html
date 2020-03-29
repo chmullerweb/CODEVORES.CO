@@ -62,7 +62,48 @@
   <!------------ COUVERTURE ----------------------->
 
     <section class="bg_image_page">
+          
+        <!----MENU BURGER----------------------------------->
+          <div id="conteneur-menu" class="flex hidden"> 
+        <a href="index.html" class="no_border_hover">
+            <img src="assets/logo/codevores.png" id="logoMenu" class="logo">
+        </a>
+      <div id="menu_deroulant" class="mini_font barlow black">
+        <dl>
+        <dt><a href="profiles.html" class=" black no_border_hover">Métiers</a></dt>
+     </dl>
+    <dl>
+        <dt><a href="recruteur_space.html" class=" black no_border_hover">Recruteur</a></dt>
+     </dl>
+    <dl>
+        <dt><a href="pro_space.html" class=" black no_border_hover">Freelance</a></dt>
+    </dl>
+    <dl>
+        <dt>Mon compte</dt>
+        <dd>
+            <ul class="">
+                <li class=""><a href="#" class="subscribe">S'inscrire</a></li>
+                <li><a href="#" class="connexion">Se connecter</a></li> 
+            </ul>
+        </dd>
+     </dl>
+    <dl>
+        <dt>Aller + loin</dt>
+        <dd>
+            <ul>
+                <li><a href="actu.html">Le Blog</a></li>
+                <li><a href="help.html">FAQ</a></li>
+                <li><a href="#" class="formContact">Contact</a></li> 
+ 
+            </ul>
+        </dd>
+     </dl>
+   
+     </div>     
+          </div>                                               
+                                                    
     </section>
+                                                    
     <section class="bg_grey_light" style="height: 5vh">
     </section>                                              
       
@@ -437,16 +478,16 @@
         
             <form class="texte_center flex_column bloc_space_around container-fluid">
                 <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded inputSelector" type="text" placeholder="Nom *" style="height: 35px;width: 40%">
-                    <input class="input is-rounded inputSelector" type="text" placeholder="Prénom *" style="height: 35px;width: 40%">
+                    <input class="input is-rounded modal_input" type="text" placeholder="Nom *">
+                    <input class="input is-rounded modal_input" type="text" placeholder="Prénom *">
                 </div>
                 <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded inputSelector" type="tel" placeholder="Téléphone *" style="height: 35px;width: 40%">
-                    <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail *" style="height: 35px;width: 40%">
+                    <input class="input is-rounded modal_input" type="tel" placeholder="Téléphone *">
+                    <input class="input is-rounded modal_input" type="email" placeholder="Adresse mail *">
                 </div>
                 <div class="input_space flex bloc_space_around">
                     <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre question concerne :</label>
-                    <select id="select_service" name="select_service" class="input is-rounded inputSelector middle-font" style="height: 35px;width: 40%">
+                    <select id="select_service" name="select_service" class="input is-rounded middle-font modal_input">
                         <option>► Service Commercial</option> 
                         <option>► Service Technique</option>   
                         <option>► Service Réclamation</option>
@@ -554,7 +595,7 @@
                     </select>
                </div>
                <div class="input_space flex bloc_space_around">
-                   <textarea class="modal_textarea" placeholder="Je vous contacte car j'aimerai..."></textarea>
+                   <textarea class="modal_textarea" rows="6" cols="100" placeholder="Je vous contacte car j'aimerai..."></textarea>
                </div>
                    <p class="input_space mini_font barlow">Lorem s'engage à vous répondre sous 5 jours ouvrés.</p>   <p class="mini_font barlow">Lorem Ipsum </p>         <p class="mini_font barlow"><a href="mailto:loremipsum@outlook.fr" class="no_border_hover grey">loremipsum@outlook.fr</a></p> 
                     <p class="mini_font barlow"><a href="tel:0718193209" class="no_border_hover grey">07.18.19.32.09</a></p>  

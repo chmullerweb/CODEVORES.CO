@@ -1,108 +1,81 @@
-#conteneur-menu{
-    position: fixed;
-    width: 100%;
-    background-image: url(assets/img/header_mini.jpg);
-    height: 35px;
-    z-index: 50;
-    box-shadow:         -3px 2px 13px 0px rgba(55, 55, 55, 0.75);
+/* micro reset */
+* {
+	box-sizing: border-box;
+}
+html, body, ul {
+	padding: 0; margin: 0;
 }
 
-#menu_deroulant{
-    position: fixed;
-    width: 60%;
-    display: flex;
-    right:55px;
-    z-index: 50;
-    height: 30px;
+/* Quelques styles de base */
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	line-height: 1.75;
+	color: #F1EEDD;
+	background: #B13C2E;
+}
+.main-header {
+	color: #B13C2E;
+	background: #FFF;
 }
 
-#logoMenu{
-    position:fixed;
-    top:2px;
-    margin-top: 0!important;
-    left: 15px;
+/* Les éléments sont placés l'un à côté de l'autre */
+.header-inner {
+	display: table;
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto; /* on centre l'élément */
+	padding: 20px 25px; /* on ventile un peu */
+}
+.header-inner > * {
+	display: table-cell;
+	vertical-align: middle;
 }
 
-dl{
-    width:60%;
-    height:  40px;
-    padding: 0;
+/* Alignement du menu */
+.header-nav {
+	text-align: right;
+}
+/*
+   Faire passer le menu en inline (inline-block, inline-table ou inline-flex) pour le rendre sensible à l'alignement à droite. Ses items aussi sont en inline.
+*/
+.header-nav ul,
+.header-nav li {
+	display: inline;
+	list-style: none;
 }
 
-dt{
-    display: block;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    border-right:double 2px #868282;
-    cursor: pointer;   
+.header-nav a {
+	position: relative;
+	display: inline-block;
+	padding: 8px 20px;
+	vertical-align: middle;
+	font-weight: 300; /* entre regular et light */
+	letter-spacing: 0.025em;
+	color: inherit;
+	text-decoration: none;
 }
 
-dt:hover{
-    font-weight: bold;
+/* Animation du lien */
+.header-nav a:after {
+	content: "";
+	position: absolute;
+	bottom: 0; right: 20px; left: 20px;
+	height: 2px;
+	background-color: #B13C2E;
+    /* Préparation de notre animation */
+	opacity: 0;
+	transform: translateY(5px);
+	transition: all .4s;
 }
 
-dd{
-    display: block;
-    margin: 0;
-    padding: 0;
-    background-image: url(assets/img/header_mini.jpg);
-    width: 100%;
+/* Le trait va remonter et apparaitre */
+.header-nav a:hover:after,
+.header-nav a:focus:after {
+	opacity: .6;
+	transform: translateY(0);
 }
 
-dd ul{
-    margin:0;
-    padding: 0;
-    text-align: center;
-    list-style: none;
-}
-
-dd ul li a{
-    color: darkgoldenrod;
-    display: block;
-    text-decoration: none;
-    height: 30px;
-    line-height: 30px;
-}
-
-dd ul li a:hover{
-    background-color: cadetblue;
-    color: azure;
-}
-
-dl dd{
-    display: none;
-}
-
-dl:hover dd{
-    display:block;
-}
-
-
-/*--------------------------- RESPONSIVE ----------------------------*/
-
-/*------------ ECRAN MOBILE <425px ------------------------------------*/
-
-
-@media screen and (max-width:425px){
-
-   #menu_deroulant{
-        width: 76%;
-       font-size: 0.7em;
-    }
-/*------------ IMAGE / ICONES ----------*/
-    
-    #logoMenu{
-        top:8px;
-    }
-
-/*------------ ECRAN MOBILE <320px ------------------------------------*/
-
-
-@media screen and (max-width:320px){
-    
-    #menu_deroulant{
-        font-size: 0.55em;
-        right:45px;
-    }
+/* Je vire outline car juste au-dessus je définis un style :focus */
+.header-nav a:focus {
+	outline: none;
 }

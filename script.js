@@ -1,7 +1,12 @@
-// menuBurger : au clic, un menu apparait ou disparait
+// menuBurger (Tablette et Mobile) : au clic, un menu apparait ou disparait
 
-document.querySelector('.menuBurger').addEventListener('click', function(){
-    document.getElementById('conteneur-menu').classList.toggle('hidden');
+var eltBurger = document.querySelectorAll('.menuBurger');
+    
+    eltBurger.forEach(function (menuBurger){
+        menuBurger.addEventListener('click', function(){
+    
+            document.getElementById('conteneur-menu').classList.toggle('hidden');
+        });
 });
 
 
