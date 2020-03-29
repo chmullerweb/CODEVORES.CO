@@ -84,7 +84,7 @@ color : #4a4a4a;
 
 /*------------ DISPLAY -------------------------------------------------------*/
 .hidden{
-  display: none;
+  display: none!important;
 }
 
 .flex{
@@ -375,12 +375,14 @@ h6{
 /*------------ ICONES / IMAGES------------------------------------------------*/
 
 .i_header{
-  position: absolute;
+  position: fixed;
   right: 15px;
   top : 6px;
   font-size: 1.5em;
   text-align: right;
   display: none;
+  z-index: 55;
+cursor: pointer;
 }
 
 .i_benefits{
@@ -1138,7 +1140,11 @@ nav a:hover, a:hover{
     .bloc_row{
         height:120px;
     }
+    
+ 
+    
 /*------------ BORDURE ----------*/
+
 
     .underline_yellow_title{
         border-bottom: 2px #FCB42F solid;

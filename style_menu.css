@@ -1,38 +1,53 @@
-#conteneur-menu {
-    background-color: grey;
-    height: 40px;
-    position: relative;  
+#conteneur-menu{
+    position: fixed;
+    width: 100%;
+    background-image: url(assets/img/header_mini.jpg);
+    height: 35px;
+    z-index: 50;
+    box-shadow:         -3px 2px 13px 0px rgba(55, 55, 55, 0.75);
 }
 
 #menu_deroulant{
-    position: absolute;
+    position: fixed;
+    width: 60%;
     display: flex;
+    right:55px;
+    z-index: 50;
+    height: 30px;
+}
 
+#logoMenu{
+    position:fixed;
+    top:2px;
+    margin-top: 0!important;
+    left: 15px;
 }
 
 dl{
-    width:100px;
+    width:60%;
     height:  40px;
-    margin:0;
     padding: 0;
 }
 
 dt{
     display: block;
-    height: 40px;
-    color: darkgoldenrod;
-    line-height: 40px;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
-    border-right:dotted 1px black;
-    cursor: pointer;
+    border-right:double 2px #868282;
+    cursor: pointer;   
+}
+
+dt:hover{
+    font-weight: bold;
 }
 
 dd{
     display: block;
     margin: 0;
     padding: 0;
-    background-color: darkgray;
-    width: 100px;
+    background-image: url(assets/img/header_mini.jpg);
+    width: 100%;
 }
 
 dd ul{
@@ -48,7 +63,6 @@ dd ul li a{
     text-decoration: none;
     height: 30px;
     line-height: 30px;
-    border-top:dotted 1px black;
 }
 
 dd ul li a:hover{
@@ -62,4 +76,33 @@ dl dd{
 
 dl:hover dd{
     display:block;
+}
+
+
+/*--------------------------- RESPONSIVE ----------------------------*/
+
+/*------------ ECRAN MOBILE <425px ------------------------------------*/
+
+
+@media screen and (max-width:425px){
+
+   #menu_deroulant{
+        width: 76%;
+       font-size: 0.7em;
+    }
+/*------------ IMAGE / ICONES ----------*/
+    
+    #logoMenu{
+        top:8px;
+    }
+
+/*------------ ECRAN MOBILE <320px ------------------------------------*/
+
+
+@media screen and (max-width:320px){
+    
+    #menu_deroulant{
+        font-size: 0.55em;
+        right:45px;
+    }
 }
