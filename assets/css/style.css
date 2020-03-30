@@ -127,7 +127,6 @@ body, header, html{
 
 .mb-20{
 	margin-bottom: 	20px;
-
 }
 
 
@@ -610,7 +609,7 @@ nav a:hover, a:hover{
 }
 
 dl{
-	widows: 						60%;
+	width: 						60%;
 	height:  						40px;
 	padding: 						0;
 }
@@ -1017,6 +1016,9 @@ dl dd{
 
 @media screen and (max-width:768px){
 
+	#liste-candidats{
+		text-align: center;
+	}
 
 	/*------------ SECTION --------*/
 
@@ -1454,6 +1456,8 @@ dl dd{
 	.button_cadenas{
 		padding:   			2px 0;
 	}
+    
+    
 
 	/*------------ CARD ----------*/
 	.card_content_address{
