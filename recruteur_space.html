@@ -1,110 +1,108 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Codevores</title>
+<head>
+  <meta charset="utf-8">
+  <title>Codevores</title>
 
-    <!------------ BOOTSRAP ----------------------->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!------------ BOOTSRAP ----------------------->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <!--------------BULMA ------------------------->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css" rel="stylesheet">
+  <!--------------BULMA ------------------------->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css" rel="stylesheet">
 
-    <!------------ CSS ----------------------->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-
-    <!------------ ICONE ----------------------->
-    <script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
-
-    <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon">
-
-    <!------------ FONT ----------------------->
-    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Barlow+Semi+Condensed:300,400|Titillium+Web:400,600&display=swap" rel="stylesheet">
-
-    <!------------ RESPONSIVE ----------------------->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!------------ CSS ----------------------->
+  <link rel="stylesheet" href="assets/css/style.css">
 
 
-  </head>
+  <!------------ ICONE ----------------------->
+  <script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
 
-  <body class="bg_white">
+  <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon">
 
-    
+  <!------------ FONT ----------------------->
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Barlow+Semi+Condensed:300,400|Titillium+Web:400,600&display=swap" rel="stylesheet">
 
-  <!------------ MENU ----------------------->
-                                                <div id="opacity" class="">
-<header class="" style="height: 0">
-    
+  <!------------ RESPONSIVE ----------------------->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+
+<body class="bg_white">
+
+  <!-------- A L'OUVERTURE DU MODAL, LE CONTENU DU SITE DEVIENT OPAQUE (Ajout de la class "opacity_activated")------->
+  <div id="opacity" class="">
+
+    <!------------ MENU ----------------------->
+
+    <header class="" style="height: 0">
       <div class="container-fluid header_menu flex">
-          <div class="header_logo">
-            <a href="index.html" class="no_border_hover">
-              <img src="assets/logo/codevores.png" alt="" class="logo">
-              <h1 class="allerta white">odevores</h1>
-            </a>
-          </div>
-          <div class="titillium text_shadow menu_metiers">
-            <a href="profiles.html"><span id="listJob" class="white">Métiers</span></a>
-          </div>
-          <div class="nav_space"></div>
-          <nav class="">
-              <a href="pro_space.html" class="titillium border_argile white no_border_hover">Je suis freelance</a>
-              <a href="#" class="titillium white text_shadow subscribe">M'inscrire</a>
-              <a href="#" class="titillium white text_shadow connexion">Me connecter</a>
-              <a href="help.html" class="titillium white text_shadow">FAQ</a>
-          </nav>
-          <div class="i_header">
-            <i class="fas fa-hamburger menuBurger"></i>
-          </div>
+        <div class="header_logo">
+          <a href="index.html" class="no_border_hover">
+            <img src="assets/logo/codevores.png" alt="" class="logo">
+            <h1 class="allerta white">odevores</h1>
+          </a>
+        </div>
+        <div class="titillium text_shadow menu_metiers">
+          <a href="profiles.html"><span id="listJob" class="white">Métiers</span></a>
+        </div>
+        <div class="nav_space"></div>
+        <nav class="">
+          <a href="pro_space.html" class="titillium border_argile white no_border_hover">Je suis freelance</a>
+          <a href="#" class="titillium white text_shadow subscribe">M'inscrire</a>
+          <a href="#" class="titillium white text_shadow connexion">Me connecter</a>
+          <a href="help.html" class="titillium white text_shadow">FAQ</a>
+        </nav>
+        <div class="i_header">
+          <i class="fas fa-hamburger menuBurger"></i>
+        </div>
       </div>
+    </header>
 
-</header>        
-  <!------------ COUVERTURE ----------------------->
+    <!------------ COUVERTURE ----------------------->
 
     <section class="bg_image">
-          
-              <!----MENU BURGER----------------------------------->
-          <div id="conteneur-menu" class="flex hidden"> 
+
+      <!----MENU BURGER----------------------------------->
+      <div id="conteneur-menu" class="flex hidden">
         <a href="index.html" class="no_border_hover">
-            <img src="assets/logo/codevores.png" id="logoMenu" class="logo">
+          <img src="assets/logo/codevores.png" id="logoMenu" class="logo">
         </a>
-      <div id="menu_deroulant" class="mini_font barlow black">
-        <dl>
-        <dt><a href="profiles.html" class=" black no_border_hover">Métiers</a></dt>
-     </dl>
-    <dl>
-        <dt><a href="recruteur_space.html" class=" black no_border_hover">Recruteur</a></dt>
-     </dl>
-    <dl>
-        <dt><a href="pro_space.html" class=" black no_border_hover">Freelance</a></dt>
-    </dl>
-    <dl>
-        <dt>Mon compte</dt>
-        <dd>
-            <ul class="">
+        <div id="menu_deroulant" class="mini_font barlow black">
+          <dl>
+            <dt><a href="profiles.html" class=" black no_border_hover">Métiers</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="recruteur_space.html" class=" black no_border_hover">Recruteur</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="pro_space.html" class=" black no_border_hover">Freelance</a></dt>
+          </dl>
+          <dl>
+            <dt>Mon compte</dt>
+            <dd>
+              <ul class="">
                 <li class=""><a href="#" class="subscribe">S'inscrire</a></li>
-                <li><a href="#" class="connexion">Se connecter</a></li> 
-            </ul>
-        </dd>
-     </dl>
-    <dl>
-        <dt>Aller + loin</dt>
-        <dd>
-            <ul>
+                <li><a href="#" class="connexion">Se connecter</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>Aller + loin</dt>
+            <dd>
+              <ul>
                 <li><a href="actu.html">Le Blog</a></li>
                 <li><a href="help.html">FAQ</a></li>
-                <li><a href="#" class="formContact">Contact</a></li> 
- 
-            </ul>
-        </dd>
-     </dl>
-   
-     </div>     
-          </div>
-          
-       <!----- CONTENU DE LA COUVERTURE ---------------------------> 
-    <div class="container-fluid titillium white header_title">
+                <li><a href="#" class="formContact">Contact</a></li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+      </div>
+
+      <!----- CONTENU DE LA COUVERTURE --------------------------->
+      <div class="container-fluid titillium white header_title">
         <h2 class=""><span class="underline_yellow_title text_shadow no-bb">Les m<span class="underline_yellow_title">eilleurs freelance</span>s pour vos projets Web</span></h2>
       </div>
       <div class="header_content">
@@ -127,202 +125,181 @@
         <a href="#" class="btn-page"><button type="button" name="button" class=" button_header_pages underline_none border_yellow_light no_box_shadow big white subscribe">Créer un compte</button></a>
       </div>
     </section>
-      
-    <main> 
-      
-    <!------------ SECTION NOS TALENTS ----------------------->
-      
+
+    <main>
+
+      <!------------ SECTION NOS TALENTS ----------------------->
+
       <section class="container-fluid section_uncolored">
-
         <div class="container title_section titillium black">
-              <h2 class=""><span class="title_section_out underline_yellow_light bold">To</span><span class="bold">us les talents dont vous avez besoin,</span> accessibles directement</h2>
+          <h2 class=""><span class="title_section_out underline_yellow_light bold">To</span><span class="bold">us les talents dont vous avez besoin,</span> accessibles directement</h2>
         </div>
-        
-          
-          <div class="row container flex">
-            <div class="card mb-3 no_box_shadow">
-              <div class="row no-gutters bloc_space_around">
-                <div class="col-lg-6 col-md-8">
-                   <div class="card-body">
-                     <h3 class="card-title titillium bold big">Plus de 8 000 freelances référencés</h3>
-                       <p class="card-text barlow middle_font texte_spaced">Quels que soient vos projets, il y a forcément des freelances pour vous aider à les réaliser. Tous les métiers du numérique sont représentés sur Malt.</p> 
-                       <div class="mt-20 mb-20 little_font">
-                           <p class="texte_spaced titillium figures black"><span class="title_section middle_font allerta yellow">3h </span> Temps moyen de réponse aux propositions</p>
-                           <p class="texte_spaced titillium figures black"><span class="title_section middle_font allerta yellow">XX </span> Lorem ipsum durius alleae titurinum possesus</p>
-                           <p class="texte_spaced titillium figures black"><span class="title_section middle_font allerta yellow">XX </span> Daroinop meloiun ipses axozius</p>
-                       </div>
-                    </div>
+        <div class="row container flex">
+          <div class="card mb-3 no_box_shadow">
+            <div class="row no-gutters bloc_space_around">
+              <div class="col-lg-6 col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title titillium bold big">Plus de 8 000 freelances référencés</h3>
+                  <p class="card-text barlow middle_font texte_spaced">Quels que soient vos projets, il y a forcément des freelances pour vous aider à les réaliser. Tous les métiers du numérique sont représentés sur Malt.</p>
+                  <div class="mt-20 mb-20 little_font">
+                    <p class="texte_spaced titillium figures black"><span class="title_section middle_font allerta yellow">3h </span> Temps moyen de réponse aux propositions</p>
+                    <p class="texte_spaced titillium figures black"><span class="title_section middle_font allerta yellow">XX </span> Lorem ipsum durius alleae titurinum possesus</p>
+                    <p class="texte_spaced titillium figures black"><span class="title_section middle_font allerta yellow">XX </span> Daroinop meloiun ipses axozius</p>
+                  </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
-                   <img src="assets/img/metiers.svg" class="card-img" alt="...">
-                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <img src="assets/img/metiers.svg" class="card-img" alt="...">
               </div>
             </div>
           </div>
-    </section>
-    
-    <section class="container-fluid section_uncolored">
-          
-          <div class="row flex">
-            <div class="card mb-3 no_box_shadow">
-              <div class="row no-gutters bloc_space_around">
-                <div class="col-lg-4 col-md-4">
-                   <img src="assets/img/profile_4.jpg" class="card-img" alt="...">
-                </div>
-                <div class="col-lg-5 col-md-8">
-                   <div class="card-body">
-                     <h3 class="card-title titillium bold big">Des profils évalués et vérifiés</h3>
-                       <p class="card-text barlow middle_font texte_spaced">Les clients évaluent et recommandent l'expertise des freelances. Nous vérifions tous les documents légaux des freelances.</p>
-                       <div class="mt-20 little_font">
-                           <p class="text_spaced titillium figures black"><span class="title_section allerta blue middle_font">100% </span> de vérification des freelances en mission</p>
-                           <p class="text_spaced titillium figures black"><span class="title_section allerta blue middle_font">xx </span> Posselas quena pitrio usgliu polem</p>
-                       </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
+        </div>
       </section>
-      
-    <!------------ SECTION 2 SOLUTIONS  ----------------------->    
-   
+      <section class="container-fluid section_uncolored">
+        <div class="row flex">
+          <div class="card mb-3 no_box_shadow">
+            <div class="row no-gutters bloc_space_around">
+              <div class="col-lg-4 col-md-4">
+                <img src="assets/img/profile_4.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-lg-5 col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title titillium bold big">Des profils évalués et vérifiés</h3>
+                  <p class="card-text barlow middle_font texte_spaced">Les clients évaluent et recommandent l'expertise des freelances. Nous vérifions tous les documents légaux des freelances.</p>
+                  <div class="mt-20 little_font">
+                    <p class="text_spaced titillium figures black"><span class="title_section allerta blue middle_font">100% </span> de vérification des freelances en mission</p>
+                    <p class="text_spaced titillium figures black"><span class="title_section allerta blue middle_font">xx </span> Posselas quena pitrio usgliu polem</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
+      <!------------ SECTION 2 SOLUTIONS  ----------------------->
       <section class="container-fluid section_colored bg_grey_light section_center_responsive mt-0">
-    
-          <div class="container">
-              <h2 class="title_section titillium black texte_center bold">2 façons simples de trouver des freelances</h2>
-          </div>
-
-          <div class="row container flex bloc_space_around">
-            <div class="card mb-3 card_presse" style="max-width: 540px;">
-              <div class="row no-gutters">
-                <div class="col-lg-5 col-md-4">
-                   <img src="assets/img/recrut_self.jpg" class="card-img" alt="christina-wocintechchat-com-UTw3j_aoIKM-unsplash">
-                </div>
-                <div class="col-lg-7 col-md-8">
-                   <div class="card-body pb-0">
-                     <h5 class="card-title uppercase titillium bold">Cherchez de votre côté en toute autonomie</h5>
-                     <p class="card-text barlow quote">Utilisez notre moteur de recherche intelligent pour trouver vous-même des freelances.</p>
-                     <p class="card-text signature" style="margin-top:37px"><small class="text-muted italic barlow "><a>Créer un compte</a></small></p>
-                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 card_presse" style="max-width: 540px;">
-              <div class="row no-gutters">
-                <div class="col-lg-5 col-md-4">
-                   <img src="assets/img/recrut_cod.jpg" class="card-img" alt="cowomen-iA32StXHMzM-unsplash">
-                </div>
-                <div class="col-lg-7 col-md-8">
-                   <div class="card-body pb-0">
-                     <h5 class="card-title uppercase titillium bold">Recevez des profils à la demande</h5>
-                     <p class="card-text barlow italic quote">Nos Account Managers utilisent des outils avancés de matching pour vous aider à accéder aux meilleurs profils, avant qu’ils ne soient plus disponibles.</p>
-                     <p class="card-text signature" style="margin-top: 28px"><small class="text-muted italic barlow"><a>Demandez un devis</a></small></p>
-                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-     </section>
-        
- <!------------ SECTION CLAIM ENTREPRISE  ----------------------->    
-
-    <section class="container-fluid section_colored bg_black">
-        <div class="titillium claim_font_size texte_center white claim_texte_spaced">
-            <p>Économisez sur la commission,</p>
-            <p>pas sur la qualité</p>
+        <div class="container">
+          <h2 class="title_section titillium black texte_center bold">2 façons simples de trouver des freelances</h2>
         </div>
-            
-    </section>
-        
-<!------------ SECTION AVANTAGES ENTREPRISE ----------------------->
-
-       <section class="container-fluid">
-
-            <div class="container title_section titillium black">
-              <h2 class=""><span class="title_section_out underline_yellow_light">La</span> façon la plus sûre de travailler avec des freelances</h2>
-            </div>
-         
-
-          <div class="container flex">
-            <div class="row align_mid_row_element pb-0">
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                  <div>
-                    <div class="card-body card_benefits">
-                      <img src="assets/img/hands.svg" class="card-img-top i_benefits_freelance" alt="...">
-                      <h5 class="card-title titillium black bold text_shadow">Un modèle légal simple et direct</h5>
-                      <p class="card-text barlow black">Vous passez un contrat de mission directement avec le freelance. Il n'y a pas de contrat de travail entre Malt et le freelance : vous ne courrez donc aucun risque de délit de marchandage et de prêt de main d'œuvre illicite.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                  <div>
-                    <div class="card-body card_benefits">
-                      <img src="assets/img/mission.svg" class="card-img-top i_benefits_freelance" alt="...">
-                      <h5 class="card-title titillium black bold text_shadow">Vos propres contrats</h5>
-                      <p class="card-text barlow black">Vos contrats sont proposés en ligne aux freelances (CGA, contrats d'application, NDA, etc.). Contrôlez en temps-réel vos missions et vos budgets, pour maintenir un haut niveau de conformité tout au long de vos projets.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                  <div>
-                    <div class="card-body card_benefits" >
-                      <img src="assets/img/axa.png" class="card-img-top i_benefits_freelance" alt="..." style="width:53%;">
-                      <h5 class="card-title titillium black bold text_shadow">Une assurance AXA RC Pro pour toutes vos missions</h5>
-                      <p class="card-text barlow black">Tous les freelances avec lesquels vous travaillez sur Malt sont protégés par une assurance RC Pro AXA à hauteur de 9 millions d'€. Vous êtes couvert.</p>
-                    </div>
-                  </div>
-                </div>
-             </div>
-          </div>
-
-      </section>
-        
-    <!------------ SECTION TEMOIGNAGE ENTREPRISE ----------------------->
-
-    <section class="container-fluid section_colored section_center_responsive mb-0">
-
-          <div class="row container flex">
-            <div class="card mb-3 no_box_shadow">
-              <div class="row no-gutters">
-                <div class="col-lg-5 col-md-4">
-                   <img src="assets/img/recruteur_testimony_mini.jpg" class="card-img" alt="...">
-                </div>
-                <div class="col-lg-7 col-md-8">
-                   <div class="card-body">
-                     <h5 class="card-title uppercase titillium bold">Lionel Petit</h5>
-                     <p class="card-text"><small class="text-muted italic barlow texte_spaced">CTO chez FuturaWeb 🚀</small></p><br><br>
-                     <p class="card-text barlow big texte_spaced">‟Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident ! ”</p> 
-                   </div>
+        <div class="row container flex bloc_space_around">
+          <div class="card mb-3 card_presse" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-lg-5 col-md-4">
+                <img src="assets/img/recrut_self.jpg" class="card-img" alt="christina-wocintechchat-com-UTw3j_aoIKM-unsplash">
+              </div>
+              <div class="col-lg-7 col-md-8">
+                <div class="card-body pb-0">
+                  <h5 class="card-title uppercase titillium bold">Cherchez de votre côté en toute autonomie</h5>
+                  <p class="card-text barlow quote">Utilisez notre moteur de recherche intelligent pour trouver vous-même des freelances.</p>
+                  <p class="card-text signature" style="margin-top:37px"><small class="text-muted italic barlow "><a>Créer un compte</a></small></p>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+          <div class="card mb-3 card_presse" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-lg-5 col-md-4">
+                <img src="assets/img/recrut_cod.jpg" class="card-img" alt="cowomen-iA32StXHMzM-unsplash">
+              </div>
+              <div class="col-lg-7 col-md-8">
+                <div class="card-body pb-0">
+                  <h5 class="card-title uppercase titillium bold">Recevez des profils à la demande</h5>
+                  <p class="card-text barlow italic quote">Nos Account Managers utilisent des outils avancés de matching pour vous aider à accéder aux meilleurs profils, avant qu’ils ne soient plus disponibles.</p>
+                  <p class="card-text signature" style="margin-top: 28px"><small class="text-muted italic barlow"><a>Demandez un devis</a></small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!------------ CTA INSCRIPTION ----------------------->
+      <!------------ SECTION CLAIM ENTREPRISE  ----------------------->
 
+      <section class="container-fluid section_colored bg_black">
+        <div class="titillium claim_font_size texte_center white claim_texte_spaced">
+          <p>Économisez sur la commission,</p>
+          <p>pas sur la qualité</p>
+        </div>
+      </section>
+
+      <!------------ SECTION AVANTAGES ENTREPRISE ----------------------->
+
+      <section class="container-fluid">
+        <div class="container title_section titillium black">
+          <h2 class=""><span class="title_section_out underline_yellow_light">La</span> façon la plus sûre de travailler avec des freelances</h2>
+        </div>
+        <div class="container flex">
+          <div class="row align_mid_row_element pb-0">
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div>
+                <div class="card-body card_benefits">
+                  <img src="assets/img/hands.svg" class="card-img-top i_benefits_freelance" alt="...">
+                  <h5 class="card-title titillium black bold text_shadow">Un modèle légal simple et direct</h5>
+                  <p class="card-text barlow black">Vous passez un contrat de mission directement avec le freelance. Il n'y a pas de contrat de travail entre Malt et le freelance : vous ne courrez donc aucun risque de délit de marchandage et de prêt de main d'œuvre illicite.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div>
+                <div class="card-body card_benefits">
+                  <img src="assets/img/mission.svg" class="card-img-top i_benefits_freelance" alt="...">
+                  <h5 class="card-title titillium black bold text_shadow">Vos propres contrats</h5>
+                  <p class="card-text barlow black">Vos contrats sont proposés en ligne aux freelances (CGA, contrats d'application, NDA, etc.). Contrôlez en temps-réel vos missions et vos budgets, pour maintenir un haut niveau de conformité tout au long de vos projets.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div>
+                <div class="card-body card_benefits" >
+                  <img src="assets/img/axa.png" class="card-img-top i_benefits_freelance" alt="..." style="width:53%;">
+                  <h5 class="card-title titillium black bold text_shadow">Une assurance AXA RC Pro pour toutes vos missions</h5>
+                  <p class="card-text barlow black">Tous les freelances avec lesquels vous travaillez sur Malt sont protégés par une assurance RC Pro AXA à hauteur de 9 millions d'€. Vous êtes couvert.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------ SECTION TEMOIGNAGE ENTREPRISE ----------------------->
+
+      <section class="container-fluid section_colored section_center_responsive mb-0">
+        <div class="row container flex">
+          <div class="card mb-3 no_box_shadow">
+            <div class="row no-gutters">
+              <div class="col-lg-5 col-md-4">
+                <img src="assets/img/recruteur_testimony_mini.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-lg-7 col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title uppercase titillium bold">Lionel Petit</h5>
+                  <p class="card-text"><small class="text-muted italic barlow texte_spaced">CTO chez FuturaWeb 🚀</small></p><br><br>
+                  <p class="card-text barlow big texte_spaced">‟Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident ! ”</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------ CTA INSCRIPTION ----------------------->
       <section class="container-fluid bg_argile flex bloc_row">
-        <div class="container bloc_border bg_grey_light no_box_shadow claim_join"> 
-            <div class="titillium big texte_center black claim_texte_spaced">
-                <p class="bold">Prêt à travailler avec les meilleures ?</p>
-            </div>
-            <div class="flex_center">
-             <a href="#contact" class="btn-page"><button type="button" name="button" class=" button_join underline_none border_argile black bold subscribe">Créez un compte</button></a>
-            </div>
+        <div class="container bloc_border bg_grey_light no_box_shadow claim_join">
+          <div class="titillium big texte_center black claim_texte_spaced">
+            <p class="bold">Prêt à travailler avec les meilleures ?</p>
+          </div>
+          <div class="flex_center">
+            <a href="#contact" class="btn-page"><button type="button" name="button" class=" button_join underline_none border_argile black bold subscribe">Créez un compte</button></a>
+          </div>
         </div>
       </section>
       <section class="container_fluid bg_black bloc_row mb-0">
       </section>
 
-          <!------------ SECTION CONTACT ----------------------->
-
-    <section id="contact" class="container-fluid section_colored bg_black section_spaced" style="padding-bottom: 0px;margin-top: 0">
-
-      <div class="row flex container bloc_space_around nowrap margin_center">
+      <!------------ SECTION CONTACT ----------------------->
+      <section id="contact" class="container-fluid section_colored bg_black section_spaced" style="padding-bottom: 0px;margin-top: 0">
+        <div class="row flex container bloc_space_around nowrap margin_center">
           <div class="mb-3 bg_transparent card_half_place">
             <div class="row no-gutters">
               <div class="col-lg-3 col-md-4 col-sm-4">
@@ -330,7 +307,7 @@
               </div>
               <div class="col-lg-7 col-md-8 col-sm-8 col-xs-8">
                 <div class="card-body card_content_contact">
-                    <h5 class="card-title uppercase titillium bold white claim">Chez <span class="allerta big">Codevores</span>,<br/> une équipe dédiée accompagne votre entreprise</h5>
+                  <h5 class="card-title uppercase titillium bold white claim">Chez <span class="allerta big">Codevores</span>,<br/> une équipe dédiée accompagne votre entreprise</h5>
                 </div>
               </div>
             </div>
@@ -342,14 +319,14 @@
               </div>
               <div class="col-lg-7 col-md-8 col-sm-10 col-xs-8">
                 <div class="card-body card_content_contact card_content_address">
-                   <h5 class="card-title uppercase titillium bold white">Nous rencontrer</h5>
-                   <p class="card-text barlow white">24 Rue du Petit-Glouton</p>
-                   <p class="card-text barlow white">75020 PARIS</p>
-                    <p class="card-text"><small class="text-muted barlow texte_spaced"><a class="white no_border_hover yellow_hover"href="tel:0101897499">☎ 01 01 89 74 99 </a></small></p>
-                   <p class="card-text">
-                       <small class="text-muted barlow texte_spaced">
-                           <a class="white no_border_hover yellow_hover"href="mailto:contact@codevores.com">📨 contact@codevores.com </a>
-                       </small>
+                  <h5 class="card-title uppercase titillium bold white">Nous rencontrer</h5>
+                  <p class="card-text barlow white">24 Rue du Petit-Glouton</p>
+                  <p class="card-text barlow white">75020 PARIS</p>
+                  <p class="card-text"><small class="text-muted barlow texte_spaced"><a class="white no_border_hover yellow_hover"href="tel:0101897499">☎ 01 01 89 74 99 </a></small></p>
+                  <p class="card-text">
+                    <small class="text-muted barlow texte_spaced">
+                      <a class="white no_border_hover yellow_hover"href="mailto:contact@codevores.com">📨 contact@codevores.com </a>
+                    </small>
                   </p>
                 </div>
               </div>
@@ -363,12 +340,11 @@
               <a><i class="fab fa-twitter-square i_social no_border_hover argile"></i></a>
             </div>
           </div>
-      </div>
+        </div>
+      </section>
 
-    </section>
 
-
-</main>
+    </main>
 
 
     <!------------ FOOTER ----------------------->
@@ -376,121 +352,114 @@
     <footer>
       <div class="container-fluid bg_black footer_section section_no_margin_top">
         <div class="row flex footer_subtitle align_content_center_responsive little_font">
-            <h6 class="titillium uppercase grey">© 2020 <span class="allerta">CODEVORES</span>. ALL RIGHTS RESERVED.</h6>
-            <p class="titillium"><a href="#" class="grey yellow_hover no_border_hover responsive_white">Conditions générales d'utilisation</a></p>
-            <p class="titillium"><a href="actu.html" class="grey yellow_hover no_border_hover responsive_white">Le Blog</a></p>
-            <p class="formContact titillium"><a href="#contact" class="formulaire_contact grey yellow_hover no_border_hover responsive_white">Formulaire de contact</a></p>
+          <h6 class="titillium uppercase grey">© 2020 <span class="allerta">CODEVORES</span>. ALL RIGHTS RESERVED.</h6>
+          <p class="titillium"><a href="#" class="grey yellow_hover no_border_hover responsive_white">Conditions générales d'utilisation</a></p>
+          <p class="titillium"><a href="actu.html" class="grey yellow_hover no_border_hover responsive_white">Le Blog</a></p>
+          <p class="formContact titillium"><a href="#contact" class="formulaire_contact grey yellow_hover no_border_hover responsive_white">Formulaire de contact</a></p>
         </div>
       </div>
     </footer>
 
-                                                </div>
-      
-<!---------- MODAL FORMULAIRE DE CONTACT --------------------->
+  </div>
 
+  <!---------- MODAL FORMULAIRE DE CONTACT --------------------->
+
+  <section class="container-fluid flex modal_fixed">
+    <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box modalSection hidden">
+      <div class="titillium texte_center black">
+        <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross exit"></i></p>
+        <p class="titillium little_font modal_subtitle">Avez-vous déjà fait un tour sur notre <a href="help.html" class="no_border_hover italic_hover subscribe"><span class="blue">FAQ</span></a> ?</p>
+      </div>
+      <form class="texte_center flex_column bloc_space_around container-fluid">
+        <form class="texte_center flex_column bloc_space_around container-fluid">
+          <div class="input_space flex bloc_space_around">
+            <input class="input is-rounded modal_input" type="text" placeholder="Nom *">
+            <input class="input is-rounded modal_input" type="text" placeholder="Prénom *">
+          </div>
+          <div class="input_space flex bloc_space_around">
+            <input class="input is-rounded modal_input" type="tel" placeholder="Téléphone *">
+            <input class="input is-rounded modal_input" type="email" placeholder="Adresse mail *">
+          </div>
+          <div class="input_space flex bloc_space_around">
+            <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre question concerne :</label>
+            <select id="select_service" name="select_service" class="input is-rounded middle-font modal_input">
+              <option>► Service Commercial</option>
+              <option>► Service Technique</option>
+              <option>► Service Réclamation</option>
+            </select>
+          </div>
+          <div class="input_space flex bloc_space_around">
+            <textarea class="modal_textarea"></textarea>
+          </div>
+          <p class="input_space mini_font barlow">Codevores s'engage à vous répondre sous 5 jours ouvrés.</p>
+          <p class="input_space mini_font barlow italic">* Champs indispensables pour vous contacter. Ces informations ne seront pas enregistrées dans notre base de données.</p>
+          <div class="input_space">
+            <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit">
+              <a class="no_border_hover">Envoyer</a>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+    <!-------- MODAL CONNEXION ------------------->
     <section class="container-fluid flex modal_fixed">
-        <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box modalSection hidden"> 
-            <div class="titillium texte_center black">
-                <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross exit"></i></p>
-                <p class="titillium little_font modal_subtitle">Avez-vous déjà fait un tour sur notre <a href="help.html" class="no_border_hover italic_hover subscribe"><span class="blue">FAQ</span></a> ?</p>
-            </div>
-        
-            <form class="texte_center flex_column bloc_space_around container-fluid">
-                <form class="texte_center flex_column bloc_space_around container-fluid">
-                <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded modal_input" type="text" placeholder="Nom *">
-                    <input class="input is-rounded modal_input" type="text" placeholder="Prénom *">
-                </div>
-                <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded modal_input" type="tel" placeholder="Téléphone *">
-                    <input class="input is-rounded modal_input" type="email" placeholder="Adresse mail *">
-                </div>
-                <div class="input_space flex bloc_space_around">
-                    <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre question concerne :</label>
-                    <select id="select_service" name="select_service" class="input is-rounded middle-font modal_input">
-                        <option>► Service Commercial</option> 
-                        <option>► Service Technique</option>   
-                        <option>► Service Réclamation</option>
-                    </select>
-               </div>
-               <div class="input_space flex bloc_space_around">
-                   <textarea class="modal_textarea"></textarea>
-               </div>
-                   <p class="input_space mini_font barlow">Codevores s'engage à vous répondre sous 5 jours ouvrés.</p>  
-                   <p class="input_space mini_font barlow italic">* Champs indispensables pour vous contacter. Ces informations ne seront pas enregistrées dans notre base de données.</p>
-              <div class="input_space">
-                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit">
-                        <a class="no_border_hover">Envoyer</a>
-                    </button>
-              </div>
-            </form>
+      <div id="sectionConnexion" class="container bloc_border bg_grey_light modal_box modalSection hidden">
+        <div class="titillium texte_center black">
+          <p class="big bold modal_title" style="padding-left: 10px">Connexion à mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
+          <p class="titillium little_font modal_subtitle">Pas encore membre Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Inscrivez-vous</a></span></p>
         </div>
-    </section>      
-      
-        
-     
- <!-------- MODAL CONNEXION ------------------->
+        <form class="texte_center flex_column bloc_space_around container-fluid">
+          <div class="input_space">
+            <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail" style="height: 35px">
+          </div>
+          <div class="input_space">
+            <input type="text" class="input is-rounded inputSelector" type="password" placeholder="Mot de passe" style="height: 35px">
+          </div>
+          <div class="input_space">
+            <p class="texte_spaced barlow little_font grey"><a class="no_border_hover italic_hover">Mot de passe oublié ?</a></p>
+            <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit"><a class="no_border_hover ">Se connecter</a></button>
+          </div>
+        </form>
+      </div>
+    </section>
 
+
+    <!------------ MODAL INSCRIPTION --------------------->
     <section class="container-fluid flex modal_fixed">
-        <div id="sectionConnexion" class="container bloc_border bg_grey_light modal_box modalSection hidden"> 
-            <div class="titillium texte_center black">
-                <p class="big bold modal_title" style="padding-left: 10px">Connexion à mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
-                <p class="titillium little_font modal_subtitle">Pas encore membre Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Inscrivez-vous</a></span></p>
-            </div>
-        
-            <form class="texte_center flex_column bloc_space_around container-fluid">
-                <div class="input_space">
-                    <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <input type="text" class="input is-rounded inputSelector" type="password" placeholder="Mot de passe" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <p class="texte_spaced barlow little_font grey"><a class="no_border_hover italic_hover">Mot de passe oublié ?</a></p>
-                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit"><a class="no_border_hover ">Se connecter</a></button>
-                </div>
-            </form>
+      <div id="sectionInscription" class="container bloc_border bg_grey_light modal_box modalSection hidden">
+        <div class="titillium texte_center black">
+          <p class="big bold modal_title" style="padding-left:10px">Créer mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
+          <p class="titillium little_font modal_subtitle">Déjà inscrit sur Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Connectez-vous</a></span></p>
         </div>
-    </section>      
-      
-        
-<!------------ MODAL INSCRIPTION --------------------->
-    <section class="container-fluid flex modal_fixed">
-        <div id="sectionInscription" class="container bloc_border bg_grey_light modal_box modalSection hidden"> 
-            <div class="titillium texte_center black">
-                <p class="big bold modal_title" style="padding-left:10px">Créer mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
-                <p class="titillium little_font modal_subtitle">Déjà inscrit sur Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Connectez-vous</a></span></p>
+        <form class="texte_center flex_column bloc_space_around container-fluid">
+          <div class="input_space">
+            <input class="input is-rounded inputSelector" type="text" placeholder="Nom" style="height: 35px">
+          </div>
+          <div class="input_space">
+            <input class="input is-rounded inputSelector" type="text" placeholder="Prénom" style="height: 35px">
+          </div>
+          <div class="input_space">
+            <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail" style="height: 35px">
+          </div>
+          <div class="input_space">
+            <input type="text" title="* 8 caractères minimum - 2 symboles - 1 Majuscule" class="input is-rounded inputSelector" type="password" minlength="8" required placeholder="Mot de passe *" style="height: 35px">
+          </div>
+          <div class="input_space">
+            <input type="text" title="* 8 caractères minimum - 2 symboles - 1 Majuscule" class="input is-rounded inputSelector" type="password" placeholder="Confirmez votre mot de passe *" style="height: 35px">
+          </div>
+          <p class="input_space mini_font barlow">Codevores s'engage à respecter vos données. En continuant votre inscription, vous acceptez nos <a>Conditions Générales</a>.</p>
+          <p class="input_space mini_font barlow">Vos données seront enregistrées par Codevores pour la création et la gestion de votre compte. Elles sont conservées pendant la durée de votre inscription sur le site et ultérieurement si nous y sommes légalement tenus. En savoir plus sur notre <a>politique d’utilisation des données</a>.</p>
+          <p class="input_space mini_font barlow italic"><input type="checkbox"><span style="padding-left:9px">Je ne souhaite pas recevoir les nouveautés et offres personnalisées Codevores</span>
+            <div class="input_space">
+              <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit"><a class="no_border_hover">S'inscrire sur Codevores</a></button>
             </div>
-        
-            <form class="texte_center flex_column bloc_space_around container-fluid">
-                <div class="input_space">
-                    <input class="input is-rounded inputSelector" type="text" placeholder="Nom" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <input class="input is-rounded inputSelector" type="text" placeholder="Prénom" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <input type="text" title="* 8 caractères minimum - 2 symboles - 1 Majuscule" class="input is-rounded inputSelector" type="password" minlength="8" required placeholder="Mot de passe *" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <input type="text" title="* 8 caractères minimum - 2 symboles - 1 Majuscule" class="input is-rounded inputSelector" type="password" placeholder="Confirmez votre mot de passe *" style="height: 35px">
-                </div>
-                    <p class="input_space mini_font barlow">Codevores s'engage à respecter vos données. En continuant votre inscription, vous acceptez nos <a>Conditions Générales</a>.</p>  
-                    <p class="input_space mini_font barlow">Vos données seront enregistrées par Codevores pour la création et la gestion de votre compte. Elles sont conservées pendant la durée de votre inscription sur le site et ultérieurement si nous y sommes légalement tenus. En savoir plus sur notre <a>politique d’utilisation des données</a>.</p>
-                    <p class="input_space mini_font barlow italic"><input type="checkbox"><span style="padding-left:9px">Je ne souhaite pas recevoir les nouveautés et offres personnalisées Codevores</span>
-                <div class="input_space">
-                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit"><a class="no_border_hover">S'inscrire sur Codevores</a></button>
-                </div>
-            </form>
+          </form>
         </div>
-   </section>
-    
+      </section>
 
 
-
-  <script src="script.js"></script>
-</body>
-</html>
+      <script src="script.js"></script>
+    </body>
+    </html>

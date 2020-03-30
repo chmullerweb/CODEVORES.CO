@@ -1,111 +1,107 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Codevores</title>
+<head>
+  <meta charset="utf-8">
+  <title>Codevores</title>
 
-    <!------------ BOOTSRAP ----------------------->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!------------ BOOTSRAP ----------------------->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <!--------------BULMA ------------------------->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css" rel="stylesheet">
+  <!--------------BULMA ------------------------->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css" rel="stylesheet">
 
-    <!------------ CSS ----------------------->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-
-    <!------------ ICONE ----------------------->
-    <script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
-
-    <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon">
-
-    <!------------ FONT ----------------------->
-    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Barlow+Semi+Condensed:300,400|Titillium+Web:400,600&display=swap" rel="stylesheet">
-
-    <!------------ RESPONSIVE ----------------------->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!------------ CSS ----------------------->
+  <link rel="stylesheet" href="assets/css/style.css">
 
 
-  </head>
+  <!------------ ICONE ----------------------->
+  <script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
 
-  <body class="bg_white">
+  <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon">
 
-    
+  <!------------ FONT ----------------------->
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Barlow+Semi+Condensed:300,400|Titillium+Web:400,600&display=swap" rel="stylesheet">
+
+  <!------------ RESPONSIVE ----------------------->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+
+<body class="bg_white">
+
+  <!-------- A L'OUVERTURE DU MODAL, LE CONTENU DU SITE DEVIENT OPAQUE (Ajout de la class "opacity_activated")------->
+  <div id="opacity" class="">
 
   <!------------ MENU ----------------------->
-                                                <div id="opacity" class="">
-<header class="" style="height:0">
+    <header class="" style="height:0">
       <div class="container-fluid header_menu flex">
-          <div class="header_logo">
-            <a href="index.html" class="no_border_hover">
-              <img src="assets/logo/codevores.png" alt="" class="logo">
-              <h1 class="allerta white">odevores</h1>
-            </a>
-          </div>
-          <div class="titillium text_shadow menu_metiers">
-            <a href="profiles.html"><span id="listJob" class="white">Métiers</span></a>
-          </div>
-          <div class="nav_space"></div>
-          <nav class="">
-              <a href="recruteur_space.html" class="titillium border_argile white no_border_hover">Je recrute</a>
-              <a href="#" class="titillium white text_shadow subscribe">M'inscrire</a>
-              <a href="#" class="titillium white text_shadow connexion">Me connecter</a>
-              <a href="help.html" class="titillium white text_shadow ">FAQ</a>
-          </nav>
-          <div class="i_header">
-            <i class="fas fa-hamburger menuBurger"></i>
-          </div>
+        <div class="header_logo">
+          <a href="index.html" class="no_border_hover">
+            <img src="assets/logo/codevores.png" alt="" class="logo">
+            <h1 class="allerta white">odevores</h1>
+          </a>
+        </div>
+        <div class="titillium text_shadow menu_metiers">
+          <a href="profiles.html"><span id="listJob" class="white">Métiers</span></a>
+        </div>
+        <div class="nav_space"></div>
+        <nav class="">
+          <a href="recruteur_space.html" class="titillium border_argile white no_border_hover">Je recrute</a>
+          <a href="#" class="titillium white text_shadow subscribe">M'inscrire</a>
+          <a href="#" class="titillium white text_shadow connexion">Me connecter</a>
+          <a href="help.html" class="titillium white text_shadow ">FAQ</a>
+        </nav>
+        <div class="i_header">
+          <i class="fas fa-hamburger menuBurger"></i>
+        </div>
       </div>
     </header>
 
-  <!------------ COUVERTURE ----------------------->
+    <!------------ COUVERTURE ----------------------->
 
     <section class="bg_image">
-      
-        <!----MENU BURGER----------------------------------->
-          <div id="conteneur-menu" class="flex hidden"> 
+
+      <!----MENU BURGER-------------->
+      <div id="conteneur-menu" class="flex hidden">
         <a href="index.html" class="no_border_hover">
-            <img src="assets/logo/codevores.png" id="logoMenu" class="logo">
+          <img src="assets/logo/codevores.png" id="logoMenu" class="logo">
         </a>
-      <div id="menu_deroulant" class="mini_font barlow black">
-        <dl>
-        <dt><a href="profiles.html" class=" black no_border_hover">Métiers</a></dt>
-     </dl>
-    <dl>
-        <dt><a href="recruteur_space.html" class=" black no_border_hover">Recruteur</a></dt>
-     </dl>
-    <dl>
-        <dt><a href="pro_space.html" class=" black no_border_hover">Freelance</a></dt>
-    </dl>
-    <dl>
-        <dt>Mon compte</dt>
-        <dd>
-            <ul class="">
+        <div id="menu_deroulant" class="mini_font barlow black">
+          <dl>
+            <dt><a href="profiles.html" class=" black no_border_hover">Métiers</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="recruteur_space.html" class=" black no_border_hover">Recruteur</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="pro_space.html" class=" black no_border_hover">Freelance</a></dt>
+          </dl>
+          <dl>
+            <dt>Mon compte</dt>
+            <dd>
+              <ul class="">
                 <li class=""><a href="#" class="subscribe">S'inscrire</a></li>
-                <li><a href="#" class="connexion">Se connecter</a></li> 
-            </ul>
-        </dd>
-     </dl>
-    <dl>
-        <dt>Aller + loin</dt>
-        <dd>
-            <ul>
+                <li><a href="#" class="connexion">Se connecter</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>Aller + loin</dt>
+            <dd>
+              <ul>
                 <li><a href="actu.html">Le Blog</a></li>
                 <li><a href="help.html">FAQ</a></li>
-                <li><a href="#" class="formContact">Contact</a></li> 
- 
-            </ul>
-        </dd>
-     </dl>
-   
-     </div>     
-          </div>
-          
-       <!----- CONTENU DE LA COUVERTURE --------------------------->   
-        
-        
-    <div class="container-fluid titillium white header_title">
+                <li><a href="#" class="formContact">Contact</a></li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+      </div>
+
+      <!----- CONTENU DE LA COUVERTURE ------------>
+      <div class="container-fluid titillium white header_title">
         <h2 class=""><span class="underline_yellow_title text_shadow">Tentez l'expérience freelance</span></h2>
       </div>
       <div class="header_content margin_prospace_header">
@@ -126,161 +122,150 @@
     </section>
 
     <main>
-        
+
 
       <!------------ SECTION AVANTAGES FREELANCE ----------------------->
 
-       <section class="container-fluid">
-
-
-            <div class="container title_section titillium black">
-              <h2 class=""><span class="underline_yellow_light bold">Vo</span><span class="bold">s missions.</span> Vos conditions.</h2>
-            </div>
-
-
-          <div class="container flex">
-            <div class="row ">
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                  <div>
-                    <div class="card-body card_benefits">
-                      <img src="assets/img/mission.svg" class="card-img-top i_benefits_freelance" alt="...">
-                      <h5 class="card-title titillium black bold text_shadow">Expertises vérifiées</h5>
-                      <p class="card-text barlow black">Les recruteurs ou anciens clients confirment les compétences. Les documents légaux des freelances sont contrôlés par nos soins.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                  <div>
-                    <div class="card-body card_benefits">
-                      <img src="assets/img/toggles.svg" class="card-img-top i_benefits_freelance" alt="...">
-                      <h5 class="card-title titillium black bold text_shadow">Recherche facilitée</h5>
-                      <p class="card-text barlow black">Trouvez toujours le meilleurs freelances pour vos missions grâce à notre moteur de recherche et nos outils de matching.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                  <div>
-                    <div class="card-body card_benefits">
-                      <img src="assets/img/hands.svg" class="card-img-top i_benefits_freelance" alt="..." style="padding-top:9px">
-                      <h5 class="card-title titillium black bold text_shadow">Transactions sécurisées</h5>
-                      <p class="card-text barlow black">Contrats conservés, paiements sécurisés et une assurance AXA Pro pour couvrir toutes les situations.</p>
-                    </div>
-                  </div>
-                </div>
-             </div>
-          </div>
-
-      </section>
-
-    <!------------ SECTION CLAIM FREELANCE ----------------------->
-
-
-    <section class="container-fluid section_colored bg_black">
-        <div class="titillium claim_font_size texte_center white claim_texte_spaced">
-            <p>De l'inscription au paiement,</p>
-            <p><span class="allerta">Codevores</span> assure vos arrières</p>
+      <section class="container-fluid">
+        <div class="container title_section titillium black">
+          <h2 class=""><span class="underline_yellow_light bold">Vo</span><span class="bold">s missions.</span> Vos conditions.</h2>
         </div>
-
-    </section>
-
-
-    <!------------ SECTION TEMOIGNAGE FREELANCE ----------------------->
-
-    <section class="container-fluid section_colored section_center_responsive mb-0">
-
-          <div class="row container flex">
-            <div class="card mb-3 no_box_shadow">
-              <div class="row no-gutters">
-                <div class="col-lg-5 col-md-4">
-                   <img src="assets/img/profile_3.jpg" class="card-img" alt="...">
+        <div class="container flex">
+          <div class="row ">
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div>
+                <div class="card-body card_benefits">
+                  <img src="assets/img/mission.svg" class="card-img-top i_benefits_freelance" alt="...">
+                  <h5 class="card-title titillium black bold text_shadow">Expertises vérifiées</h5>
+                  <p class="card-text barlow black">Les recruteurs ou anciens clients confirment les compétences. Les documents légaux des freelances sont contrôlés par nos soins.</p>
                 </div>
-                <div class="col-lg-7 col-md-8">
-                   <div class="card-body">
-                     <h5 class="card-title uppercase titillium bold">Lorem Ipsum</h5>
-                     <p class="card-text"><small class="text-muted italic barlow">Experte en UX Design</small></p>
-                     <h6 class="texte_spaced barlow"><a>Afficher son profil</a></h6><br><br>
-                       <p class="card-text barlow big texte_spaced">‟Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident ! ”</p>
-                   </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div>
+                <div class="card-body card_benefits">
+                  <img src="assets/img/toggles.svg" class="card-img-top i_benefits_freelance" alt="...">
+                  <h5 class="card-title titillium black bold text_shadow">Recherche facilitée</h5>
+                  <p class="card-text barlow black">Trouvez toujours le meilleurs freelances pour vos missions grâce à notre moteur de recherche et nos outils de matching.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div>
+                <div class="card-body card_benefits">
+                  <img src="assets/img/hands.svg" class="card-img-top i_benefits_freelance" alt="..." style="padding-top:9px">
+                  <h5 class="card-title titillium black bold text_shadow">Transactions sécurisées</h5>
+                  <p class="card-text barlow black">Contrats conservés, paiements sécurisés et une assurance AXA Pro pour couvrir toutes les situations.</p>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-    <!------------ SECTION SERVICE SECURISE ----------------------->
-
-
-      <section class="section_colored container-fluid mt-0 pt-0">
-
-         <div class="container title_section titillium black">
-           <h2><span class="underline_yellow_light pb-30">Un</span> service simple et sécurisant</h2>
-         </div>
-
-       <div class="container">
-         <div class="row align_mid_row_element">
-             <div class="col-lg-4 col-md-6 col-sm-10">
-               <div>
-                 <div class="card-body card_benefits">
-                   <img src="assets/img/profile_rapide.svg" class="card-img-top i_benefits_freelance" alt="...">
-                   <h5 class="card-title titillium black bold text_shadow">Créez un profil simplement</h5>
-                   <p class="card-text barlow black">Il suffit de quelques minutes pour créer un profil qui attirera l'attention de milliers de clients — et rendra fiers vos parents.</p>
-                 </div>
-               </div>
-             </div>
-             <div class="col-lg-4 col-md-6 col-sm-10">
-               <div>
-                 <div class="card-body card_benefits">
-                   <img src="assets/img/devis.svg" class="card-img-top i_benefits_freelance" alt="...">
-                   <h5 class="card-title titillium black bold text_shadow">Gagnez du temps</h5>
-                   <p class="card-text barlow black">Éditez vos devis rapidement. Envoyez vos factures automatiquement. Simplifiez vos tâches administratives.</p>
-                 </div>
-               </div>
-             </div>
-         </div>
-         <div class="row align_mid_row_element" style="padding-bottom: 0px">
-             <div class="col-lg-4 col-md-6 col-sm-10">
-               <div>
-                 <div class="card-body card_benefits">
-                   <img src="assets/img/money.svg" class="card-img-top i_benefits_freelance" alt="...">
-                   <h5 class="card-title titillium black bold text_shadow">Soyez payé en 48h</h5>
-                   <p class="card-text barlow black">Codevores sécurise votre paiement avant le début de la mission. Une fois le projet terminé, vous recevez l'argent sous 48 heures.</p>
-                 </div>
-               </div>
-             </div>
-             <div class="col-lg-4 col-md-6 col-sm-10">
-               <div>
-                 <div class="card-body card_benefits">
-                   <img src="assets/img/shield.svg" class="card-img-top i_benefits_freelance" alt="...">
-                   <h5 class="card-title titillium black bold text_shadow">Travaillez sereinement</h5>
-                   <p class="card-text barlow black">Une question ? Notre équipe support vous répond en direct. Un pépin ? Toutes vos missions sont assurées par AXA.</p>
-                 </div>
-               </div>
-             </div>
-          </div>
-       </div>
-
+        </div>
       </section>
 
-    <!------------ CTA INSCRIPTION ----------------------->
+      <!------------ SECTION CLAIM FREELANCE ----------------------->
+
+
+      <section class="container-fluid section_colored bg_black">
+        <div class="titillium claim_font_size texte_center white claim_texte_spaced">
+          <p>De l'inscription au paiement,</p>
+          <p><span class="allerta">Codevores</span> assure vos arrières</p>
+        </div>
+      </section>
+
+
+      <!------------ SECTION TEMOIGNAGE FREELANCE ----------------------->
+
+      <section class="container-fluid section_colored section_center_responsive mb-0">
+        <div class="row container flex">
+          <div class="card mb-3 no_box_shadow">
+            <div class="row no-gutters">
+              <div class="col-lg-5 col-md-4">
+                <img src="assets/img/profile_3.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-lg-7 col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title uppercase titillium bold">Lorem Ipsum</h5>
+                  <p class="card-text"><small class="text-muted italic barlow">Experte en UX Design</small></p>
+                  <h6 class="texte_spaced barlow"><a>Afficher son profil</a></h6><br><br>
+                  <p class="card-text barlow big texte_spaced">‟Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident ! ”</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------ SECTION SERVICE SECURISE ----------------------->
+
+      <section class="section_colored container-fluid mt-0 pt-0">
+        <div class="container title_section titillium black">
+          <h2><span class="underline_yellow_light pb-30">Un</span> service simple et sécurisant</h2>
+        </div>
+        <div class="container">
+          <div class="row align_mid_row_element">
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div>
+                <div class="card-body card_benefits">
+                  <img src="assets/img/profile_rapide.svg" class="card-img-top i_benefits_freelance" alt="...">
+                  <h5 class="card-title titillium black bold text_shadow">Créez un profil simplement</h5>
+                  <p class="card-text barlow black">Il suffit de quelques minutes pour créer un profil qui attirera l'attention de milliers de clients — et rendra fiers vos parents.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div>
+                <div class="card-body card_benefits">
+                  <img src="assets/img/devis.svg" class="card-img-top i_benefits_freelance" alt="...">
+                  <h5 class="card-title titillium black bold text_shadow">Gagnez du temps</h5>
+                  <p class="card-text barlow black">Éditez vos devis rapidement. Envoyez vos factures automatiquement. Simplifiez vos tâches administratives.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row align_mid_row_element" style="padding-bottom: 0px">
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div>
+                <div class="card-body card_benefits">
+                  <img src="assets/img/money.svg" class="card-img-top i_benefits_freelance" alt="...">
+                  <h5 class="card-title titillium black bold text_shadow">Soyez payé en 48h</h5>
+                  <p class="card-text barlow black">Codevores sécurise votre paiement avant le début de la mission. Une fois le projet terminé, vous recevez l'argent sous 48 heures.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div>
+                <div class="card-body card_benefits">
+                  <img src="assets/img/shield.svg" class="card-img-top i_benefits_freelance" alt="...">
+                  <h5 class="card-title titillium black bold text_shadow">Travaillez sereinement</h5>
+                  <p class="card-text barlow black">Une question ? Notre équipe support vous répond en direct. Un pépin ? Toutes vos missions sont assurées par AXA.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------ CTA INSCRIPTION ----------------------->
 
       <section class="container-fluid bg_argile flex bloc_row">
         <div class="container bloc_border bg_grey_light no_box_shadow claim_join">
-            <div class="titillium big texte_center black claim_texte_spaced">
-                <p class="bold">Rejoindre la communauté</p>
-                <p class="cta_subtitle"><span class="bold">10 000 clients</span> proposent déjà des missions sur Codevores</p>
-            </div>
-            <div class="flex_center mt-20">
-             <a href="#contact" class="btn-page"><button type="button" name="button" class=" button_join underline_none border_argile black bold subscribe">Je crée mon profil</button></a>
-            </div>
+          <div class="titillium big texte_center black claim_texte_spaced">
+            <p class="bold">Rejoindre la communauté</p>
+            <p class="cta_subtitle"><span class="bold">10 000 clients</span> proposent déjà des missions sur Codevores</p>
+          </div>
+          <div class="flex_center mt-20">
+            <a href="#contact" class="btn-page"><button type="button" name="button" class=" button_join underline_none border_argile black bold subscribe">Je crée mon profil</button></a>
+          </div>
         </div>
       </section>
       <section class="container_fluid bg_black bloc_row">
       </section>
 
-          <!------------ SECTION CONTACT ----------------------->
+      <!------------ SECTION CONTACT ----------------------->
 
-    <section id="contact" class="container-fluid section_colored bg_black section_spaced" style="padding-bottom: 0px;margin-top: -1px">
-
-      <div class="row flex container bloc_space_around nowrap margin_center">
+      <section id="contact" class="container-fluid section_colored bg_black section_spaced" style="padding-bottom: 0px;margin-top: -1px">
+        <div class="row flex container bloc_space_around nowrap margin_center">
           <div class="mb-3 bg_transparent card_half_place">
             <div class="row no-gutters">
               <div class="col-lg-3 col-md-4 col-sm-4">
@@ -288,7 +273,7 @@
               </div>
               <div class="col-lg-7 col-md-8 col-sm-8 col-xs-8">
                 <div class="card-body card_content_contact">
-                    <h5 class="card-title uppercase titillium bold white claim">Chez <span class="allerta big">Codevores</span>,<br/> une équipe dédiée accompagne votre projet de freelancing</h5>
+                  <h5 class="card-title uppercase titillium bold white claim">Chez <span class="allerta big">Codevores</span>,<br/> une équipe dédiée accompagne votre projet de freelancing</h5>
                 </div>
               </div>
             </div>
@@ -300,11 +285,11 @@
               </div>
               <div class="col-lg-7 col-md-8 col-sm-10 col-xs-8">
                 <div class="card-body card_content_contact card_content_address">
-                   <h5 class="card-title uppercase titillium bold white">Nous rencontrer</h5>
-                   <p class="card-text barlow white">24 Rue du Petit-Glouton</p>
-                   <p class="card-text barlow white">75020 PARIS</p>
-                    <p class="card-text"><small class="text-muted barlow texte_spaced"><a class="white no_border_hover yellow_hover"href="tel:0101897499">☎ 01 01 89 74 99 </a></small></p>
-                    <p class="card-text"><small class="text-muted barlow texte_spaced"><a class="white no_border_hover yellow_hover" href="mailto:contact@codevores.com">📨 contact@codevores.com </a></small></p>
+                  <h5 class="card-title uppercase titillium bold white">Nous rencontrer</h5>
+                  <p class="card-text barlow white">24 Rue du Petit-Glouton</p>
+                  <p class="card-text barlow white">75020 PARIS</p>
+                  <p class="card-text"><small class="text-muted barlow texte_spaced"><a class="white no_border_hover yellow_hover"href="tel:0101897499">☎ 01 01 89 74 99 </a></small></p>
+                  <p class="card-text"><small class="text-muted barlow texte_spaced"><a class="white no_border_hover yellow_hover" href="mailto:contact@codevores.com">📨 contact@codevores.com </a></small></p>
                 </div>
               </div>
             </div>
@@ -317,12 +302,11 @@
               <a><i class="fab fa-twitter-square i_social no_border_hover argile"></i></a>
             </div>
           </div>
-      </div>
+        </div>
+      </section>
 
-    </section>
 
-
-</main>
+    </main>
 
 
     <!------------ FOOTER ----------------------->
@@ -330,122 +314,119 @@
     <footer>
       <div class="container-fluid bg_black footer_section section_no_margin_top">
         <div class="row flex footer_subtitle align_content_center_responsive little_font">
-            <h6 class="titillium uppercase grey">© 2020 <span class="allerta">CODEVORES</span>. ALL RIGHTS RESERVED.</h6>
-            <p class="titillium"><a href="#" class="grey yellow_hover no_border_hover responsive_white">Conditions générales d'utilisation</a></p>
-            <p class="titillium"><a href="actu.html" class="grey yellow_hover no_border_hover responsive_white">Le Blog</a></p>
-            <p class="formContact titillium"><a href="#contact" class="formulaire_contact grey yellow_hover no_border_hover responsive_white">Formulaire de contact</a></p>
+          <h6 class="titillium uppercase grey">© 2020 <span class="allerta">CODEVORES</span>. ALL RIGHTS RESERVED.</h6>
+          <p class="titillium"><a href="#" class="grey yellow_hover no_border_hover responsive_white">Conditions générales d'utilisation</a></p>
+          <p class="titillium"><a href="actu.html" class="grey yellow_hover no_border_hover responsive_white">Le Blog</a></p>
+          <p class="formContact titillium"><a href="#contact" class="formulaire_contact grey yellow_hover no_border_hover responsive_white">Formulaire de contact</a></p>
         </div>
       </div>
     </footer>
 
-                                            </div>
-      
-      
+  </div>
+
+
   <!---------- MODAL FORMULAIRE DE CONTACT --------------------->
 
-    <section class="container-fluid flex modal_fixed">
-        <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box modalSection hidden"> 
-            <div class="titillium texte_center black">
-                <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross exit"></i></p>
-                <p class="titillium little_font modal_subtitle">Avez-vous déjà fait un tour sur notre <a href="help.html" class="no_border_hover italic_hover subscribe"><span class="blue">FAQ</span></a> ?</p>
-            </div>
-        
-            <form class="texte_center flex_column bloc_space_around container-fluid">
-                <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded modal_input" type="text" placeholder="Nom *">
-                    <input class="input is-rounded modal_input" type="text" placeholder="Prénom *">
-                </div>
-                <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded modal_input" type="tel" placeholder="Téléphone *">
-                    <input class="input is-rounded modal_input" type="email" placeholder="Adresse mail *">
-                </div>
-                <div class="input_space flex bloc_space_around">
-                    <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre question concerne :</label>
-                    <select id="select_service" name="select_service" class="input is-rounded middle-font modal_input">
-                        <option>► Service Commercial</option> 
-                        <option>► Service Technique</option>   
-                        <option>► Service Réclamation</option>
-                    </select>
-               </div>
-               <div class="input_space flex bloc_space_around">
-                   <textarea class="modal_textarea"></textarea>
-               </div>
-                   <p class="input_space mini_font barlow">Codevores s'engage à vous répondre sous 5 jours ouvrés.</p>  
-                   <p class="input_space mini_font barlow italic">* Champs indispensables pour vous contacter. Ces informations ne seront pas enregistrées dans notre base de données.</p>
-              <div class="input_space">
-                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit">
-                        <a class="no_border_hover">Envoyer</a>
-                    </button>
-              </div>
-            </form>
+  <section class="container-fluid flex modal_fixed">
+    <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box modalSection hidden">
+      <div class="titillium texte_center black">
+        <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross exit"></i></p>
+        <p class="titillium little_font modal_subtitle">Avez-vous déjà fait un tour sur notre <a href="help.html" class="no_border_hover italic_hover subscribe"><span class="blue">FAQ</span></a> ?</p>
+      </div>
+      <form class="texte_center flex_column bloc_space_around container-fluid">
+        <div class="input_space flex bloc_space_around">
+          <input class="input is-rounded modal_input" type="text" placeholder="Nom *">
+          <input class="input is-rounded modal_input" type="text" placeholder="Prénom *">
         </div>
-    </section>      
-      
-        
-     
- <!-------- MODAL CONNEXION ------------------->
-
-    <section class="container-fluid flex modal_fixed">
-        <div id="sectionConnexion" class="container bloc_border bg_grey_light modal_box modalSection hidden"> 
-            <div class="titillium texte_center black">
-                <p class="big bold modal_title" style="padding-left: 10px">Connexion à mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
-                <p class="titillium little_font modal_subtitle">Pas encore membre Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Inscrivez-vous</a></span></p>
-            </div>
-        
-            <form class="texte_center flex_column bloc_space_around container-fluid">
-                <div class="input_space">
-                    <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <input type="text" class="input is-rounded inputSelector" type="password" placeholder="Mot de passe" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <p class="texte_spaced barlow little_font grey"><a class="no_border_hover italic_hover">Mot de passe oublié ?</a></p>
-                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit"><a class="no_border_hover ">Se connecter</a></button>
-                </div>
-            </form>
+        <div class="input_space flex bloc_space_around">
+          <input class="input is-rounded modal_input" type="tel" placeholder="Téléphone *">
+          <input class="input is-rounded modal_input" type="email" placeholder="Adresse mail *">
         </div>
-    </section>      
-      
-        
-<!------------ MODAL INSCRIPTION --------------------->
-    <section class="container-fluid flex modal_fixed">
-        <div id="sectionInscription" class="container bloc_border bg_grey_light modal_box modalSection hidden"> 
-            <div class="titillium texte_center black">
-                <p class="big bold modal_title" style="padding-left:10px">Créer mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
-                <p class="titillium little_font modal_subtitle">Déjà inscrit sur Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Connectez-vous</a></span></p>
-            </div>
-        
-            <form class="texte_center flex_column bloc_space_around container-fluid">
-                <div class="input_space">
-                    <input class="input is-rounded inputSelector" type="text" placeholder="Nom" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <input class="input is-rounded inputSelector" type="text" placeholder="Prénom" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <input type="text" title="* 8 caractères minimum - 2 symboles - 1 Majuscule" class="input is-rounded inputSelector" type="password" minlength="8" required placeholder="Mot de passe *" style="height: 35px">
-                </div>
-                <div class="input_space">
-                    <input type="text" title="* 8 caractères minimum - 2 symboles - 1 Majuscule" class="input is-rounded inputSelector" type="password" placeholder="Confirmez votre mot de passe *" style="height: 35px">
-                </div>
-                    <p class="input_space mini_font barlow">Codevores s'engage à respecter vos données. En continuant votre inscription, vous acceptez nos <a>Conditions Générales</a>.</p>  
-                    <p class="input_space mini_font barlow">Vos données seront enregistrées par Codevores pour la création et la gestion de votre compte. Elles sont conservées pendant la durée de votre inscription sur le site et ultérieurement si nous y sommes légalement tenus. En savoir plus sur notre <a>politique d’utilisation des données</a>.</p>
-                    <p class="input_space mini_font barlow italic"><input type="checkbox"><span style="padding-left:9px">Je ne souhaite pas recevoir les nouveautés et offres personnalisées Codevores</span>
-                <div class="input_space">
-                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit"><a class="no_border_hover">S'inscrire sur Codevores</a></button>
-                </div>
-            </form>
+        <div class="input_space flex bloc_space_around">
+          <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre question concerne :</label>
+          <select id="select_service" name="select_service" class="input is-rounded middle-font modal_input">
+            <option>► Service Commercial</option>
+            <option>► Service Technique</option>
+            <option>► Service Réclamation</option>
+          </select>
         </div>
-   </section>
-    
+        <div class="input_space flex bloc_space_around">
+          <textarea class="modal_textarea"></textarea>
+        </div>
+        <p class="input_space mini_font barlow">Codevores s'engage à vous répondre sous 5 jours ouvrés.</p>
+        <p class="input_space mini_font barlow italic">* Champs indispensables pour vous contacter. Ces informations ne seront pas enregistrées dans notre base de données.</p>
+        <div class="input_space">
+          <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit">
+            <a class="no_border_hover">Envoyer</a>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+
+  <!-------- MODAL CONNEXION ------------------->
+
+  <section class="container-fluid flex modal_fixed">
+    <div id="sectionConnexion" class="container bloc_border bg_grey_light modal_box modalSection hidden">
+      <div class="titillium texte_center black">
+        <p class="big bold modal_title" style="padding-left: 10px">Connexion à mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
+        <p class="titillium little_font modal_subtitle">Pas encore membre Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Inscrivez-vous</a></span></p>
+      </div>
+      <form class="texte_center flex_column bloc_space_around container-fluid">
+        <div class="input_space">
+          <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail" style="height: 35px">
+        </div>
+        <div class="input_space">
+          <input type="text" class="input is-rounded inputSelector" type="password" placeholder="Mot de passe" style="height: 35px">
+        </div>
+        <div class="input_space">
+          <p class="texte_spaced barlow little_font grey"><a class="no_border_hover italic_hover">Mot de passe oublié ?</a></p>
+          <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit"><a class="no_border_hover ">Se connecter</a></button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <!------------ MODAL INSCRIPTION --------------------->
+  <section class="container-fluid flex modal_fixed">
+    <div id="sectionInscription" class="container bloc_border bg_grey_light modal_box modalSection hidden">
+      <div class="titillium texte_center black">
+        <p class="big bold modal_title" style="padding-left:10px">Créer mon compte Codevores<i class="fas fa-times-circle i_cross exit"></i></p>
+        <p class="titillium little_font modal_subtitle">Déjà inscrit sur Codevores ? <span class="blue"><a class="no_border_hover italic_hover linkModal">Connectez-vous</a></span></p>
+      </div>
+      <form class="texte_center flex_column bloc_space_around container-fluid">
+        <div class="input_space">
+          <input class="input is-rounded inputSelector" type="text" placeholder="Nom" style="height: 35px">
+        </div>
+        <div class="input_space">
+          <input class="input is-rounded inputSelector" type="text" placeholder="Prénom" style="height: 35px">
+        </div>
+        <div class="input_space">
+          <input class="input is-rounded inputSelector" type="email" placeholder="Adresse mail" style="height: 35px">
+        </div>
+        <div class="input_space">
+          <input type="text" title="* 8 caractères minimum - 2 symboles - 1 Majuscule" class="input is-rounded inputSelector" type="password" minlength="8" required placeholder="Mot de passe *" style="height: 35px">
+        </div>
+        <div class="input_space">
+          <input type="text" title="* 8 caractères minimum - 2 symboles - 1 Majuscule" class="input is-rounded inputSelector" type="password" placeholder="Confirmez votre mot de passe *" style="height: 35px">
+        </div>
+        <p class="input_space mini_font barlow">Codevores s'engage à respecter vos données. En continuant votre inscription, vous acceptez nos <a>Conditions Générales</a>.</p>
+        <p class="input_space mini_font barlow">Vos données seront enregistrées par Codevores pour la création et la gestion de votre compte. Elles sont conservées pendant la durée de votre inscription sur le site et ultérieurement si nous y sommes légalement tenus. En savoir plus sur notre <a>politique d’utilisation des données</a>.</p>
+        <p class="input_space mini_font barlow italic"><input type="checkbox"><span style="padding-left:9px">Je ne souhaite pas recevoir les nouveautés et offres personnalisées Codevores</span>
+          <div class="input_space">
+            <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit"><a class="no_border_hover">S'inscrire sur Codevores</a></button>
+          </div>
+        </form>
+      </div>
+    </section>
 
 
 
 
-  <script src="script.js"></script>
-</body>
-</html>
+
+    <script src="script.js"></script>
+  </body>
+  </html>

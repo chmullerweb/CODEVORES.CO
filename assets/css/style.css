@@ -2,8 +2,8 @@
 """"""""""""""""""""""""""""""CSS RESET"""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -30,7 +30,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	 display: block;
+	display: block;
 }
 
 body {
@@ -53,316 +53,459 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
 /*------------ BODY ----------------------------------------------------------*/
 
 body, header, html{
-  width: 100%;
-  height: 100%;
-color : #4a4a4a;
+	width: 						100%;
+	height: 					100%;
+	color : 					#4a4a4a;
 }
 
 .bg_image{
-  width: 100%;
-  height: 600px;
-	background: url("../img/header.jpg") no-repeat center center;
-	background-size: cover;
-	margin-bottom: 30px;
+	width: 						100%;
+	height: 					600px;
+	background: 			url("../img/header.jpg") no-repeat center center;
+	background-size: 	cover;
+	margin-bottom: 		30px;
 }
 
 .bg_image_page{
-  width: 100%;
-  height: 8vh;
-	background: url("../img/header.jpg") no-repeat center center;
-	background-size: cover;
+	width: 						100%;
+	height: 					8vh;
+	background: 			url("../img/header.jpg") no-repeat center center;
+	background-size: 	cover;
 }
-
 
 
 
 /*------------ DISPLAY -------------------------------------------------------*/
 .hidden{
-  display: none!important;
+	display: 				none!important;
 }
 
 .flex{
-  display: flex;
+	display: 				flex;
 }
 
 .flex_center{
-	display: flex;
-	justify-content: center;
+	display: 					flex;
+	justify-content:	center;
 }
 
 .flex_column{
-	display: flex;
+	display: 				flex;
 	flex-direction: column;
 }
 
 .flex_end{
-	display:flex;
-	align-items: flex-end;
+	display:				flex;
+	align-items: 		flex-end;
 }
 
 .align_mid_row_element{
-	align-items: center;
-	justify-content: center;
-	padding-bottom: 40px;
+	align-items: 			center;
+	justify-content:	center;
+	padding-bottom: 	40px;
 }
 
 .fixed{
-    position: fixed;
+	position: 			fixed;
 }
 
 .opacity_activated{
-    opacity: 0.2;
+	opacity: 				0.2;
 }
 
 /*------------ MARGIN / PADDING ----------------------------------------------------------*/
 .pb-0{
-    padding-bottom: 0;
+	padding-bottom: 0;
 }
 
 .mt-20{
-    margin-top: 20px;
+	margin-top: 		20px;
 }
 
 .mb-20{
-   margin-bottom: 20px;
+	margin-bottom: 	20px;
 
 }
+
 
 /*------------ FONT ----------------------------------------------------------*/
 
 .titillium{
-  font-family: 'Titillium Web', sans-serif;
+	font-family: 		'Titillium Web', sans-serif;
 }
 
 .allerta{
-  font-family: 'Allerta Stencil', sans-serif;
+	font-family: 		'Allerta Stencil', sans-serif;
 }
 
 .barlow{
-  font-family: 'Barlow Semi Condensed', sans-serif;
+	font-family: 		'Barlow Semi Condensed', sans-serif;
 }
 
 .white{
-  color: #F7F9F9;
+	color: 					#F7F9F9;
 }
 
 .grey{
-	color: #4a4a4a;
+	color: 					#4a4a4a;
 }
 
 .black{
-  color : #323031
+	color : 				#323031
 }
 
 .yellow{
-  color : #FCB42F;
+	color : 				#FCB42F;
 }
 .blue{
-    color: #007bff;
+	color: 					#007bff;
 }
 .light_yellow{
-  color: #F4D35E;
+	color: 					#F4D35E;
 }
 
 .argile{
-  color : #C9CBA3;
+	color : 				#C9CBA3;
 }
 
 .red{
-    color: #dc3545;
+	color: 					#dc3545;
 }
 
 .text_shadow{
-  text-shadow: 1px 1px 10px rgba(50, 48, 49, 05)
+	text-shadow: 		1px 1px 10px rgba(50, 48, 49, 05)
 }
 
 .texte_center{
-  text-align: center;
+	text-align: 		center;
 }
 
 .uppercase{
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .bold{
-  font-weight: bold;
+	font-weight: 		bold;
 }
 
 .italic{
-  font-style: italic;
+	font-style: 		italic;
 }
 
 .italic_hover:hover{
-    font-style: italic;
+	font-style: 		italic;
 }
 
 .mini_font{
-    font-size: 0.8em;
+	font-size: 			0.8em;
 }
 
 .little_font{
-    font-size: 1em;
+	font-size: 			1em;
 }
 .big{
-	font-size: 1.5em;
+	font-size: 			1.5em;
 }
 
 .middle_font{
-	font-size: 1.2em;
+	font-size: 			1.2em;
 }
 
 .yellow_hover:hover{
-	  color: #F4D35E;
+	color: 					#F4D35E;
 }
+
 
 /*------------ TITLES / TEXTE --------------------------------------------------------*/
 
 h1{
-  font-size: 2.2em;
-  float: right;
+	font-size: 			2.2em;
+	float: 					right;
 }
 
 h6{
-	font-size: 0.8em;
+	font-size: 			0.8em;
 }
 
 .title_section{
-  font-size: 2em;
-  margin-bottom: 50px;
+	font-size: 			2em;
+	margin-bottom: 	50px;
 }
 
 .texte_spaced{
-	line-height: 30px;
+	line-height: 		30px;
 }
 
 .title_list_header{
-	font-size: 1.7em;
+	font-size: 			1.7em;
 }
 
 .claim_texte_spaced{
-	line-height: 45px;
+	line-height: 		45px;
 }
 
 .claim_font_size{
-	font-size: 2em;
+	font-size: 			2em;
 }
 
+.signature{
+	margin-top: 			45px;
+	padding-bottom: 	5px;
+	font-size: 				0.8em;
+}
+
+.quote{
+	font-size: 		0.9em;
+}
 
 
 
 /*------------ BORDURE ET BACKGROUND -------------------------------------------*/
 
 .no_border_hover:hover{
-	border-bottom: 0!important;
-	text-decoration : none;
+	border-bottom: 			0!important;
+	text-decoration : 	none;
 }
 
 .bloc_border{
-  border-radius: 4px;
+	border-radius: 			4px;
 }
 
 .border_argile{
-  border : 1.6px #C9CBA3 solid;
-  background-color: #C9CBA3;
-  border-radius: 4px;
+	border : 						1.6px #C9CBA3 solid;
+	background-color: 	#C9CBA3;
+	border-radius: 			4px;
 }
 
 .border_grey_light{
-  border : 1.6px #F7F9F9 solid;
-  background-color: #F7F9F9;
-  border-radius: 4px;
+	border : 						1.6px #F7F9F9 solid;
+	background-color: 	#F7F9F9;
+	border-radius: 			4px;
 }
 
 .border_black{
-	border : 1.6px #323031 solid;
-	background-color: #323031;
-	border-radius: 4px;
+	border : 						1.6px #323031 solid;
+	background-color: 	#323031;
+	border-radius: 			4px;
 }
 
 .border_blue{
-	border : 1.6px #007bff solid;
-	background-color: #007bff;
-	border-radius: 4px;
+	border : 						1.6px #007bff solid;
+	background-color: 	#007bff;
+	border-radius: 			4px;
 }
 
 .border_yellow_light{
-  border : 1.6px #F4D35E solid;
-  background-color: #F4D35E;
-  border-radius: 4px;
-  box-shadow: 0 0 10px #F4D35E;
+	border :				 		1.6px #F4D35E solid;
+	background-color: 	#F4D35E;
+	border-radius: 			4px;
+	box-shadow: 				0 0 10px #F4D35E;
 }
 
 .border_dotted_argile{
-	border-top: 2px #C9CBA3 dotted;
+	border-top: 				2px #C9CBA3 dotted;
 }
 
-
 .border_dotted_yellow_light{
-	border-top: 2px #F4D35E dotted;
+	border-top: 				2px #F4D35E dotted;
 }
 
 .border_dotted_black {
-   border-top: 2px #323031 dotted; 
+	border-top: 				2px #323031 dotted;
 }
 
 .no_box_shadow{
-	border: 0!important;
-	box-shadow: none!important;
-}
-
-
-.inputSelector:focus{
-  outline: none !important;
-  border-color: #FCB42F;
-  box-shadow: 0 0 10px #F4D35E;
+	border: 						0!important;
+	box-shadow: 				none!important;
 }
 
 .underline_yellow_title{
-  border-bottom: 6px #FCB42F double;
+	border-bottom: 			6px #FCB42F double;
 }
 
 .underline_black{
-  border-bottom: 2px #323031 solid;
+	border-bottom: 			2px #323031 solid;
 }
 
 .underline_yellow_light{
-  border-bottom: 2px #F4D35E solid;
+	border-bottom: 			2px #F4D35E solid;
 }
 
 .bg_transparent{
-	background-color: rgba(0,0,0,0);
-	border: 0;
+	background-color: 	rgba(0,0,0,0);
+	border: 						0;
 }
 
 .bg_black{
-	background-color: #323031
+	background-color: 	#323031
 }
 
 .bg_yellow{
-	background-color: #FCB42F;
+	background-color: 	#FCB42F;
 }
 
 .bg_yellow_light{
-	background-color: #F4D35E;
+	background-color: 	#F4D35E;
 }
 
 .bg_white{
-	background-color: white;
+	background-color: 	white;
 }
 
 .bg_argile{
-	background-color: #C9CBA3;
+	background-color: 	#C9CBA3;
 }
 
 .bg_grey_light{
-	background-color: #F7F9F9;
+	background-color: 	#F7F9F9;
 }
+
+/*------------ INPUT ------------------------------------------------*/
+
+.inputSelector{
+	width: 					400px;
+	height: 				45px;
+	border-radius: 	20px;
+}
+
+.inputSelector:focus, .modal_input{
+	outline: 				none !important;
+	border-color: 	#FCB42F;
+	box-shadow: 		0 0 10px #F4D35E;
+}
+
+.input_space{
+	padding-top: 			8px;
+	padding-bottom: 	10px;
+}
+
+/*------------ BOUTONS ----------------------------------------------*/
+
+.button_header, .button_header_pages{
+	height: 		45px;
+	padding: 		9px 84px;
+}
+
+.button_header:hover, .button_header_pages:hover{
+	color: 						#323031;
+	border: 					1px #323031 solid;
+	border-radius: 		20px;
+	text-decoration:	none;
+}
+
+.button_header_pages{
+	margin-top:				20px;
+	margin-left: 			55px;
+}
+
+.button_section{
+	position: 			absolute;
+	right: 					40px;
+	margin-top: 		15px;
+}
+
+.btn-page{
+	text-decoration: 		none;
+	border-bottom: 			0 !important;
+}
+
+.button_argile{
+	line-height: 			0 !important;
+	height: 					30px;
+	padding: 					4px 7px;
+	margin-top: 			25px;
+}
+
+.button_argile:hover, .button_join:hover{
+	color: 						#323031;
+	border: 					1px #323031 solid;
+	text-decoration:	none;
+}
+
+.button_cadenas{
+	line-height: 		17px;
+	height: 				45px;
+	padding: 				4px 50px;
+	margin-top: 		25px;
+}
+
+.button_join{
+	height: 				35px;
+	padding: 				9px 65px;
+	margin: 				20px auto;
+}
+
+.button_profil_page{
+	height: 				35px;
+	padding: 				9px 13px;
+	margin-top: 		20px;
+	margin-right:   25px;
+}
+
+.button_devis{
+	margin-top: 		10px !important;
+	height: 				20px;
+}
+
+/*------------ LOGO / ICONES / IMAGES------------------------------------------------*/
+
+.logo{
+	width: 				30px;
+	margin-top: 	5px;
+}
+
+.i_header{
+	position: 		fixed;
+	right: 				15px;
+	top : 				6px;
+	font-size: 		1.5em;
+	text-align: 	right;
+	display: 			none;
+	z-index: 			55;
+	cursor: 			pointer;
+}
+
+.i_benefits{
+	width: 						30%;
+	display: 					block;
+	margin: 					auto;
+	padding-bottom: 	22px;
+}
+
+.i_contact{
+	border-radius: 		3px;
+}
+
+.i_social{
+	margin : 			5px 0;
+	font-size: 		1.5em;
+}
+
+.i_space{
+	padding-right: 		10px;
+	padding-top: 			5px;
+}
+
+.i_benefits_freelance{
+	width: 						20%;
+	display: 					block;
+	margin: 					auto;
+	padding-bottom: 	22px;
+}
+
+.i_cross{
+	float: 				right;
+	font-size: 		15px;
+}
+
+.i_cross:hover{
+	cursor: 			crosshair;
+}
+
+/*------------ SECTION ----------------------------------------------*/
 
 .bloc_row{
 	padding-top: 				50px;
@@ -372,321 +515,218 @@ h6{
 	height: 						135px;
 }
 
-/*------------ ICONES / IMAGES------------------------------------------------*/
-
-.i_header{
-  position: fixed;
-  right: 15px;
-  top : 6px;
-  font-size: 1.5em;
-  text-align: right;
-  display: none;
-  z-index: 55;
-cursor: pointer;
+.section_colored{
+	padding-top: 				30px;
+	height: 						100%;
+	margin-top: 				30px;
+	padding-bottom: 		30px;
+	margin-bottom: 			30px;
 }
 
-.i_benefits{
-	width: 30%;
-	display: block;
-	margin: auto;
-	padding-bottom: 22px;
+.section_uncolored{
+	padding-top: 				30px;
+	margin-top: 				30px;
+	margin-bottom: 			30px;
 }
 
-.i_contact{
-	border-radius: 3px;
+.section_spaced{
+	margin-top: 				50px;
+	padding-top: 				30px;
 }
 
-.i_social{
-	margin : 5px 0;
-	font-size: 1.5em;
+.section_no_margin_top{
+	margin-top: 			-30px;
 }
 
-.i_space{
-	padding-right: 10px;
-	padding-top: 5px;
+.bloc_space_around{
+	justify-content: 	space-around;
 }
 
-.i_benefits_freelance{
-	width: 20%;
-	display: block;
-	margin: auto;
-	padding-bottom: 22px;
+.bloc_space_between{
+	justify-content: 	space-between;
 }
 
-.i_cross{
-    float: right;
-    font-size: 15px;
-}
-
-.i_cross:hover{
-    cursor: crosshair;
+.nowrap{
+	flex-wrap: 			nowrap!important;
 }
 
 
-/*------------ TEXTE COUVERTURE ----------------------------------------------*/
-
-.header_title {
-    font-size: 3em;
-    position: absolute;
-    margin-top: 160px;
-    display : table;
-    width: 100%;
-    height: 100%;
-}
-
-.header_selector{
-  position: absolute;
-  justify-content: space-around;
-  width: 100%;
-  margin-top: 290px;
-}
-
-.inputSelector{
-  width: 400px;
-  height: 45px;
-  border-radius: 20px;
-}
-
-.button_header, .button_header_pages{
-  height: 45px;
-  padding: 9px 84px;
-}
-
-.button_header:hover, .button_header_pages:hover{
-  color: #323031;
-  border: 1px #323031 solid;
-  border-radius: 20px;
-  text-decoration:none;
-}
-
-.header_content {
-    position: absolute;
-    width: 100%;
-    margin-top: 256px;
-		margin-left: 40px;
-}
-
-.button_header_pages{
-    margin-top:20px;
-    margin-left: 55px;
-}
-
-.list_header{
-	width: 100%;
-	margin-left: 40px;
-	padding: 15px;
-}
-
-.header_subtitle{
-    position:       absolute;
-    margin-top:     260px;
-    display :       table;
-    width:          100%;
-    height:         100%;
-}
-
-.input_space{
-    padding-top: 8px;
-    padding-bottom: 10px;
-}
-
-/*------------ LOGO ----------------------------------------------------------*/
-.logo{
-  width: 30px;
-  margin-top: 5px;
-}
-
-/*------------ BARRE DE NAVIGATION -------------------------------------------*/
+/*------------ HEADER / BARRE DE NAVIGATION -------------------------------------------*/
 .header_menu{
-  position: absolute;
-  padding-left: 15px;
+	position: 			absolute;
+	padding-left: 	15px;
 }
 
 .menu_metiers{
-  margin : 15px 0 0 40px;
-  font-size: 1em;
+	margin : 				15px 0 0 40px;
+	font-size: 			1em;
 }
+
 nav{
-  margin : 15px 10px 0 340px;
+	margin : 				15px 10px 0 340px;
 }
 nav a{
-  font-size: 1em;
-  margin-left: 25px;
-  padding: 4px;
+	font-size: 			1em;
+	margin-left: 		25px;
+	padding: 				4px;
 }
 
 nav a:hover, a:hover{
-  color: #323031;
-  border-bottom: 4px #FCB42F double;
-  text-decoration:none;
- 
+	color: 						#323031;
+	border-bottom: 		4px #FCB42F double;
+	text-decoration:	none;
 }
 
 .nav_space{
-	margin-left: 130px;
+	margin-left: 		130px;
 }
 
 
 /*------------ MENU BURGER -------------------------------------------*/
 
 #conteneur-menu{
-    position: fixed;
-    width: 100%;
-    background-image: url(../img/header_mini.jpg);
-    height: 35px;
-    z-index: 50;
-    box-shadow: -3px 2px 13px 0px rgba(55, 55, 55, 0.75);
+	position: 						fixed;
+	width: 								100%;
+	background-image: 		url(../img/header_mini.jpg);
+	height: 							35px;
+	z-index: 							50;
+	box-shadow: 					-3px 2px 13px 0px rgba(55, 55, 55, 0.75);
 }
 
 #menu_deroulant{
-    position: fixed;
-    width: 60%;
-    display: flex;
-    right:55px;
-    z-index: 50;
-    height: 30px;
+	position: 						fixed;
+	width: 								60%;
+	display: 							flex;
+	right:								55px;
+	z-index: 							50;
+	height: 							30px;
 }
 
 #logoMenu{
-    position:fixed;
-    top:2px;
-    margin-top: 0!important;
-    left: 15px;
+	position:						fixed;
+	text-outline: 			2px;
+	margin-top: 				0!important;
+	left: 							15px;
 }
 
 dl{
-    width:60%;
-    height:  40px;
-    padding: 0;
+	widows: 						60%;
+	height:  						40px;
+	padding: 						0;
 }
 
 dt{
-    display: block;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    border-right:double 2px #868282;
-    cursor: pointer;   
+	display: 						block;
+	height: 						35px;
+	line-height: 				35px;
+	text-align: 				center;
+	border-right:				double 2px #868282;
+	cursor: 						pointer;
 }
 
 dt:hover{
-    font-weight: bold;
+	font-weight: 				bold;
 }
 
 dd{
-    margin: 0;
-    padding: 0;
-    background-image: url(../img/header_mini.jpg);
-    width: 100%;
+	margin: 						0;
+	padding: 						0;
+	background-image: 	url(../img/header_mini.jpg);
+	width: 							100%;
 }
 
 dd ul{
-    margin:0;
-    padding: 0;
-    text-align: center;
-    list-style: none;
+	margin: 				0;
+	padding: 				0;
+	text-align: 		center;
+	list-style: 		none;
 }
 
 dd ul li a{
-    color: darkgoldenrod;
-    display: block;
-    text-decoration: none;
-    height: 30px;
-    line-height: 30px;
+	color: 							darkgoldenrod;
+	display: 						block;
+	text-decoration: 		none;
+	height: 						30px;
+	line-height: 				30px;
 }
 
 dd ul li a:hover{
-    background-color: cadetblue;
-    color: azure;
+	background-color: 	cadetblue;
+	color: 							azure;
 }
 
 dl:hover dd{
-    display:block!important;
+	display:						block!important;
 }
 
 dl dd{
-    display: none;
+	display: 						none;
+}
+
+/*------------ HEADER COUVERTURE / MENU ----------------------------------------------*/
+
+.header_title {
+	font-size: 				3em;
+	position: 				absolute;
+	margin-top: 			160px;
+	display : 				table;
+	width: 						100%;
+	height: 					100%;
+}
+
+.header_selector{
+	position: 				absolute;
+	justify-content: 	space-around;
+	width: 						100%;
+	margin-top: 			290px;
+}
+
+.header_content {
+	position: 				absolute;
+	width: 						100%;
+	margin-top: 			256px;
+	margin-left: 			40px;
+}
+
+.list_header{
+	width: 						100%;
+	margin-left: 			40px;
+	padding: 					15px;
+}
+
+.header_subtitle{
+	position:       absolute;
+	margin-top:     260px;
+	display :       table;
+	width:          100%;
+	height:         100%;
 }
 
 
-/*--------------------------- MAIN -------------------------------------------*/
-
-.button_section{
-	position: absolute;
-	right: 40px;
-	margin-top: 15px;
-}
-
-.section_colored{
-	padding-top: 30px;
-	height: 100%;
-	margin-top: 30px;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-}
-
-.section_uncolored{
-	padding-top: 30px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-.section_spaced{
-	margin-top: 50px;
-    padding-top: 30px;
-}
-
-.section_no_margin_top{
-	margin-top: -30px;
-}
-
-.btn-page{
-	text-decoration: none;
-	border-bottom: 0 !important;
-}
-
-.bloc_space_around{
-	justify-content: space-around;
-}
-
-.bloc_space_between{
-	justify-content: space-between;
-}
-
-.nowrap{
-	flex-wrap: nowrap!important;
-}
+/*------------------- CARD -----------------------*/
 
 .card_half_place{
-	width: 50%;
-}
-
-
-/*------------------- PROFILES -----------------------*/
-
-.button_argile{
-  line-height: 0 !important;
-  height: 30px;
-  padding: 4px 7px;
-  margin-top: 25px
-}
-
-.button_argile:hover, .button_join:hover{
-  color: #323031;
-  border: 1px #323031 solid;
-  text-decoration:none;
+	width: 					50%;
 }
 
 .card_profil{
-  line-height: 45px;
+	line-height: 		45px;
 }
 
-
-
-/*--------------- AVANTAGES -----------------------*/
-
 .card_benefits{
-	margin-top: -20px;
+	margin-top: 		-20px;
+}
+
+.card_number p{
+	text-align: 		center;
+	width: 					80%;
+	margin: 				auto;
+}
+
+.card_presse{
+	max-width:		 	540px;
+	margin-bottom: 	15px;
+	height: 				100%;
 }
 
 /*--------------- ETAPES / NOMBRES -----------------------*/
@@ -701,182 +741,126 @@ dl dd{
 }
 
 .number_argile{
-	background-color: #C9CBA3 !important;
+	background-color: 		#C9CBA3 !important;
 }
 
 .number_yellow{
-	background-color: #FCB42F !important;
-}
-
-.card_number p{
-	text-align: center;
-	width: 80%;
-	margin: auto;
+	background-color: 		#FCB42F !important;
 }
 
 
-/*--------------- PRESSE -----------------------*/
-
-.card_presse{
-	max-width: 540px;
-    margin-bottom: 15px;
-    height: 100%;
-}
-
-.signature{
-	margin-top: 45px;
-    padding-bottom: 5px;
-	font-size: 0.8em;
-}
-
-.quote{
-	font-size: 0.9em;
-}
-
-/*--------------- PAGE PROFIL -----------------------*/
-
-.button_cadenas{
-  line-height: 17px;
-  height: 45px;
-  padding: 4px 50px;
-  margin-top: 25px
-}
+/*--------------- PAGE PROFIL DU PRO CADENAS -----------------------*/
 
 .bloc_cadenas{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(175,188,152,0.95)
+	position: 					absolute;
+	top: 								0;
+	left: 							0;
+	width: 							100%;
+	height: 						100%;
+	background-color: 	rgba(175,188,152,0.95)
 }
 
 .content_mask_cadenas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    padding: 1.5vw;
-    border: 1px dashed solid #C9CBA3;
-    
+	display: 						flex;
+	flex-direction: 		column;
+	align-items: 				center;
+	justify-content: 		center;
+	text-align: 				center;
+	width: 							100%;
+	height: 						100%;
+	padding: 						1.5vw;
+	border: 						1px dashed solid #C9CBA3;
 }
 
 
-/*--------------- CTA NOUS REJOINDRE -----------------------*/
+/*--------------- CTA / CLAIM NOUS REJOINDRE -----------------------*/
 
 .claim_join{
-	width: 60%;
-	position: absolute;
-	z-index: 2;
-	padding-top: 20px;
+	width: 					60%;
+	position: 			absolute;
+	z-index: 				2;
+	padding-top: 		20px;
 }
 
-.button_join{
-	height: 				35px;
-  padding: 				9px 65px;
-	margin: 				20px auto;
-}
 
-/*--------------- CTA NOUS REJOINDRE -----------------------*/
-
-.button_profil_page{
-    height: 				35px;
-  padding: 				9px 13px;
-	margin-top: 			20px;
-    margin-right:           25px;
-}
 /*--------------- MODAL -----------------------*/
 
 .modal_fixed{
-    position: fixed;
-    top:0;
-    z-index: 900;
-	justify-content: 		    center;
+	position: 					fixed;
+	top: 								0;
+	z-index: 						900;
+	justify-content: 		center;
 }
 
 .modal_box{
-    width: 60%;
-	padding-top:                10px;
+	width: 						60%;
+	padding-top:      10px;
 	height: 					100%;
-    margin-top: 				30px;
-	margin-bottom: 			    30px;
-    border: 3px #323031 double;
-    box-shadow: 0 0 10px 0 #323031;
+	margin-top: 			30px;
+	margin-bottom: 		30px;
+	border: 					3px #323031 double;
+	box-shadow: 			0 0 10px 0 #323031;
 }
 
 .modal_textarea{
-        width: 89%;
-        padding: 10px;
-        height: 100px;
-        border-radius: 10px;        
+	width: 						89%;
+	padding: 					10px;
+	height: 					100px;
+	border-radius: 		10px;
 }
 
 .modal_subtitle{
-    padding-top: 15px;
-    padding-bottom: 20px;
+	padding-top: 				15px;
+	padding-bottom: 		20px;
 }
 
 .modal_input{
-        border-radius: 20px;
-        height: 30px;
-        width: 40%;
+	border-radius: 		20px;
+	height: 					30px;
+	width: 						40%;
 }
 
-.subscribe, .connexion, .formulaireContact, .contactPro{
-    cursor: pointer;
+.subscribe, .connexion, .formContact, .contactPro{
+	cursor: 		pointer;
 }
 
-
-
-
-
-/*--------------- CONTACT -----------------------*/
-
-.button_devis{
-	margin-top: 10px !important;
-	height: 20px;
-}
 
 /*--------------- FOOTER -----------------------*/
 
 .footer_section{
-	border-top: 4px #FCB42F double;
-	height: 30px;
-	padding: 6px;
+	border-top: 		4px #FCB42F double;
+	height: 				30px;
+	padding: 				6px;
 }
 
 .footer_subtitle{
-	justify-content: space-around;
+	justify-content: 		space-around;
 }
-
-
 
 
 /*-------------------------------------------------------------*/
 /*--------------------------- RESPONSIVE ------------------------------------*/
 
 
-
-/*------------ ECRAN PLUS PETIT QUE <1224px ------------------------------------*/
+/*------------ ECRAN PLUS PETIT QUE <1224px ----------------*/
 
 
 @media screen and (min-width: 1120px) and (max-width: 1240px){
-  nav{
-    margin : 15px 10px 0 200px;
-  }
+
+
+	nav{
+		margin : 			15px 10px 0 200px;
+	}
 	.btn_eatCode{
-		width: 100%;
-		margin: auto;
-		height: 30px;
-		font-size: 0.9em;
-		padding: 0;
+		width: 				100%;
+		margin: 			auto;
+		height: 			30px;
+		font-size: 		0.9em;
+		padding: 			0;
 	}
 
 	.card_content_contact{
-		font-size: 0.8em;
+		font-size: 		0.8em;
 	}
 }
 
@@ -887,141 +871,144 @@ dl dd{
 
 @media screen and (max-width:1120px){
 
+	/*------------ SECTION ------------------*/
 	.section_colored{
-		height: 80%;
+		height: 			80%;
 	}
 
 	.section_center_responsive {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		height: 100%;
-	}
-    
-    
-  /*------------ HEADER ------------------*/
-  nav{
-    display: none;
-  }
-    
-.nav_space{
-    margin-left:0;
-}
-
-  .i_header{
-    display: inline;
-  }
-
-  .header_title{
-    margin-top: 120px;
-    font-size: 1.9em;
-    font-weight: bold;
-  }
-
-  .header_subtitle{
-    margin-top: 180px;
-    font-size: 0.9em;
-   }
-
-  .header_selector{
-  margin-top: 210px;
-  display: table-cell;
-  align-items: center;
-	}
-
-  .inputSelector{
-    margin-bottom: 10px;
-    height: 35px;
-  }
-
-  .buttonSearch{
-    height: 35px;
-  }
-
-  .header_content{
-    margin-top: 185px;
-    margin-left: 40px;
-    font-size: 1em;
-    }
-
-  .button_header_pages{
-    height: 35px;
-    padding: 3px 50px;
-    }
-
-  .big{
-        font-size: 1.3em;
-    }
-
-	.claim_font_size{
-		font-size: 1.7em;
-	}
-
-
-	/*------------ SECTION PROFILES ----------*/
-	.btn_eatCode{
-		width: 100%;
-		margin: auto;
-		height: 30px;
-		font-size: 0.9em;
-		padding: 0;
-	}
-	.button_section{
-		position: absolute;
-		left: 25px;
-		margin-top: 45px;
-		margin-left: -9px;
+		display: 						flex;
+		flex-direction: 		column;
+		align-items: 				center;
+		height: 						100%;
 	}
 
 	.title_section{
-		width: 100%;
-		font-size: 1.9em;
-	}
-    
-    .lh-22{
-        line-height: 22px;
-    }
-
-
-	/*------------ SECTION AVANTAGES --------*/
-
-	.card_benefits{
-		padding-top: 40px;
-		padding-bottom: 0;
+		width: 					100%;
+		font-size: 			1.9em;
 	}
 
-	/*------------ SECTION ETAPES-------------*/
-	.card_number{
-		display: inline-flex;
+	/*------------ FONT / TEXTE ------------------*/
+
+	.big{
+		font-size: 			1.3em;
 	}
 
-
-
-	/*------------ SECTION CONTACT-------------*/
-
-	.card_content_contact{
-		font-size: 0.8em;
+	.claim_font_size{
+		font-size: 			1.7em;
 	}
 
-	.card_half_place{
-		width: 50%;
-	}
+	/*------------ ICONES ------------------*/
 
-	.button_devis{
-		height: 30px;
-		font-size: 0.8em;
+	.i_header{
+		display: 				inline;
 	}
 
 	.i_hidden{
-		display: none;
-		width: 0%
+		display: 				none;
+		width: 					0%;
+	}
+
+	/*------------ INPUT ------------------*/
+
+	.inputSelector{
+		margin-bottom: 		10px;
+		height: 					35px;
+	}
+
+	/*------------ BOUTTON ------------------*/
+
+	.buttonSearch{
+		height: 					35px;
+	}
+
+	.button_header_pages{
+		height: 					35px;
+		padding: 					3px 50px;
+	}
+
+	.btn_eatCode{
+		width: 						100%;
+		margin: 					auto;
+		height: 					30px;
+		font-size: 				0.9em;
+		padding: 					0;
+	}
+
+	.button_section{
+		position: 				absolute;
+		left: 						25px;
+		margin-top: 			45px;
+		margin-left: 			-9px;
+	}
+
+	.button_devis{
+		height: 					30px;
+		font-size: 				0.8em;
+	}
+
+	/*------------ MARGIN / PADDING ------------------*/
+
+	.lh-22{
+		line-height: 		22px;
+	}
+
+	/*------------ HEADER COUVERTURE / MENU ------------------*/
+
+	nav{
+		display: 				none;
+	}
+
+	.nav_space{
+		margin-left:		0;
+	}
+
+	.header_title{
+		margin-top: 		120px;
+		font-size: 			1.9em;
+		font-weight: 		bold;
+	}
+
+	.header_subtitle{
+		margin-top: 		180px;
+		font-size: 			0.9em;
+	}
+
+	.header_selector{
+		margin-top: 		210px;
+		display: 				table-cell;
+		align-items: 		center;
+	}
+
+	.header_content{
+		margin-top: 		185px;
+		margin-left: 		40px;
+		font-size: 			1em;
+	}
+
+	/*------------ CARD -------------*/
+	.card_benefits{
+		padding-top: 				40px;
+		padding-bottom: 		0;
+	}
+
+	.card_number{
+		display: 					inline-flex;
+	}
+
+	.card_content_contact{
+		font-size: 				0.8em;
+	}
+
+	.card_half_place{
+		width: 						50%;
 	}
 
 	/*------------ FOOTER-------------*/
 	.footer_subtitle{
-		font-size: 0.8em;
+		font-size: 				0.8em;
 	}
-    
+
 }
 
 
@@ -1030,165 +1017,161 @@ dl dd{
 
 @media screen and (max-width:768px){
 
+
+	/*------------ SECTION --------*/
+
+	.description{
+		padding-top: 			0
+	}
+
+	.bloc_row{
+		height: 					120px;
+	}
+
 	.section_center_responsive{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		height: 100%;
+		display:									flex;
+		flex-direction: 					column;
+		align-items: 							center;
+		height: 									100%;
 	}
 
 	.align_content_center_responsive{
-		flex-direction: column;
-		align-items: center;
-		flex-wrap: wrap;
-		line-height: 20px;
+		flex-direction: 				column;
+		align-items: 						center;
+		flex-wrap: 							wrap;
+		line-height: 						20px;
 	}
-    
 
-/*------------ SECTION --------*/
-    
-    .description{
-        padding-top: 0
-    }
-    
-    .bloc_row{
-        height: 120px;
-    }
-
-/*------------ FONT --------*/
-
-    
-    .big{
-        font-size : 1.1em;
-    }
-    
-    .text_mission{
-        padding-top: 30px!important;
-        font-size: 0.9em;
-    }
-
-/*------------ BOUTON --------*/
-
-    .button_profil_page{
-        height: 				48px;
-        margin-top: 12px;
-        font-size: 0.9em;
-    }
-    
-    .button_cadenas{
-        padding: 4px 1px;
-    }
-    
-/*------------ HEADER --------*/
-
-
-	.claim_font_size{
-		font-size: 1.4em;
-	}
-    
-   	.claim_texte_spaced{
-		line-height: 30px;
-	}
-    
-     .header_selector{
-        margin-top: 230px;
-    }
-/*------------ MODAL --------*/
-
-     .modal_box{
-        width: 100%;
-        margin-bottom: 40px;
-    }
-    
-    .modal_fixed{
-        padding-left: 0!important;
-        padding-right: 0!important;
-    }
-    
-    .modal_title{
-        font-size: 1.1em;
-    }
-    
-    .modal_subtitle{
-        font-size: 0.8em;
-    }
-    
-    .modal_button{
-        padding: 0px 5px;
-    }
-    
-    
-
-/*------------ SECTION AVANTAGES --------*/
 	.section_colored{
-		height: 80%;
-	}
-
-	.button_recruteur{
-		padding-top: 30px;
-		margin-left: -6px;
-	}
-
-	
-
-/*------------ SECTION ETAPES ----------*/
-
-	.card_number{
-	display: inline-flex;
-	}
-
-/*------------ SECTION PRESSE ----------*/
-
-	.card_presse{
-		height: 100%;
-	}
-
-/*------------ SECTION CONTACT ----------*/
-
-	.card_content_contact{
-		padding: 5px 17px;
-		font-size: 0.6em;
-	}
-
-	.button_devis{
-		margin-top: -5px !important;
-		box-shadow: none!important;
-		width: 80%;
-		height: 20px;
-	}
-
-	.card_content_address{
-		padding-left: 0px;
-		padding-right: 0px;
-		margin-right: 30px;
-		width: 100%;
-	}
-
-	.card_half_place{
-		width: 50%!important;
-	}
-
-	.i_social{
-		margin : 2px 0;
-		font-size: 0.9em!important;
+		height: 				80%;
 	}
 
 	.margin_center{
-		margin: auto;
+		margin: 				auto;
 	}
 
-/*------------ FOOTER ----------*/
+	/*------------ FONT --------*/
+
+	.big{
+		font-size : 		1.1em;
+	}
+
+	.text_mission{
+		padding-top: 		30px!important;
+		font-size: 			0.9em;
+	}
+
+	/*------------ ICONES --------*/
+
+	.i_social{
+		margin : 				2px 0;
+		font-size: 			0.9em!important;
+	}
+
+	/*------------ BOUTON --------*/
+
+	.button_profil_page{
+		height: 					48px;
+		margin-top: 			12px;
+		font-size: 				0.9em;
+	}
+
+	.button_cadenas{
+		padding: 					4px 1px;
+	}
+
+	.button_recruteur{
+		padding-top: 			30px;
+		margin-left: 			-6px;
+	}
+
+	.button_devis{
+		margin-top: 			-5px !important;
+		box-shadow: 			none!important;
+		width: 						80%;
+		height: 					20px;
+	}
+
+	/*------------ CLAIM --------*/
+
+
+	.claim_font_size{
+		font-size:			 	1.4em;
+	}
+
+	.claim_texte_spaced{
+		line-height: 			30px;
+	}
+
+	/*------------ HEADER --------*/
+
+	.header_selector{
+		margin-top: 			230px;
+	}
+
+	/*------------ MODAL --------*/
+
+	.modal_box{
+		width: 						100%;
+		margin-bottom: 		40px;
+	}
+
+	.modal_fixed{
+		padding-left: 		0!important;
+		padding-right: 		0!important;
+	}
+
+	.modal_title{
+		font-size: 				1.1em;
+	}
+
+	.modal_subtitle{
+		font-size: 				0.8em;
+	}
+
+	.modal_button{
+		padding: 					0px 5px;
+	}
+
+
+	/*------------ CARD ----------*/
+
+	.card_number{
+		display: 					inline-flex;
+	}
+
+	.card_presse{
+		height: 					100%;
+	}
+
+	.card_content_contact{
+		padding: 					5px 17px;
+		font-size: 				0.6em;
+	}
+
+	.card_content_address{
+		padding-left: 		0px;
+		padding-right: 		0px;
+		margin-right: 		30px;
+		width: 						100%;
+	}
+
+	.card_half_place{
+		width: 						50%!important;
+	}
+
+	/*------------ FOOTER ----------*/
 
 	.footer_subtitle{
-		font-size: 0.7em;
+		font-size: 				0.7em;
 	}
 
 	.responsive_white{
-		color: #F7F9F9;
+		color: 						#F7F9F9;
 	}
 
 	.footer_section{
-		height: 100%;
+		height: 					100%;
 	}
 }
 
@@ -1196,295 +1179,289 @@ dl dd{
 
 
 @media screen and (max-width:425px){
-	
-    
- /*------------ SECTION ----------*/
-    
-    .header_content{
-        width: 100%;
-        margin-left:10px;
-        margin-top: 200px;
-    }
-    
-    .header_selector{
-        margin-top: 170px;
-    }
-    
-    .claim_join{
-        width: 80%
-    }
-    
-    .bloc_row{
-        height:120px;
-    }
-    
-    #menu_deroulant{
-        width: 76%;
-       font-size: 0.7em;
-    }
- 
-/*------------ IMAGE / ICONES ----------*/
-    
-    #logoMenu{
-        top:8px;
-    }
-    
-/*------------ BORDURE ----------*/
 
 
-    .underline_yellow_title{
-        border-bottom: 2px #FCB42F solid;
-    }
-    
-/*------------ TITRE / TEXTE ----------*/   
- 
-    h1{
-        font-size: 1.5em;
-    }
-    
-    h2{
-		font-size: 0.8em;
-	}
-    
-    .big{
-        font-size:1.2em;
-    }
-    
-    .header_title{
-        margin-top: 100px;
-        line-height: 42px;
-    }
-    
-    .title_section_out{
-	  padding-bottom: 30px;
+	/*------------ SECTION ----------*/
+
+	.header_content{
+		width: 					100%;
+		margin-left:		10px;
+		margin-top: 		200px;
 	}
 
-    
-    .little_font{
-        font-size: 0.9em;
-    }
-    
-    .menu_metiers{
-        font-size: 0.8em;
-        margin: 7px 0 0 20px; 
-    }
-    
-    .list_header{
-        margin-left: 0;
-        padding: 0;
-        font-size: 0.73em!important;
-    }
-    
-    .cta_subtitle{
-        line-height: 17px;
-        font-size: 0.8em;
-        padding-top: 18px;
-    }
-    
- /*------------ CARD ----------*/ 
-    .card_number p{
-        text-align: left;
-    }
-    
-    .card_content_contact{
-        padding: 5px 0px;
-    }
-/*------------ BOUTON ----------*/   
-
-    .button_cadenas{ 
-    padding: 2px 20px;
-    font-size: 0.7em;
-    line-height: 13px;
-    }
-    
-    .button_join{
-        font-size: 0.8em;
-        padding: 0 15px;
-        margin-top: 0; 
-    }
-    
-    .button_section_out{
-		margin-top: 70px;
-		margin-left: -9px;
+	.header_selector{
+		margin-top: 		170px;
 	}
-    
-    .button_header_pages{
-        margin-top:50px;
-        margin-left: 10px;
-    }
-    
-    .button_freelance{
-        margin-right: 0!important;
-        margin-bottom: 30px;
-        padding: 9px 72px;
-    }
-    
-    
 
- /*------------ MODAL ----------*/
-    
-    label{
-        padding: 0 20px!important;
-        font-size: 0.7em!important;
-    }
-    
-    .modal_input{
-        height: 26px;
-        font-size: 0.7em;
-        width: 50%;
-    }
-    
-    .modal_textarea{
-        width: 100%
-    }
-    
-    /*------------ IMAGE / ICONE ----------*/   
+	.claim_join{
+		width: 					80%
+	}
+
+	.bloc_row{
+		height:					120px;
+	}
+
+	#menu_deroulant{
+		width: 					76%;
+		font-size: 			0.7em;
+	}
+
+	.column_responsive{
+		display: 						flex;
+		flex-direction: 		column;
+		align-items: 				center;
+	}
+
+	/*------------ IMAGE / ICONES ----------*/
+
+	#logoMenu{
+		top: 						8px;
+	}
+
+	.number_argile, .number_yellow{
+		margin-left: 		-5px;
+		padding:				3.5px;
+		width: 					30px;
+		height: 				30px;
+	}
+
+	.logo{
+		width: 					18px;
+	}
+
+	/*------------ BORDURE ----------*/
+
+	.underline_yellow_title{
+		border-bottom: 		2px #FCB42F solid;
+	}
+
+	/*------------ TITRE / TEXTE ----------*/
+
+	h1{
+		font-size: 				1.5em;
+	}
+
+	h2{
+		font-size: 				0.8em;
+	}
+
+	.big{
+		font-size: 				1.2em;
+	}
+
+	.header_title{
+		margin-top: 			100px;
+		line-height: 			42px;
+	}
+
+	.title_section_out{
+		padding-bottom: 		30px;
+	}
+
+	.little_font{
+		font-size: 					0.9em;
+	}
+
+	.menu_metiers{
+		font-size: 					0.8em;
+		margin: 						7px 0 0 20px;
+	}
+
+	.list_header{
+		margin-left: 				0;
+		padding: 						0;
+		font-size: 					0.73em!important;
+	}
+
+	.cta_subtitle{
+		line-height: 				17px;
+		font-size: 					0.8em;
+		padding-top: 				18px;
+	}
+
+	/*------------ CARD ----------*/
+	.card_number p{
+		text-align: 				left;
+	}
+
+	.card_content_contact{
+		padding: 						5px 0px;
+	}
+
+	/*------------ BOUTON ----------*/
+
+	.button_cadenas{
+		padding: 					2px 20px;
+		font-size: 				0.7em;
+		line-height: 			13px;
+	}
+
+	.button_join{
+		font-size: 				0.8em;
+		padding: 					0 15px;
+		margin-top: 			0;
+	}
+
+	.button_section_out{
+		margin-top: 			70px;
+		margin-left: 			-9px;
+	}
+
+	.button_header_pages{
+		margin-top: 			50px;
+		margin-left: 			10px;
+	}
+
+	.button_freelance{
+		margin-right: 		0!important;
+		margin-bottom: 		30px;
+		padding: 					9px 72px;
+	}
 
 
-    .number_argile, .number_yellow{
-        margin-left: -5px;
-        padding:3.5px;
-        width: 30px;
-        height: 30px;
-    }
-    
-    .logo{
-        width:18px;
-    }
-    
- /*------------ RESPONSIVE UNIQUEMENT ----------*/   
-   
-    .column_responsive{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
- /*------------ MARGIN / PADDING ----------*/
-    .pt-0{
-        padding-top: 0;
-    }
-    
-    .pb-0{
-        padding-bottom: 0;
-    }
-    
-    .no-bb{
-        border : 0;
-    }
-    
-    .mt-0{
-        margin-top: 0;
-    }
-    
-    .mt-20{
-        margin-top: 20px;
-    }
-    
-    .mb-0{
-        margin-bottom: 0!important;
-    }
-    
-    .margin_prospace_header{
-        margin-top: 166px;
-        margin-left: 40px!important;
-    }
-    
+	/*------------ MODAL ----------*/
+
+	label{
+		padding:  				0 20px!important;
+		font-size:  			0.7em!important;
+	}
+
+	.modal_input{
+		height: 					26px;
+		font-size: 				0.7em;
+		width: 						50%;
+	}
+
+	.modal_textarea{
+		width: 						100%
+	}
+
+
+	/*------------ MARGIN / PADDING ----------*/
+	.pt-0{
+		padding-top:   		0;
+	}
+
+	.pb-0{
+		padding-bottom:  	0;
+	}
+
+	.no-bb{
+		border : 					0;
+	}
+
+	.mt-0{
+		margin-top:   		0;
+	}
+
+	.mt-20{
+		margin-top:  			20px;
+	}
+
+	.mb-0{
+		margin-bottom:  		0!important;
+	}
+
+	.margin_prospace_header{
+		margin-top:  				166px;
+		margin-left: 				40px!important;
+	}
 
 }
 
 /*------------ ECRAN MOBILE <375px ------------------------------------*/
-    @media screen and (max-width:375px){
-        
-        .header_title{
-            font-size: 1.5em;
-        }
-        
-        .pb-30{
-        padding-bottom: 30px;
-        }
+
+@media screen and (max-width:375px){
+
+	.header_title{
+		font-size: 				1.5em;
+	}
+
+	.pb-30{
+		padding-bottom: 	30px;
+	}
 
 }
 /*------------ ECRAN MOBILE <320px ------------------------------------*/
 
 
 @media screen and (max-width:320px){
-    
-    /*------------ SECTION -----*/   
 
-    #menu_deroulant{
-        font-size: 0.55em;
-        right:45px;
-    }
-    
-     /*------------ TITRE / TEXTE ----------*/   
+	/*------------ SECTION -----*/
 
-        
-    h1{
-        font-size: 1.5em;
-    }
-    
-    h2{
-		font-size: 0.67em;
+	#menu_deroulant{
+		font-size: 				0.55em;
+		right: 						45px;
 	}
-    
-    .header_title{
-        margin-top: 100px;
-        line-height: 42px;
-    }
-    
-    .menu_metiers{
-        font-size: 0.8em;
-        margin: 7px 0 0 20px; 
-    }
-    
-    .card_content_address{
-        margin-left:10px;
-    }
-    
-    .card_content_contact{
-        font-size: 0.5em;
-    }
-    
-    .text_mission{
-        padding-top: 45px!important;
-        font-size: 0.9em;
-    }
-    
-    .middle_font{
-        font-size: 1.1em;
-    }
-    
-    .list_header{
-        font-size: 0.6em!important;
-        padding: 6px;
-    }
-    
-    .figures{
-        font-size: 0.7em;
-    }
-    
-    .title_section{
-        font-size:1.7em;
-    }
-    
-    .inputSelector{
-        font-size: 0.88em;
-    }
-    
-     /*------------ IMAGE / ICONE ----------*/   
 
-    .logo{
-        width:18px;
-    }
-    
-    .i_header{
-        font-size: 1.1em;
-    }
-    
-    /*------------ BOUTON ----------*/   
-    .button_cadenas{ 
-    padding: 2px 0;
-    
-    
+	/*------------ TITRE / TEXTE ----------*/
+
+	h1{
+		font-size:  		1.5em;
+	}
+
+	h2{
+		font-size: 			0.67em;
+	}
+
+	.header_title{
+		margin-top:  			100px;
+		line-height: 			42px;
+	}
+
+	.menu_metiers{
+		font-size:  			0.8em;
+		margin: 					7px 0 0 20px;
+	}
+
+	.text_mission{
+		padding-top:  		45px!important;
+		font-size:  			0.9em;
+	}
+
+	.middle_font{
+		font-size:  			1.1em;
+	}
+
+	.list_header{
+		font-size:  			0.6em!important;
+		padding:  				6px;
+	}
+
+	.figures{
+		font-size:  			0.7em;
+	}
+
+	.title_section{
+		font-size: 				1.7em;
+	}
+
+	.inputSelector{
+		font-size:  			0.88em;
+	}
+
+	/*------------ IMAGE / ICONE ----------*/
+
+	.logo{
+		width: 					18px;
+	}
+
+	.i_header{
+		font-size:  		1.1em;
+	}
+
+	/*------------ BOUTON ----------*/
+	.button_cadenas{
+		padding:   			2px 0;
+	}
+
+	/*------------ CARD ----------*/
+	.card_content_address{
+		margin-left: 		10px;
+	}
+
+	.card_content_contact{
+		font-size:  		0.5em;
+	}
+
 }

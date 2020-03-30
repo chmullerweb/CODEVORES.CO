@@ -1,255 +1,240 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Codevores</title>
+<head>
+  <meta charset="utf-8">
+  <title>Codevores</title>
 
-    <!------------ BOOTSRAP ----------------------->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!------------ BOOTSRAP ----------------------->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <!--------------BULMA ------------------------->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css" rel="stylesheet">
+  <!--------------BULMA ------------------------->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css" rel="stylesheet">
 
-    <!------------ CSS ----------------------->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-
-    <!------------ ICONE ----------------------->
-    <script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
-
-    <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon">
-
-    <!------------ FONT ----------------------->
-    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Barlow+Semi+Condensed:300,400|Titillium+Web:400,600&display=swap" rel="stylesheet">
-    <!-- font-family: 'Titillium Web', sans-serif;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-family: 'Barlow Semi Condensed', sans-serif; -->
-
-    <!------------ RESPONSIVE ----------------------->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  </head>
-
-  <body class="bg_white">
+  <!------------ CSS ----------------------->
+  <link rel="stylesheet" href="assets/css/style.css">
 
 
- <!------------ MENU ----------------------->
-                                                <div id="opacity" class="">
-<header class="" style="height: 0">
-    
+  <!------------ ICONE ----------------------->
+  <script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
+
+  <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon">
+
+  <!------------ FONT ----------------------->
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Barlow+Semi+Condensed:300,400|Titillium+Web:400,600&display=swap" rel="stylesheet">
+  <!-- font-family: 'Titillium Web', sans-serif;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif; -->
+
+  <!------------ RESPONSIVE ----------------------->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body class="bg_white">
+
+  <!-------- A L'OUVERTURE DU MODAL, LE CONTENU DU SITE DEVIENT OPAQUE (Ajout de la class "opacity_activated")------->
+  <div id="opacity" class="">
+
+  <!------------ MENU ----------------------->
+    <header class="" style="height: 0">
       <div class="container-fluid header_menu flex">
-          <div class="header_logo">
-            <a href="index.html" class="no_border_hover">
-              <img src="assets/logo/codevores.png" alt="" class="logo">
-              <h1 class="allerta white">odevores</h1>
-            </a>
-          </div>
-          <div class="titillium text_shadow menu_metiers">
-            <a href="index.html"><span id="listJob" class="white">Accueil</span></a>
-          </div>
+        <div class="header_logo">
+          <a href="index.html" class="no_border_hover">
+            <img src="assets/logo/codevores.png" alt="" class="logo">
+            <h1 class="allerta white">odevores</h1>
+          </a>
+        </div>
+        <div class="titillium text_shadow menu_metiers">
+          <a href="index.html"><span id="listJob" class="white">Accueil</span></a>
+        </div>
       </div>
+    </header>
 
-</header>        
-
-  <!------------ COUVERTURE ----------------------->
+    <!------------ COUVERTURE ------------------------------------------------>
 
     <section class="bg_image">
-      
-       
-          
-       <!----- CONTENU DE LA COUVERTURE ---------------------------> 
-        
-        <div class="container-fluid titillium white header_title texte_center">
-          <h2 class=""><span class="underline_yellow_title text_shadow">Une question ?</span></h2>
+      <div class="container-fluid titillium white header_title texte_center">
+        <h2 class=""><span class="underline_yellow_title text_shadow">Une question ?</span></h2>
       </div>
       <div class="header_selector texte_center flex_column align_mid_row_element container-fluid">
         <form>
-            <div class="input_space"> 
-                <input type="search" class="input is-rounded inputSelector" placeholder="🔎 Trouver la réponse à votre question" style="width: 500px;padding-left: 20px">
-            </div>
-            <div class="input_space">
-                <button type="button" name="button" class="white border_black button_header underline_none" value="submit"><a class="no_border_hover">Rechercher</a></button>
-            </div>
+          <div class="input_space">
+            <input type="search" class="input is-rounded inputSelector" placeholder="🔎 Trouver la réponse à votre question" style="width: 500px;padding-left: 20px">
+          </div>
+          <div class="input_space">
+            <button type="button" name="button" class="white border_black button_header underline_none" value="submit"><a class="no_border_hover">Rechercher</a></button>
+          </div>
         </form>
         <div class="input_space flex_center align_content_center_responsive" style="margin-top: 25px">
-            <button type="button" name="button" class="border_argile button_header underline_none button_freelance" value="" style="margin-right:100px"><a href="#freelance" class="no_border_hover white">Je suis freelance</a></button>
-            <button type="button" name="button" class="border_yellow_light button_header underline_none" value=""><a href="#client" class="no_border_hover white">Je suis client</a></button>
+          <button type="button" name="button" class="border_argile button_header underline_none button_freelance" value="" style="margin-right:100px"><a href="#freelance" class="no_border_hover white">Je suis freelance</a></button>
+          <button type="button" name="button" class="border_yellow_light button_header underline_none" value=""><a href="#client" class="no_border_hover white">Je suis client</a></button>
         </div>
       </div>
     </section>
-      
+
     <main>
-           
-    <!------------ SECTION "JE SUIS FREELANCE" ----------------------->
 
-     <section class="container border_dotted_argile section_spaced">
+      <!------------ SECTION "JE SUIS FREELANCE" ----------------------->
 
+      <section class="container border_dotted_argile section_spaced">
         <div class="">
           <div class="title_section titillium black">
             <h2 id="freelance" class="big texte_center"><span class="underline_yellow_light">Je</span> suis freelance</h2>
           </div>
         </div>
-    </section>
-        
-     <section class="container-fluid section_colored bg_argile section_center_responsive">
-
-          <div class="row container flex bloc_space_around">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="col-lg-12 col-md-12">
-                   <div class="card-body">
-                     <h5 class="card-title uppercase titillium bold blue">Denique Antiochensis ordinis vertices ?</h5>
-                     <p class="card-text barlow quote">Sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem. Intempestivam urgenti, cum inpenderet inopia, gravius rationabili und responderunt. Utque proeliorum periti rectores primo catervas densas opponunt et fortes, deinde leves armaturas, post iaculatores ultimasque subsidiales acies, si fors adegerit, iuvaturas, ita praepositis urbanae familiae</p>
-                     <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
-                   </div>
-                </div>
-            </div>
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="col-lg-12 col-md-12">
-                   <div class="card-body">
-                     <h5 class="card-title uppercase titillium bold black">Paphius quin etiam et Cornelius ?</h5>
-                     <p class="card-text barlow quote">Paphius quin etiam et Cornelius senatores, ambo venenorum artibus pravis se polluisse confessi, eodem pronuntiante Maximino sunt interfecti. pari sorte etiam procurator monetae extinctus est. Sericum enim et Asbolium supra dictos, quoniam cum hortaretur passim nominare, quos vellent, adiecta religione firmarat, nullum igni vel ferro se puniri iussurum, plumbi validis ictibus interemit. et post hoe flammis Campensem </p>
-                     <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
-                   </div>
-                </div>
+      </section>
+      <section class="container-fluid section_colored bg_argile section_center_responsive">
+        <div class="row container flex bloc_space_around">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="col-lg-12 col-md-12">
+              <div class="card-body">
+                <h5 class="card-title uppercase titillium bold blue">Denique Antiochensis ordinis vertices ?</h5>
+                <p class="card-text barlow quote">Sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem. Intempestivam urgenti, cum inpenderet inopia, gravius rationabili und responderunt. Utque proeliorum periti rectores primo catervas densas opponunt et fortes, deinde leves armaturas, post iaculatores ultimasque subsidiales acies, si fors adegerit, iuvaturas, ita praepositis urbanae familiae</p>
+                <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
               </div>
-         </div>
-         <div class="row container flex bloc_space_around">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="col-lg-12 col-md-12">
-                   <div class="card-body">
-                     <h5 class="card-title uppercase titillium bold black">Principium autem unde latius se funditabat ?</h5>
-                     <p class="card-text barlow quote">Mox dicta finierat, multitudo omnis ad, quae imperator voluit, promptior laudato consilio consensit in pacem ea ratione maxime percita, quod norat expeditionibus crebris fortunam eius in malis tantum civilibus vigilasse, cum autem bella moverentur externa, accidisse plerumque luctuosa, icto post haec foedere gentium ritu perfectaque sollemnitate imperator Mediolanum ad hiberna discessit.</p>
-                     <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
-                   </div>
-                </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="col-lg-12 col-md-12">
-                   <div class="card-body">
-                     <h5 class="card-title uppercase titillium bold blue">Iam virtutem ex consuetudine vitae sermonisque ?</h5>
-                     <p class="card-text barlow quote">Nostri interpretemur nec eam, ut quidam docti, verborum magnificentia metiamur virosque bonos eos, qui habentur, numeremus, Paulos, Catones, Galos, Scipiones, Philos; his communis vita contenta est; eos autem omittamus, qui omnino nusquam reperiuntur.</p>
-                     <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
-                   </div>
-                </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="col-lg-12 col-md-12">
+              <div class="card-body">
+                <h5 class="card-title uppercase titillium bold black">Paphius quin etiam et Cornelius ?</h5>
+                <p class="card-text barlow quote">Paphius quin etiam et Cornelius senatores, ambo venenorum artibus pravis se polluisse confessi, eodem pronuntiante Maximino sunt interfecti. pari sorte etiam procurator monetae extinctus est. Sericum enim et Asbolium supra dictos, quoniam cum hortaretur passim nominare, quos vellent, adiecta religione firmarat, nullum igni vel ferro se puniri iussurum, plumbi validis ictibus interemit. et post hoe flammis Campensem </p>
+                <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
               </div>
-         </div>
-         
-        </section>
-        
-     <!------------ SECTION "JE SUIS CLIENT" ----------------------->
-<section class="container border_dotted_yellow_light section_spaced">
+            </div>
+          </div>
+        </div>
+        <div class="row container flex bloc_space_around">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="col-lg-12 col-md-12">
+              <div class="card-body">
+                <h5 class="card-title uppercase titillium bold black">Principium autem unde latius se funditabat ?</h5>
+                <p class="card-text barlow quote">Mox dicta finierat, multitudo omnis ad, quae imperator voluit, promptior laudato consilio consensit in pacem ea ratione maxime percita, quod norat expeditionibus crebris fortunam eius in malis tantum civilibus vigilasse, cum autem bella moverentur externa, accidisse plerumque luctuosa, icto post haec foedere gentium ritu perfectaque sollemnitate imperator Mediolanum ad hiberna discessit.</p>
+                <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="col-lg-12 col-md-12">
+              <div class="card-body">
+                <h5 class="card-title uppercase titillium bold blue">Iam virtutem ex consuetudine vitae sermonisque ?</h5>
+                <p class="card-text barlow quote">Nostri interpretemur nec eam, ut quidam docti, verborum magnificentia metiamur virosque bonos eos, qui habentur, numeremus, Paulos, Catones, Galos, Scipiones, Philos; his communis vita contenta est; eos autem omittamus, qui omnino nusquam reperiuntur.</p>
+                <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!------------ SECTION "JE SUIS CLIENT" ----------------------->
+      <section class="container border_dotted_yellow_light section_spaced">
         <div class="">
           <div class="title_section titillium black">
             <h2 id="client" class="big texte_center"><span class="underline_yellow_light">Je</span> suis client</h2>
           </div>
         </div>
-    </section>
-        
-     <section class="container-fluid section_colored bg_yellow_light section_center_responsive">
-
-          <div class="row container flex bloc_space_around">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="col-lg-12 col-md-12">
-                   <div class="card-body">
-                     <h5 class="card-title uppercase titillium bold red">Hic me meus in rem publicam animus ?</h5>
-                     <p class="card-text barlow quote">Ardeo, mihi credite, Patres conscripti (id quod vosmet de me existimatis et facitis ipsi) incredibili quodam amore patriae, qui me amor et subvenire olim impendentibus periculis maximis cum dimicatione capitis, et rursum, cum omnia tela undique esse intenta in patriam viderem, subire coegit atque excipere unum pro universis. </p>
-                     <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
-                   </div>
-                </div>
-            </div>
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="col-lg-12 col-md-12">
-                   <div class="card-body">
-                     <h5 class="card-title uppercase titillium bold black">Campensem aruspicem dedit in negotio ?</h5>
-                     <p class="card-text barlow quote">Maximino sunt interfecti. pari sorte etiam procurator monetae extinctus est. Sericum enim et Asbolium supra dictos, quoniam cum hortaretur passim nominare, quos vellent, adiecta religione firmarat, nullum igni vel ferro se puniri iussurum, plumbi validis ictibus interemit. et post hoe flammis Campensem aruspicem dedit, in negotio eius nullo sacramento constrictus. Vbi curarum abiectis ponderibus aliis tamquam nodum et codicem difficillimum Caesarem.</p>
-                     <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
-                   </div>
-                </div>
+      </section>
+      <section class="container-fluid section_colored bg_yellow_light section_center_responsive">
+        <div class="row container flex bloc_space_around">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="col-lg-12 col-md-12">
+              <div class="card-body">
+                <h5 class="card-title uppercase titillium bold red">Hic me meus in rem publicam animus ?</h5>
+                <p class="card-text barlow quote">Ardeo, mihi credite, Patres conscripti (id quod vosmet de me existimatis et facitis ipsi) incredibili quodam amore patriae, qui me amor et subvenire olim impendentibus periculis maximis cum dimicatione capitis, et rursum, cum omnia tela undique esse intenta in patriam viderem, subire coegit atque excipere unum pro universis. </p>
+                <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
               </div>
-         </div>
-         <div class="row container flex bloc_space_around">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="col-lg-12 col-md-12">
-                   <div class="card-body">
-                     <h5 class="card-title uppercase titillium bold black">Aquitania verni imbres solito crebriorest ?</h5>
-                     <p class="card-text barlow quote">Caesarem convellere nisu valido cogitabat, eique deliberanti cum proximis clandestinis conloquiis et nocturnis qua vi, quibusve commentis id fieret, antequam effundendis rebus pertinacius incumberet confidentia, acciri mollioribus scriptis per simulationem tractatus publici nimis urgentis eundem.</p>
-                     <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
-                   </div>
-                </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="col-lg-12 col-md-12">
-                   <div class="card-body">
-                     <h5 class="card-title uppercase titillium bold red">Dumque ibi diu moratur ?</h5>
-                     <p class="card-text barlow quote">Constantinopolim, ut supra rettulimus, populari quondam turbela discerpti. quo verissime referente quae Gallus egerat, damnis super praeteritis maerens et futurorum timore suspensus angorem animi quam diu potuit emendabat.</p>
-                     <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
-                   </div>
-                </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="col-lg-12 col-md-12">
+              <div class="card-body">
+                <h5 class="card-title uppercase titillium bold black">Campensem aruspicem dedit in negotio ?</h5>
+                <p class="card-text barlow quote">Maximino sunt interfecti. pari sorte etiam procurator monetae extinctus est. Sericum enim et Asbolium supra dictos, quoniam cum hortaretur passim nominare, quos vellent, adiecta religione firmarat, nullum igni vel ferro se puniri iussurum, plumbi validis ictibus interemit. et post hoe flammis Campensem aruspicem dedit, in negotio eius nullo sacramento constrictus. Vbi curarum abiectis ponderibus aliis tamquam nodum et codicem difficillimum Caesarem.</p>
+                <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
               </div>
-         </div>
-         
-        </section>
+            </div>
+          </div>
+        </div>
+        <div class="row container flex bloc_space_around">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="col-lg-12 col-md-12">
+              <div class="card-body">
+                <h5 class="card-title uppercase titillium bold black">Aquitania verni imbres solito crebriorest ?</h5>
+                <p class="card-text barlow quote">Caesarem convellere nisu valido cogitabat, eique deliberanti cum proximis clandestinis conloquiis et nocturnis qua vi, quibusve commentis id fieret, antequam effundendis rebus pertinacius incumberet confidentia, acciri mollioribus scriptis per simulationem tractatus publici nimis urgentis eundem.</p>
+                <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="col-lg-12 col-md-12">
+              <div class="card-body">
+                <h5 class="card-title uppercase titillium bold red">Dumque ibi diu moratur ?</h5>
+                <p class="card-text barlow quote">Constantinopolim, ut supra rettulimus, populari quondam turbela discerpti. quo verissime referente quae Gallus egerat, damnis super praeteritis maerens et futurorum timore suspensus angorem animi quam diu potuit emendabat.</p>
+                <p class="card-text hidden"><small class="text-muted italic barlow">En savoir plus</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    </main>                                                      
-             
-<!------------ FOOTER ----------------------->
+    </main>
+
+    <!------------ FOOTER ----------------------->
 
     <footer>
       <div id="nav_footer" class="container-fluid bg_black footer_section section_no_margin_top">
         <div class="row flex footer_subtitle align_content_center_responsive little_font">
-            <h6 class="titillium uppercase grey">© 2020 <span class="allerta">CODEVORES</span>. ALL RIGHTS RESERVED.</h6>
-            <p class="titillium"><a href="#" class="grey yellow_hover no_border_hover responsive_white">Conditions générales d'utilisation</a></p>
-            <p class="titillium"><a href="actu.html" class="grey yellow_hover no_border_hover responsive_white">Le Blog</a></p>
-            <p class="formContact titillium"><a href="#nav_footer" class="grey yellow_hover no_border_hover responsive_white">Formulaire de contact</a></p>
+          <h6 class="titillium uppercase grey">© 2020 <span class="allerta">CODEVORES</span>. ALL RIGHTS RESERVED.</h6>
+          <p class="titillium"><a href="#" class="grey yellow_hover no_border_hover responsive_white">Conditions générales d'utilisation</a></p>
+          <p class="titillium"><a href="actu.html" class="grey yellow_hover no_border_hover responsive_white">Le Blog</a></p>
+          <p class="formContact titillium"><a href="#nav_footer" class="grey yellow_hover no_border_hover responsive_white">Formulaire de contact</a></p>
         </div>
       </div>
     </footer>
-                                        </div>
-   
-    <!---------- MODAL FORMULAIRE DE CONTACT --------------------->
+  </div>
 
-    <section class="container-fluid flex modal_fixed">
-        <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box modalSection hidden"> 
-            <div class="titillium texte_center black claim_texte_spaced">
-                <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross exit"></i></p>
-                <p class="titillium little_font modal_subtitle">Avez-vous déjà fait un tour sur notre <a href="help.html" class="no_border_hover italic_hover subscribe"><span class="blue">FAQ</span></a> ?</p>
-            </div>
-        
-            <form class="texte_center flex_column bloc_space_around container-fluid">
-                <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded modal_input" type="text" placeholder="Nom *">
-                    <input class="input is-rounded modal_input" type="text" placeholder="Prénom *">
-                </div>
-                <div class="input_space flex bloc_space_around">
-                    <input class="input is-rounded modal_input" type="tel" placeholder="Téléphone *">
-                    <input class="input is-rounded modal_input" type="email" placeholder="Adresse mail *">
-                </div>
-                <div class="input_space flex bloc_space_around">
-                    <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre question concerne :</label>
-                    <select id="select_service" name="select_service" class="input is-rounded middle-font modal_input">
-                        <option>► Service Commercial</option> 
-                        <option>► Service Technique</option>   
-                        <option>► Service Réclamation</option>
-                    </select>
-               </div>
-               <div class="input_space flex bloc_space_around">
-                   <textarea class="modal_textarea"></textarea>
-               </div>
-                   <p class="input_space mini_font barlow">Codevores s'engage à vous répondre sous 5 jours ouvrés.</p>  
-                   <p class="input_space mini_font barlow italic">* Champs indispensables pour vous contacter. Ces informations ne seront pas enregistrées dans notre base de données.</p>
-              <div class="input_space">
-                    <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit">
-                        <a class="no_border_hover">Envoyer</a>
-                    </button>
-              </div>
-            </form>
+  <!---------- MODAL FORMULAIRE DE CONTACT --------------------->
+
+  <section class="container-fluid flex modal_fixed">
+    <div id="sectionFormulaireContact" class="container bloc_border bg_grey_light modal_box modalSection hidden">
+      <div class="titillium texte_center black claim_texte_spaced">
+        <p class="big bold modal_title" style="padding-left: 10px">Formulaire de contact<i class="fas fa-times-circle i_cross exit"></i></p>
+        <p class="titillium little_font modal_subtitle">Avez-vous déjà fait un tour sur notre <a href="help.html" class="no_border_hover italic_hover subscribe"><span class="blue">FAQ</span></a> ?</p>
+      </div>
+      <form class="texte_center flex_column bloc_space_around container-fluid">
+        <div class="input_space flex bloc_space_around">
+          <input class="input is-rounded modal_input" type="text" placeholder="Nom *">
+          <input class="input is-rounded modal_input" type="text" placeholder="Prénom *">
         </div>
-    </section>      
-      
-        
-          <script src="script.js"></script>
-    
-    </body>
+        <div class="input_space flex bloc_space_around">
+          <input class="input is-rounded modal_input" type="tel" placeholder="Téléphone *">
+          <input class="input is-rounded modal_input" type="email" placeholder="Adresse mail *">
+        </div>
+        <div class="input_space flex bloc_space_around">
+          <label for="select_service" class="titillium little_font" style="padding: 10px 50px">Votre question concerne :</label>
+          <select id="select_service" name="select_service" class="input is-rounded middle-font modal_input">
+            <option>► Service Commercial</option>
+            <option>► Service Technique</option>
+            <option>► Service Réclamation</option>
+          </select>
+        </div>
+        <div class="input_space flex bloc_space_around">
+          <textarea class="modal_textarea"></textarea>
+        </div>
+        <p class="input_space mini_font barlow">Codevores s'engage à vous répondre sous 5 jours ouvrés.</p>
+        <p class="input_space mini_font barlow italic">* Champs indispensables pour vous contacter. Ces informations ne seront pas enregistrées dans notre base de données.</p>
+        <div class="input_space">
+          <button type="button" name="button" class="white border_argile button_header underline_none black modal_button" value="submit">
+            <a class="no_border_hover">Envoyer</a>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+
+</body>
 </html>
