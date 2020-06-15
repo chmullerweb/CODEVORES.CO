@@ -25,6 +25,7 @@ Ne nécessite pas de logiciels. Les liens vers les librairies sont intégrés da
 
 * [Coloors](https://coolors.co/) - Palettes des couleurs
 * [unsplash](https://unsplash.com/) - Banque d'images
+* [Google Fonts](https://fonts.google.com/) - Banque de polices
 
 ### Inspirations
 
