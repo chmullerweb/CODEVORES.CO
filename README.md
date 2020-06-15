@@ -8,7 +8,7 @@ Ce site internet est consultable en ligne : https://chmullerweb.github.io/CODEVO
 
 ### Pré-requis
 
-Ne nécessite pas de logiciels. Les liens vers les librairies sont intégrées dans le <head>.
+Ne nécessite pas de logiciels. Les liens vers les librairies sont intégrés dans la balise -head-.
 
 <!------------ BOOTSRAP ----------------------->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
