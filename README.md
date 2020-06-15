@@ -16,11 +16,21 @@ Ne nécessite pas de logiciels. Les liens vers les librairies sont intégrés da
 
 ## Réalisé Avec 
 
+### Framework
+
 * [Bootstrap](https://getbootstrap.com/) - Framework HTML/CSS
 * [Bulma](https://bulma.io/) - Framework HTML/CSS
 
+### Outils
 
-## Composants 
+* [Coloors](https://coolors.co/) - Palettes des couleurs
+* [unsplash](https://unsplash.com/) - Banque d'images
+
+### Inspirations
+
+* [Malt](https://www.malt.fr/) - design et UI/UX du site
+
+## Composants et Fonctionnalités
 
 * Menu Burger en Javascript
 * Modal de connexion et d'inscription à la plateforme en Javascript
